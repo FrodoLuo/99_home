@@ -7,6 +7,7 @@ export default () => {
   return (
     <div
       className={style['cover-wrap']}
+      id="cover"
     >
       <div className={style['cover-background']}>
         <img src={coverBackground} role="presentation" />
@@ -20,6 +21,7 @@ export default () => {
           <h2>
             企业与新青年的新纽带
           </h2>
+
         </div>
         <div className={style['cover-arrow']}>
           <span className={style['arrow-title']}>向下滚动</span>
@@ -33,6 +35,6 @@ export default () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
