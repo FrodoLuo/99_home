@@ -39,13 +39,14 @@
   font-family: 'HYQiHei'
 }
 .cover-content-title h1{
-  font-size: 148px;
+  margin-top: 110px;
+  font-size: 128px;
   font-weight: lighter;
   margin-bottom: -0.4em;
   .cover-content-title-font;
 }
 .cover-content-title h2{
-  font-size: 98px;
+  font-size: 72px;
   margin-top: 0;
   .cover-content-title-font;
 }
@@ -55,4 +56,34 @@
   color: white;
   font-weight: bold;
   text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.arrows-wrap{
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+}
+.arrow{
+  animation: arrow-swing infinite 1s ease;
+  position: relative;
+  z-index: 3000;
+}
+.arrow-shadow{
+  animation: arrow-swing-shadow infinite 1s ease;
+  position: relative;
+  opacity: 0.7;
+  z-index: 2000;
+}
+@keyframes arrow-swing {
+  0% {top: 0}
+  25% {top: 0}
+  50% {top: 10px}
+  75% {top: 0}
+  100% {top: 0}
+}
+@keyframes arrow-swing-shadow {
+  0% {top: -20px}
+  35% {top: -20px}
+  60% {top: -10px}
+  85% {top: -20px}
+  100% {top: -20px}
 }

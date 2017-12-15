@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './cover.less';
 import coverBackground from '../../assets/image/cover_background.jpg';
+import arrow from '../../assets/image/arrow_down.png';
 
 export default () => {
   return (
@@ -23,8 +24,11 @@ export default () => {
         <div className={style['cover-arrow']}>
           <span className={style['arrow-title']}>向下滚动</span>
           <div className={style['arrows-wrap']}>
-            <span>
-              k
+            <span className={style['arrow']}>
+              <img src={arrow} role="presentation" />
+            </span>
+            <span className={style['arrow-shadow']}>
+              <img src={arrow} role="presentation" />
             </span>
           </div>
         </div>
