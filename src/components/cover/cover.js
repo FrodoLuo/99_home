@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './cover.less';
-import coverBackground from '../../assets/image/coverBackground.jpeg';
+import coverBackground from '../../assets/image/cover_background.jpg';
 
 export default () => {
   return (
@@ -17,11 +17,16 @@ export default () => {
             玖久
           </h1>
           <h2>
-            企业与新青年的纽带
+            企业与新青年的新纽带
           </h2>
         </div>
         <div className={style['cover-arrow']}>
-          ^
+          <span className={style['arrow-title']}>向下滚动</span>
+          <div className={style['arrows-wrap']}>
+            <span>
+              k
+            </span>
+          </div>
         </div>
       </div>
     </div>

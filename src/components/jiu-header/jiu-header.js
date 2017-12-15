@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './jiu-header.less';
+import logo from '../../assets/image/99 CONSULTING.png';
 
 export default () => {
   return (
@@ -15,7 +16,7 @@ export default () => {
       <div className={style['header-logo']}>
         <span>
           <a>
-            Logo Here.
+            <img className={style['logo']} src={logo} role="presentation" />
           </a>
         </span>
       </div>
