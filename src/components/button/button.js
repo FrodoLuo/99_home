@@ -7,7 +7,7 @@ function Button(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="214px" height="77px"
-      onClick={() => { console.log('ryu'); }}
+      onClick={props.onclick}
       className={style['button-wrap']}
     >
       <path
@@ -45,7 +45,7 @@ function Button(props) {
         d="M202.000,45.000 C202.000,45.000 199.673,62.950 179.000,68.000 "
       />
       <text
-        fontFamily="HYQiHei" fill={color} fontSize="29.167px" x="52px" y="48.6210000000001px"
+        fontFamily="HYQiHei" fill={color} fontSize="29.167px" x="107px" y="48.6210000000001px" textAnchor="middle"
       >
         {props.text}
       </text>

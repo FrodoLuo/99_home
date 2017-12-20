@@ -7,7 +7,7 @@ import Footer from '../components/jiu-footer/jiu-footer';
 import Header from '../components/jiu-header/jiu-header';
 import Cover from '../components/cover/cover';
 import YoundAndEnterprise from '../components/young-and-enterprise/young-and-enterprise';
-import Button from '../components/button/button';
+import ForceTo from '../components/force-to/force-to';
 
 function IndexPage() {
   return (
@@ -17,6 +17,7 @@ function IndexPage() {
         <Cover />
         <div className="card-container">
           <YoundAndEnterprise />
+          <ForceTo />
         </div>
       </Layout.Content>
       <Footer />
