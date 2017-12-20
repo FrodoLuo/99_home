@@ -1,28 +1,33 @@
 import React from 'react';
 import style from './jiu-footer.less';
+import logo from '../../assets/image/logo.png';
 
 export default function (props) {
   return (
     <div className={style['footer-wrap']}>
       <div className={style['footer-info-wrap']}>
         <div className={style['footer-info-left-wrap']}>
-          leftparts
           <div className={style['logo-and-intro']}>
             <div>
-              this is a part of logo
+              <img src={logo} role="presentation" />
             </div>
             <div>
               <p>
-                A Paragraph of  a instruction.
+                Lorem ipsum dolor sit amet,
+              consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam.
               </p>
             </div>
           </div>
+          <span className={style['seperator']} />
           <div>
-            <span>玖久大成合作伙伴</span>
-            <div className={style['logos-container']}>
-              <span>logo1</span>
-              <span>logo1</span>
-              <span>logo1</span>
+            <span className={style['co-title']}>玖久大成合作伙伴</span>
+            <div className={style['logo-container']}>
+              <span>LOGO 1</span>
+              <span>LOGO 2</span>
+              <span>LOGO 3</span>
             </div>
           </div>
         </div>

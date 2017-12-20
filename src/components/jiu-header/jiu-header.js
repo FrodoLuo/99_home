@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './jiu-header.less';
-import logo from '../../assets/image/99 CONSULTING.png';
+import logo from '../../assets/image/logo.png';
 
 export default () => {
   return (

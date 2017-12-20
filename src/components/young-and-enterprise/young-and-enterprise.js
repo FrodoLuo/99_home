@@ -8,6 +8,13 @@ export default class NewYounger extends React.Component {
   state = {
     currentIndex: 0,
   }
+  componentDidMount() {
+    setInterval(() => {
+      this.setState({
+        currentIndex: this.state.currentIndex === 1 ? 0 : this.state.currentIndex + 1,
+      });
+    }, 5000);
+  }
   render() {
     const contents = [
       (<div className={style['content-wrap']}>

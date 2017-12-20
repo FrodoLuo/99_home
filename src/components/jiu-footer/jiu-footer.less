@@ -1,8 +1,8 @@
 .footer-wrap{
 }
 .footer-info-wrap{
-  background-color: #444;
-  height: 300px;
+  background-color: #2e2e2e;
+  height: 450px;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -17,17 +17,25 @@
   .footer-info-sub-wrap;
 }
 .logo-and-intro{
-  display: inherit;
+  display: flex;
+  width: 675px;
   flex-direction: row;
+  justify-content: space-between;
 }
-
-
+.logo-and-intro p {
+  font-size: 24px;
+  color: #a4a4a4;
+  font-weight: normal;
+  font-family: "HYQiHei";
+  width: 480px;
+}
 .footer-bottom-wrap{
   flex: 1;
-  height: 48px;
+  height: 72px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 10%;
   background-color: black;
   align-items: center;
 }
@@ -38,7 +46,8 @@
 .footer-nav > a{
   color: white;
   padding: 0 20px;
-  line-height: 48px;
+  font-size: 20px;
+  line-height: 72px;
 }
 
 .footer-copyright {
@@ -46,7 +55,27 @@
 }
 .footer-copyright a {
   color: gray;
+  font-size: 20px;
 }
 .footer-copyright a:hover{
   color: white;
+}
+.seperator{
+  width: 100%;
+  height: 1px;
+  background-color: #4c4c4c;
+  content: ' ';
+  display: block;
+  margin: 20px 0;
+}
+.co-title{
+  font-size: 20px;
+  font-family: "HYQiHei";
+  color: #a4a4a4;
+}
+.logo-container > span{
+  font-size: 50px;
+  color: #a4a4a4;
+  font-weight: bold;
+  margin-right: 10px;
 }
