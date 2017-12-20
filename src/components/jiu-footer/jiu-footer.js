@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './jiu-footer.less';
 import logo from '../../assets/image/logo.png';
+import QRCode from '../../assets/image/QRCode/1511444835.png';
 
 export default function (props) {
   return (
@@ -32,8 +33,29 @@ export default function (props) {
           </div>
         </div>
         <div className={style['footer-info-right-wrap']}>
-          right-parts\n
-          consists of contacts.
+          <div className={style['contact-wrap']}>
+            <span>邮编: 100007</span>
+            <span>邮箱: xxx@jiujiudacheng.com</span>
+            <span>地址: 北京市朝阳区望京西路甲50-1号楼7层</span>
+          </div>
+          <div className={style['qr-wrap']}>
+            <div className={style['qr']}>
+              <div>
+                <img src={QRCode} role="presentation" />
+              </div>
+              <span>
+                扫码填写问卷
+              </span>
+            </div>
+            <div className={style['qr']}>
+              <div>
+                <img src={QRCode} role="presentation" />
+              </div>
+              <span>
+                官方微信公众号
+              </span>
+            </div>
+          </div>
         </div>
       </div>
       <div className={style['footer-bottom-wrap']}>
@@ -46,7 +68,7 @@ export default function (props) {
         </div>
         <div className={style['footer-copyright']}>
           <span>
-            <a>京ICP备12047175号-4</a>Copyright 2017 玖久
+            <a>京ICP备12047175号-4</a>&nbsp;Copyright 2017 玖久
           </span>
         </div>
       </div>
