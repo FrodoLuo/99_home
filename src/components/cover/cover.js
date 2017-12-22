@@ -2,6 +2,7 @@ import React from 'react';
 import style from './cover.less';
 import coverBackground from '../../assets/image/cover_background.jpg';
 import arrow from '../../assets/image/arrow_down.png';
+import coverVedio from '../../assets/vedio/Hummingbird 1080p.mp4';
 
 export default () => {
   return (
@@ -11,7 +12,7 @@ export default () => {
     >
       <div className={style['cover-background']}>
         <img src={coverBackground} role="presentation" />
-        {/* <vedio /> */}
+        {/* <video src={coverVedio} loop autoPlay muted /> */}
       </div>
       <div className={style['cover-content']}>
         <div className={style['cover-content-title']}>
