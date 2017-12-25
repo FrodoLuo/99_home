@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'antd';
 
 export default class Carousel extends React.Component {
   state = {
@@ -58,6 +59,11 @@ export default class Carousel extends React.Component {
     return index === 0 ? this.state.children.length - 1 : index - 1;
   }
   render() {
+    const arrowStyle = {
+      fontSize: 48,
+      color: 'rgba(255,255,255,0.7)',
+      cursor: 'pointer',
+    };
     return (
       <div style={{ width: '100%', height: '100%', display: 'flex', position: 'relative' }}>
         <div style={{ width: '100%', height: '100%', display: 'flex', position: 'relative' }}>
@@ -72,15 +78,22 @@ export default class Carousel extends React.Component {
               height: '100%',
               width: '100%',
               position: 'absolute',
+              padding: '10%',
               left: 0,
               top: 0,
             }}
           >
-            <div>
-              {this.props.prevArrow || null}
+            <div
+              style={arrowStyle}
+              onClick={this.prev}
+            >
+              {this.props.prevArrow || <Icon type="left" />}
             </div>
-            <div>
-              {this.props.nextArrow || null}
+            <div
+              style={arrowStyle}
+              onClick={this.next}
+            >
+              {this.props.nextArrow || <Icon type="right" />}
             </div>
           </div>
         ) : null}

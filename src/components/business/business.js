@@ -1,6 +1,9 @@
 import React from 'react';
+import { Icon } from 'antd';
 import style from './business.less';
 import Carousel from '../carousel';
+
+import companies from './companies';
 
 export default () => {
   return (
@@ -20,11 +23,15 @@ export default () => {
               <Carousel
                 arrows
               >
-                <div className={style['company']} style={{ backgroundColor: '#456789' }}>
-                  网易云
+                <div className={style['company']} style={{ backgroundColor: '#00a1d6' }}>
+                  <a>
+                    <img src={companies.bilibili} role="presentation" />
+                  </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: '#987654' }}>
-                  阿里云
+                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                  <a>
+                    <img src={companies.aliyun} role="presentation" />
+                  </a>
                 </div>
               </Carousel>
             </div>
