@@ -59,11 +59,31 @@ export default class Carousel extends React.Component {
   }
   render() {
     return (
-      <div style={{ width: '100%', height: '100%', display: 'flex' }}>
+      <div style={{ width: '100%', height: '100%', display: 'flex', position: 'relative' }}>
         <div style={{ width: '100%', height: '100%', display: 'flex', position: 'relative' }}>
           {this.state.children}
         </div>
-        
+        {this.props.arrows ? (
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              height: '100%',
+              width: '100%',
+              position: 'absolute',
+              left: 0,
+              top: 0,
+            }}
+          >
+            <div>
+              {this.props.prevArrow || null}
+            </div>
+            <div>
+              {this.props.nextArrow || null}
+            </div>
+          </div>
+        ) : null}
       </div>
     );
   }

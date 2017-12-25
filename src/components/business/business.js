@@ -17,7 +17,9 @@ export default () => {
           </div>
           <div className={style['content-right']}>
             <div className={style['company-wrap']}>
-              <Carousel>
+              <Carousel
+                arrows
+              >
                 <div className={style['company']} style={{ backgroundColor: '#456789' }}>
                   网易云
                 </div>
