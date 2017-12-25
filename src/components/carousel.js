@@ -63,6 +63,7 @@ export default class Carousel extends React.Component {
         <div style={{ width: '100%', height: '100%', display: 'flex', position: 'relative' }}>
           {this.state.children}
         </div>
+        
       </div>
     );
   }
