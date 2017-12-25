@@ -3,7 +3,6 @@ import style from './cover.less';
 import coverBackground from '../../assets/image/cover_background.jpg';
 import coverVideo from '../../assets/video/Hummingbird 1080p.mp4';
 import arrow from '../../assets/image/arrow_down.png';
-import coverVedio from '../../assets/vedio/Hummingbird 1080p.mp4';
 
 export default () => {
   return (
