@@ -12,7 +12,6 @@ export default class Carousel extends React.Component {
     if (this.props.autoplay) { this.interval = setTimeout(this.next, 5000); }
   }
   componentWillUpdate() {
-    console.log(this.state)
     clearTimeout(this.interval);
   }
   componentDidUpdate() {
@@ -54,6 +53,24 @@ export default class Carousel extends React.Component {
         </div>,
       );
     }
+    let dots = null;
+    if (this.props.dots) {
+      dots = [];
+      for (const item of this.props.children) {
+        const index = dots.length;
+        dots.push(
+          <span
+            className={`${style['dot']} ${this.state.currentIdex === dots.length ? style['active'] : ''}`}
+            key={dots.length}
+            onClick={() => {
+              this.setState({
+                currentIdex: index,
+              });
+            }}
+          />,
+        );
+      }
+    }
     return (
       <div style={{ width: '100%', height: '100%', position: 'relative', overflow: 'hidden' }}>
         <div
@@ -92,6 +109,11 @@ export default class Carousel extends React.Component {
             >
               {this.props.nextArrow || <Icon type="right" />}
             </div>
+          </div>
+        ) : null}
+        {this.props.dots ? (
+          <div className={style['dots-wrap']}>
+            {dots}
           </div>
         ) : null}
       </div>

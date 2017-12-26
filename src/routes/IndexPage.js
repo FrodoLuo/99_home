@@ -9,6 +9,7 @@ import Cover from '../components/cover/cover';
 import YoundAndEnterprise from '../components/young-and-enterprise/young-and-enterprise';
 import ForceTo from '../components/force-to/force-to';
 import Business from '../components/business/business';
+import Focus from '../components/focus/focus';
 
 function IndexPage() {
   return (
@@ -20,6 +21,7 @@ function IndexPage() {
           <YoundAndEnterprise />
           <ForceTo />
           <Business />
+          <Focus />
         </div>
       </Layout.Content>
       <Footer />

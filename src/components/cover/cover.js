@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './cover.less';
 import coverBackground from '../../assets/image/cover_background.jpg';
-import coverVideo from '../../assets/video/Hummingbird 1080p.mp4';
+// import coverVideo from '../../assets/video/Hummingbird 1080p.mp4';
 import arrow from '../../assets/image/arrow_down.png';
 
 export default () => {
