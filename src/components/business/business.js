@@ -1,7 +1,7 @@
 import React from 'react';
 import { Icon } from 'antd';
 import style from './business.less';
-import Carousel from '../carousel';
+import Carousel from '../carousel/carousel';
 
 import companies from './companies';
 
@@ -10,12 +10,35 @@ export default () => {
     <div className="card-wrap">
       <div className={style['content-wrap']}>
         <div className={style['content-left-container']}>
-          1
+          <div className={style['business']}>
+            <h1>
+              我们的业务
+            </h1>
+          </div>
         </div>
         <div className={style['content-right-container']}>
           <div className={style['content-right']}>
             <div className={style['insight-wrap']}>
-              3
+              <Carousel
+                arrows
+              >
+                <div className={style['insight']}>
+                  <div>
+                    <h1>
+                      玖久洞察|我们对于
+                    </h1>
+                    <h1>
+                      商业的理解
+                    </h1>
+                    <h2>
+                      玖久对商业的理解 01
+                    </h2>
+                  </div>
+                </div>
+                <div className={style['insight']}>
+                  la
+                </div>
+              </Carousel>
             </div>
           </div>
           <div className={style['content-right']}>
