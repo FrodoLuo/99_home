@@ -15,7 +15,7 @@ export default () => {
       </div>
       <div className={style['header-logo']}>
         <span>
-          <a>
+          <a href="/">
             <img className={style['logo']} src={logo} role="presentation" />
           </a>
         </span>
