@@ -1,0 +1,42 @@
+.wrap{
+  padding: 100px;
+
+}
+.intro-wrap h1{
+  color: #bbbbbb;
+}
+.intro-wrap p {
+  color: #888888;
+}
+.intro-wrap::after{
+  content: ' ';
+  background-color: #666666;
+  height: 1px;
+  width: 100%;
+  display: block;
+  margin-top: 40px;
+}
+.button-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color: whitesmoke;
+  font-size: 24px;
+  margin-top: 70px;
+}
+.button{
+  border-radius: 50%;
+  border: 2px solid whitesmoke;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  transition: all ease 0.3s;
+  box-shadow: 0 0 0 rgba(255,255,255,0);
+  cursor: pointer;
+}
+.button:hover{
+  box-shadow: 0 0 20px rgba(255,255,255,0.6);
+}
