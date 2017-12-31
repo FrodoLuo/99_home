@@ -6,19 +6,16 @@ import style from './ArticalPage.less';
 import Artical from '../components/artical/artical';
 import AuthorIntro from '../components/author-intro/author-intro';
 
-class ArticalPage extends React.Component {
-  render() {
-    console.log(this.props);
-    return (
-      <Layout>
-        <Header />
-        <Layout.Content className={style['main-content']}>
-          <Artical path={this.props.match.params.path} />
-          <AuthorIntro />
-        </Layout.Content>
-        <Footer />
-      </Layout>
-    );
-  }
+function ArticalPage(props) {
+  return (
+    <Layout>
+      <Header />
+      <Layout.Content className={style['main-content']}>
+        <Artical path={props.match.params.path} />
+        <AuthorIntro />
+      </Layout.Content>
+      <Footer />
+    </Layout>
+  );
 }
 export default ArticalPage;
