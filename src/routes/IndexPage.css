@@ -1,7 +1,7 @@
 .main-container{
   min-height: 100%;
-  flex: 1;
   overflow: hidden;
+  height: fit-content;
 }
 body{
   min-width: 1024px;

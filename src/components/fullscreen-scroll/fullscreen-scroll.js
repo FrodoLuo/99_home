@@ -88,7 +88,7 @@ class FullScreenScroll extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div style={{ height: '100%' }}>
         <div
           onWheel={this.handleScroll}
           onTouchStart={this.handleTouchStart}
