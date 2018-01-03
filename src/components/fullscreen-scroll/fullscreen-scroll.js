@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'antd';
 import style from './fullscreen-scroll.less';
 
 class FullScreenScroll extends React.Component {
@@ -103,6 +104,18 @@ class FullScreenScroll extends React.Component {
           style={{ opacity: this.state.currentIndex === this.props.children.length - 1 ? 0 : 1 }}
         >
           {this.wrapDot()}
+        </div>
+        <div
+          className={style['button-wrap']}
+          style={{ opacity: this.state.currentIndex === this.props.children.length - 1 ? 0 : 1 }}
+        >
+
+          <div className={style['button']}>
+            <Icon type="edit" />
+          </div>
+          <div className={style['button']}>
+            <Icon type="scan" />
+          </div>
         </div>
       </div>
     );
