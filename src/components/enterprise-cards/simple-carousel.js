@@ -30,6 +30,7 @@ export default class SimpleCarousel extends React.Component {
         className={style['child-wrap']}
         style={{
           opacity: index === this.state.currentIndex ? 1 : 0,
+          visibility: index === this.state.currentIndex ? 'visible' : 'hidden',
         }}
         key={index}
       >
@@ -43,7 +44,7 @@ export default class SimpleCarousel extends React.Component {
       const index = dots.length;
       dots.push(
         <span
-          key={index} className={style['dot']}
+          key={index} className={`${index === this.state.currentIndex ? style['dot-active'] : style['dot']}`}
           onClick={() => {
             this.to(index);
           }}
