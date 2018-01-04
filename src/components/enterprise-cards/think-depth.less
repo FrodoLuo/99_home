@@ -1,0 +1,90 @@
+.content-wrap{
+  height: 55%;
+  width: 65%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.sub-card-wrap{
+  height: 100%;
+  width: 50%;
+  padding: 8% 6%;
+  transition: all ease 0.4s;
+  box-shadow: 0 0 0 transparent;
+  position: relative;
+}
+.sub-card-wrap-h1-after{
+  content: ' ';
+  background-color: #555555;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 2px;
+  display: block;
+}
+.sub-card-wrap-hover{
+  box-shadow: 0 0 100px rgba(0,0,0,0.5);
+}
+.left-wrap{
+  .sub-card-wrap;
+  background-color: #333333;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  color: white;
+}
+.left-wrap h1{
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+}
+.left-wrap h1::after{
+  .sub-card-wrap-h1-after;
+}
+.right-wrap{
+  .sub-card-wrap;
+  background-color: #f6f6f6;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.right-wrap h1{
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+}
+.right-wrap h1::after{
+  .sub-card-wrap-h1-after;
+}
+.left-wrap:hover{
+  .sub-card-wrap-hover;
+}
+.right-wrap:hover{
+  .sub-card-wrap-hover;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-wrap{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.list-wrap img{
+  width: 60px;
+  height: 60px;
+}
+.list-wrap p {
+  margin: 0;
+}
