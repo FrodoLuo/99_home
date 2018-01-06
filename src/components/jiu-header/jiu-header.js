@@ -7,7 +7,7 @@ export default () => {
     <div className={style['header-wrap']}>
       <div className={style['header-nav-part']}>
         <span>
-          <a>企业服务</a>
+          <a href="/enterprise">企业服务</a>
         </span>
         <span>
           <a>新青年实践</a>
