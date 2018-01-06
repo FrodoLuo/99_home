@@ -79,7 +79,7 @@ class FullScreenScroll extends React.Component {
             <div
               className={`${style['dot-ahead']} ${i === this.state.currentIndex ? style['active-dot'] : ''}`}
             >
-              {this.props.children[i].props.title || null}
+              <span>{this.props.children[i].props.title || null}</span>
             </div>
           </div>,
         );
