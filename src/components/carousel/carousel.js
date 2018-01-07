@@ -72,7 +72,14 @@ export default class Carousel extends React.Component {
       }
     }
     return (
-      <div style={{ width: '100%', height: '100%', position: 'relative', overflow: 'hidden' }}>
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          position: 'relative',
+          overflow: this.props.fade ? 'visiable' : 'hidden',
+        }}
+      >
         <div
           className={style['content-wrap']}
           style={{
@@ -89,25 +96,30 @@ export default class Carousel extends React.Component {
               justifyContent: 'space-between',
               alignItems: 'center',
               height: '100%',
-              width: '100%',
+              width: this.props.fade ? '140%' : '100%',
               position: 'absolute',
               padding: '10%',
-              left: 0,
+              left: this.props.fade ? '-20%' : 0,
               top: 0,
-
             }}
           >
             <div
               style={arrowStyle}
               onClick={this.prev}
             >
-              {this.props.prevArrow || <Icon type="left" />}
+              {this.props.prevArrow || <Icon
+                style={{ color: this.props.fade ? '#333333' : '#ffffff' }}
+                type="left"
+              />}
             </div>
             <div
               style={arrowStyle}
               onClick={this.next}
             >
-              {this.props.nextArrow || <Icon type="right" />}
+              {this.props.nextArrow || <Icon
+                style={{ color: this.props.fade ? '#333333' : '#ffffff' }}
+                type="right"
+              />}
             </div>
           </div>
         ) : null}

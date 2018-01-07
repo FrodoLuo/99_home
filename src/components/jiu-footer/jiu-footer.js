@@ -61,7 +61,7 @@ export default function (props) {
       <div className={style['footer-bottom-wrap']}>
         <div className={style['footer-nav']}>
           <a href="/">首页</a>
-          <a href="/enterprise">企业服务</a>
+          <a href="/#enterprise">企业服务</a>
           <a>新青年实践</a>
           <a>关于玖久</a>
           <a>联系我们</a>

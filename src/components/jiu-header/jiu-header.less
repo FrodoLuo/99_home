@@ -42,9 +42,23 @@
 }
 .header-nav-part > span{
   pointer-events: all;
+  position: relative;
 }
 .header-logo{
   margin: 0 120px;
   padding: 10px 20px;
   height: auto;
+}
+.active::after{
+  position: absolute;
+  bottom: -10px;
+  height: 8px;
+  width: 8px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  content: ' ';
+  border-radius: 50%;
+  display: block;
 }

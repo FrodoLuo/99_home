@@ -4,7 +4,7 @@ import style from './fullscreen-scroll.less';
 
 class FullScreenScroll extends React.Component {
   state = {
-    currentIndex: 3,
+    currentIndex: 0,
   }
   data = {
     startX: 0,
@@ -56,8 +56,9 @@ class FullScreenScroll extends React.Component {
     for (const child of this.props.children) {
       children.push(
         <div
+          onWheel={this.state.currentIndex === children.length ? this.handleScroll : null}
           key={children.length}
-          style={{ bottom: this.state.currentIndex >= children.length ? 0 : '-100%' }}
+          style={{ bottom: this.state.currentIndex >= children.length ? 0 : '-100%', zIndex: children.length * 100 }}
           className={style['child-wrap']}
         >
           {child}
@@ -91,7 +92,6 @@ class FullScreenScroll extends React.Component {
     return (
       <div style={{ height: '100%' }}>
         <div
-          onWheel={this.handleScroll}
           onTouchStart={this.handleTouchStart}
           onTouchEnd={this.handleTouchEnd}
           className={style['scroll-wrap']}
