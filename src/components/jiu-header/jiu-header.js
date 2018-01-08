@@ -10,7 +10,7 @@ export default (props) => {
           <a href="/#enterprise">企业服务</a>
         </span>
         <span className={props.young ? style['active'] : ''}>
-          <a>新青年实践</a>
+          <a href="/#young">新青年实践</a>
         </span>
       </div>
       <div className={style['header-logo']}>
