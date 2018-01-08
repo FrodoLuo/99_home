@@ -31,6 +31,9 @@ export default function Young() {
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>
       <Header young />
       <FullScreenScroll>
+        <div>
+          123
+        </div>
         <div data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />
         </div>
