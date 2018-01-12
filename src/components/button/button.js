@@ -6,17 +6,17 @@ function Button(props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width="214px" height="77px"
+      width="213px" height="77px"
       onClick={props.onclick}
       className={style['button-wrap']}
     >
       <path
         fillRule="evenodd"
-        stroke={color}
+        stroke={props.backgroundColor ? 'none' : color}
         strokeWidth="2px"
         strokeLinecap="butt"
         strokeLinejoin="miter"
-        fill="none"
+        fill={props.backgroundColor || 'none'}
         d="M38.000,1.000 L175.000,1.000 C195.435,1.000 212.000,17.565 212.000,38.000 C212.000,58.435 195.435,75.000 175.000,75.000 L38.000,75.000 C17.565,75.000 1.000,58.435 1.000,38.000 C1.000,17.565 17.565,1.000 38.000,1.000 Z"
       />
       <path

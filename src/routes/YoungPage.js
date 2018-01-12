@@ -4,6 +4,10 @@ import Header from '../components/jiu-header/jiu-header';
 import Footer from '../components/jiu-footer/jiu-footer';
 import FullScreenScroll from '../components/fullscreen-scroll/fullscreen-scroll';
 
+import Youth from '../components/young-cards/youth';
+import Create from '../components/young-cards/create';
+import ThinkingValue from '../components/young-cards/thinking-value';
+
 import caseBg from '../assets/image/500186530.png';
 import caseLogo from '../assets/image/ferrari.png';
 
@@ -31,9 +35,9 @@ export default function Young() {
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>
       <Header young />
       <FullScreenScroll>
-        <div>
-          123
-        </div>
+        <Youth title="玖久青年" />
+        <Create title="青年创造" />
+        <ThinkingValue title="思维价值" />
         <div data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />
         </div>

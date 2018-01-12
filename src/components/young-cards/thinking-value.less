@@ -1,0 +1,89 @@
+.content-wrap{
+  height: 55%;
+  width: 75%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.text-intro-wrap{
+  color: white;
+  font-family: 'HYQiHei';
+  margin-bottom: 60px;
+}
+.text-intro-wrap h1{
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+}
+.text-intro-wrap p{
+  font-size: 18px;
+  width: 70%;
+}
+.poster-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  width: 100%;
+}
+.poster-wrap{
+  width:48%;
+  box-shadow: 0 0 130px rgba(0,0,0,0.4);
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+}
+.poster-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  border-radius: 12px;
+}
+.poster-intro-wrap {
+  .poster-content;
+  opacity: 0;
+  font-size: 18px;
+  line-height: 36px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+  color: white;
+  background-color: rgba(0,0,0,0.6);
+  transition: all ease 0.4s;
+}
+.poster-wrap:hover  .poster-intro-wrap{
+  opacity: 1;
+}
+.poster-title-wrap {
+  .poster-content;
+  position: absolute;
+  transition: all ease 0.4s;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.poster-wrap:hover  .poster-title-wrap{
+  opacity: 0;
+}
+.button{
+  position: absolute;
+  bottom: -10%;
+  z-index: 10;
+  margin: auto;
+}
