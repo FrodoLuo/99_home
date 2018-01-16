@@ -8,12 +8,27 @@
   flex: 1;
   overflow: hidden;
   position: relative;
+  background-color: black;
+}
+.masking{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all ease 0.7s 0.1s;
+  visibility: hidden;
+  opacity: 0;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 10000;
+  top: 0;
 }
 .child-wrap{
   position: absolute;
   height: 100%;
   width: 100%;
-  transition: all ease 0.5s;
+  transition: all ease 0.7s;
+  transition-property: clip, bottom;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
 }
 .dots-wrap{
   top: 0;

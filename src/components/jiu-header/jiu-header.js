@@ -4,7 +4,7 @@ import logo from '../../assets/image/logo.png';
 
 export default (props) => {
   return (
-    <div className={style['header-wrap']}>
+    <div id="header" className={style['header-wrap']}>
       <div className={style['header-nav-part']}>
         <span className={props.enterprise ? style['active'] : ''}>
           <a href="/enterprise">企业服务</a>
