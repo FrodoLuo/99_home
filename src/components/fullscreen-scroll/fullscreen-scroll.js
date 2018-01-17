@@ -4,7 +4,7 @@ import style from './fullscreen-scroll.less';
 
 class FullScreenScroll extends React.Component {
   state = {
-    currentIndex: 2,
+    currentIndex: 3,
     next: true,
     clientHeight: 0,
   }

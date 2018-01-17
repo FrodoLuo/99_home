@@ -7,6 +7,7 @@ import FullScreenScroll from '../components/fullscreen-scroll/fullscreen-scroll'
 import Youth from '../components/young-cards/youth';
 import Create from '../components/young-cards/create';
 import ThinkingValue from '../components/young-cards/thinking-value';
+import Story from '../components/young-cards/story';
 
 import caseBg from '../assets/image/500186530.png';
 import caseLogo from '../assets/image/ferrari.png';
@@ -30,7 +31,6 @@ const caseData = [{
 }];
 
 export default function Young() {
-  console.log('123');
   return (
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>
       <Header young />
@@ -38,6 +38,7 @@ export default function Young() {
         <Youth title="玖久青年" />
         <Create title="青年创造" />
         <ThinkingValue title="思维价值" />
+        <Story title="青年故事" />
         <div data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />
         </div>
