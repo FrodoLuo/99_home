@@ -9,6 +9,7 @@ function Button(props) {
       width="213px" height="77px"
       onClick={props.onclick}
       className={style['button-wrap']}
+      style={props.style}
     >
       <path
         fillRule="evenodd"

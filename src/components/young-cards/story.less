@@ -1,7 +1,6 @@
 .content-wrap{
   height: 60%;
   width: 60%;
-  border: 2px green solid;
   top: 0;
   bottom: 0;
   left: 0;
@@ -14,24 +13,47 @@
   position: absolute;
   height: 100%;
   width: 30%;
-  border: 2px red solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .current-photo-wrap{
-  height: 80%;
+  height: 85%;
   width: 100%;
   border-radius: 8px;
-  border: 2px yellow solid;
+  display: flex;
+  box-shadow: -30px 0 80px rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.content-wrap > img{
+  object-fit: cover;
+  height: 100%;
 }
 .photo-list-wrap{
-  height: 15%;
+  height: 12%;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 2px white solid;
+}
+.photo-list-item{
+  height: 100%;
+  width: 30%;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  box-shadow: 0 0 80px rgba(0,0,0,0.4);
+}
+.photo-list-item:hover{
+  box-shadow: 0 0 80px rgba(0,0,0,0.7);
+}
+.photo-list-item > img{
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
 }
 .intro-wrap{
   width: 80%;
@@ -45,4 +67,74 @@
   border-radius: 10px;
   padding: 7% 15%;
   box-shadow: 0 0 120px rgba(0,0,0,0.7);
+}
+.intro{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.identity{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.identity h1 {
+  margin-bottom: 10px;
+}
+.occupation{
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.occupation::before{
+  margin: 0 15px;
+  display: inline-block;
+  content: ' ';
+  height: 20px;
+  width: 1px;
+  background-color: black;
+}
+.identity-icon{
+  position: absolute;
+  top: 10%;
+  right: -5%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img-wrap{
+  height: 48px;
+  width: 48px;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+.img-wrap > img{
+  height: 24px;
+  width: 24px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.hat-wrap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: white;
+  box-shadow: 0 0 30px rgba(0,0,0,0.2);
+  margin-left: 10px;
+}
+.hat-wrap > span{
+  margin: 0 20px;
 }
