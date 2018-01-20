@@ -8,7 +8,6 @@ import bg from '../../assets/image/2492010.png';
 export default function (props) {
   const cases = [];
   for (const item of props.caseData) {
-    console.log(item);
     cases.push(
       <div className={style['case-wrap']}>
         <div
