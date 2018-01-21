@@ -1,4 +1,5 @@
 import React from 'react';
+import { Icon } from 'antd';
 import style from './jiu-header.less';
 import logo from '../../assets/image/logo.png';
 
@@ -17,6 +18,7 @@ export default (props) => {
         <span>
           <a href="/">
             <img className={style['logo']} src={logo} role="presentation" />
+            <Icon className={style['home']} type="home" />
           </a>
         </span>
       </div>
@@ -25,7 +27,7 @@ export default (props) => {
           <a href="/about">关于玖久</a>
         </span>
         <span className={props.contact ? style['active'] : ''}>
-          <a>联系我们</a>
+          <a href="/contact">联系我们</a>
         </span>
       </div>
     </div>

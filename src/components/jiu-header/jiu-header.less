@@ -22,6 +22,35 @@
   position: relative;
   width: 64px;
   pointer-events: all;
+  transition: all ease 0.4s;
+  opacity: 1;
+  visibility: visible;
+}
+.home{
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease 0.4s;
+  font-size: 48px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.header-logo{
+  position: relative;
+}
+.header-logo:hover .logo{
+  opacity: 0;
+  visibility: hidden;
+}
+.header-logo:hover .home{
+  opacity: 1;
+  visibility: visible;
+}
+.header-wrap:hover a{
+  opacity: 0.5;
 }
 .header-wrap a{
   color: white;
@@ -35,6 +64,7 @@
 .header-wrap a:hover{
   text-shadow: 0 0 20px rgba(0,0,0,0.3);
   pointer-events: all;
+  opacity: 1;
 }
 .header-nav-part{
   display: flex;

@@ -64,7 +64,7 @@ export default function (props) {
           <a href="/enterprise">企业服务</a>
           <a href="/young">新青年实践</a>
           <a href="/about">关于玖久</a>
-          <a>联系我们</a>
+          <a href="/contact">联系我们</a>
         </div>
         <div className={style['footer-copyright']}>
           <span>

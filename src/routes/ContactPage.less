@@ -1,0 +1,78 @@
+.content-wrap{
+  height: 100vh;
+  width: 100%;
+  background-color: lightgray;
+}
+.button{
+  font-size: 32px;
+  background-color: rgb(0, 128, 255);
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all ease 0.4s 0.05s;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 20;
+}
+.button:hover{
+  box-shadow: 0 0 30px rgba(0,0,0,0.4);
+}
+.button-active{
+  .button;
+  transform: rotate(180deg);
+  left: 49%;
+  margin: auto;
+  background-color: rgb(250, 246, 0);
+  color: rgb(32, 9, 3);
+}
+.map-wrap{
+  background-image: url('../assets/image/fake_map.png');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.detail-wrap{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 15;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 89, 255, 0.8);
+  color: white;
+  font-size: 20px;
+  transition: all ease 0.4s;
+  clip: rect(auto 0 auto auto);
+}
+.detail-wrap-active{
+  .detail-wrap;
+  clip: rect(auto 50vw auto auto);
+}
+.buttons-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+.company-wrap::after{
+  height: 2px;
+  width: 100%;
+  background-color: rgb(98, 177, 255);
+  display: block;
+  content: ' ';
+  margin: 50px 0;
+}
