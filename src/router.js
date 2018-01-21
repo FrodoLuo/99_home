@@ -4,6 +4,7 @@ import IndexPage from './routes/IndexPage';
 import ArticalPage from './routes/ArticalPage';
 import EnterprisePage from './routes/Enterprise';
 import YoungPage from './routes/YoungPage';
+import AboutPage from './routes/AboutPage';
 
 function RouterConfig({ history }) {
   return (
@@ -12,6 +13,7 @@ function RouterConfig({ history }) {
         <Route path="/" exact component={IndexPage} />
         <Route path="/enterprise" exact component={EnterprisePage} />
         <Route path="/artical/:path" exact component={ArticalPage} />
+        <Route path="/about" exact component={AboutPage} />
         <Route path="/young" exact component={YoungPage} />
       </Switch>
     </Router>

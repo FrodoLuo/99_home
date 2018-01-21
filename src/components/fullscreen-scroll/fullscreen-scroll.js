@@ -4,7 +4,7 @@ import style from './fullscreen-scroll.less';
 
 class FullScreenScroll extends React.Component {
   state = {
-    currentIndex: 4,
+    currentIndex: 0,
     next: true,
     clientHeight: 0,
   }
@@ -84,7 +84,7 @@ class FullScreenScroll extends React.Component {
             bottom: last && beforeLast ? '522px' : 0,
             transitionDelay: at ? '0s' : '0.1s',
           }}
-          className={style['child-wrap']}
+          className={`${style['child-wrap']} ${at ? '' : style['not-active']}`}
         >
           {child}
           {beforeLast ? (
@@ -129,7 +129,7 @@ class FullScreenScroll extends React.Component {
   }
   render() {
     return (
-      <div style={{ height: '100%' }}>
+      <div style={{ height: '100%', minWidth: 1368, position: 'relative' }}>
         <div
           onTouchStart={this.handleTouchStart}
           onTouchEnd={this.handleTouchEnd}

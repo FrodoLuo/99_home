@@ -18,8 +18,8 @@ html, body, :global(#root) {
   align-items: center;
 }
 :global(.card-wrap) {
-  max-width: 1660px;
-  min-width: 1368px;
+  max-width: 1368px;
+  min-width: 1024px;
   transition: all ease 0.4s;
   width: 100%;
   height: 682px;

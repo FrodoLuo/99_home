@@ -22,7 +22,7 @@ export default (props) => {
       </div>
       <div className={style['header-nav-part']}>
         <span className={props.about ? style['active'] : ''}>
-          <a>关于玖久</a>
+          <a href="/about">关于玖久</a>
         </span>
         <span className={props.contact ? style['active'] : ''}>
           <a>联系我们</a>

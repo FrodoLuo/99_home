@@ -3,11 +3,12 @@ import commonStyle from './common-style.less';
 import SimpleCarousel from './simple-carousel';
 import bg from '../../assets/image/500268728.png';
 import bg2 from '../../assets/image/50032123.png';
+import bg3 from '../../assets/image/500473530.jpg';
 
 
 import Button from '../button/button';
 
-import style from './youth.less';
+import style from './brief.less';
 
 export default function (props) {
   return (
@@ -39,7 +40,7 @@ export default function (props) {
           </div>
           <Button text="了解更多" />
         </div>
-        <div className={style['content-card']} background={bg}>
+        <div className={style['content-card']} background={bg3}>
           <div className={style['intro']}>
             <h1>对话年轻群体</h1>
             <p>

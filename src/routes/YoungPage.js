@@ -11,27 +11,6 @@ import Story from '../components/young-cards/story';
 import Comment from '../components/young-cards/comment';
 import Join from '../components/young-cards/join';
 
-import caseBg from '../assets/image/500186530.png';
-import caseLogo from '../assets/image/ferrari.png';
-
-const caseData = [{
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}, {
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}, {
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}, {
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}];
-
 export default function Young() {
   return (
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>

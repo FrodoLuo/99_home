@@ -55,20 +55,41 @@ export default class SimpleCarousel extends React.Component {
     }
     return dots;
   }
+  backgroundRender = () => {
+    const backgrounds = [];
+    for (const item of this.props.children) {
+      backgrounds.push(
+        <div
+          className={style['background']}
+          key={backgrounds.length}
+          style={{
+            backgroundImage: `url(${item.props.background})`,
+            clip: backgrounds.length <= this.state.currentIndex ? 'rect(auto auto auto 0vw)' : 'rect(auto auto auto 100vw)',
+          }}
+        />,
+      );
+    }
+    return backgrounds;
+  }
   render() {
     const children = [];
     for (const item of this.props.children) {
       children.push(this.childRender(item, children.length));
     }
     return (
-      <div className={style['carousel-wrap']}>
-        <div className={style['children-wrap']}>
-          {children}
+      <div className={style['whole-wrap']}>
+        <div className={style['carousel-wrap']}>
+          <div className={style['children-wrap']}>
+            {children}
+          </div>
+          <div className={style['dots-wrap']}>
+            {this.dotsRender()}
+          </div>
         </div>
-        <div className={style['dots-wrap']}>
-          {this.dotsRender()}
+        <div className={style['background-wrap']}>
+          {this.backgroundRender()}
         </div>
-      </ div>
+      </div>
     );
   }
 }
