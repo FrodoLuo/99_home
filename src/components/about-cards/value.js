@@ -42,7 +42,7 @@ export default function () {
                     position: 'absolute',
                     left: 0,
                     right: 0,
-                    margin: 'auto',
+                    margin: '0 auto',
                     bottom: '-30px',
                   }} text="了解更多"
                 />
@@ -64,7 +64,7 @@ export default function () {
                     position: 'absolute',
                     left: 0,
                     right: 0,
-                    margin: 'auto',
+                    margin: '0 auto',
                     bottom: '-30px',
                   }} text="了解更多"
                 />
@@ -86,7 +86,7 @@ export default function () {
                     position: 'absolute',
                     left: 0,
                     right: 0,
-                    margin: 'auto',
+                    margin: '0 auto',
                     bottom: '-30px',
                   }} text="了解更多"
                 />

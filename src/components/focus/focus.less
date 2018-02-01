@@ -15,27 +15,33 @@
   align-self: bottom;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding: 5%;
+  align-items: center;
+  justify-content: center;
+  padding: 10% 0;
   position: absolute;
   bottom: 0;
-  height: 50%;
+  height: 100%;
   width: 50%;
-  text-align: right;
+  text-align: center;
+  background-color: rgba(0,115,204,0.75);
+  transition: all ease 0.8s;
 }
-.sub-left-content  h2 {
-  font-size: 36px;
-  margin-bottom: 10px;
+.sub-left-content  p {
+  font-size: 24px;
+  margin: 50px 0;
+  width: 60%;
+  font-weight: normal;
   color: white;
-  text-shadow: 0 0 45px rgba(0,0,0,0.7);
 }
 .sub-left-content  h1 {
-  font-size: 72px;
+  font-size: 92px;
   color: white;
-  margin-bottom: 10px;
+  font-weight: normal;
+  margin-bottom: 20px;
   line-height: 72px;
-  text-shadow: 0 0 95px rgba(0,0,0,0.7);
+}
+.sub-left-content:hover{
+  background-color: rgba(0,115,204,0.85);
 }
 .sub-right{
   display: flex;

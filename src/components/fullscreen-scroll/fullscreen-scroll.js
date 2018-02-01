@@ -21,7 +21,6 @@ class FullScreenScroll extends React.Component {
   scrollTo = (index) => {
     let i = index < 0 ? 0 : index;
     i = i >= this.props.children.length ? this.props.children.length - 1 : i;
-    console.log(i);
     this.setState({
       currentIndex: i,
     });
@@ -41,6 +40,9 @@ class FullScreenScroll extends React.Component {
   }
   scrollNext = (event) => {
     const index = this.state.currentIndex;
+    if (index === this.props.children.length - 2) {
+      this.headerFade(false);
+    }
     if (index < this.props.children.length - 1) {
       event.preventDefault();
       this.setState({
@@ -51,6 +53,9 @@ class FullScreenScroll extends React.Component {
   }
   scrollPrev = (event) => {
     const index = this.state.currentIndex;
+    if (index === this.props.children.length - 1) {
+      this.headerFade(true);
+    }
     if (index > 0) {
       event.preventDefault();
       this.setState({
@@ -66,7 +71,7 @@ class FullScreenScroll extends React.Component {
       os = '522px';
     }
     const last = this.state.currentIndex === this.props.children.length - 1;
-    // this.headerFade(!last);
+
     for (const child of this.props.children) {
       const index = children.length;
       const over = children.length < this.state.currentIndex;
@@ -123,9 +128,8 @@ class FullScreenScroll extends React.Component {
     return dots;
   }
   headerFade = (flag) => {
-    console.log(this.header);
-    // window.document.getElementById('header').style.opacity = flag ? 1 : 0;
-    // window.document.getElementById('header').style.visibility = flag ? 'visible' : 'hidden';
+    window.document.getElementById('header').style.opacity = flag ? 1 : 0;
+    window.document.getElementById('header').style.visibility = flag ? 'visible' : 'hidden';
   }
   render() {
     return (

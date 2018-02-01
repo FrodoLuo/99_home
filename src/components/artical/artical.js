@@ -1,46 +1,74 @@
 import React from 'react';
+import { connect } from 'dva';
 import { Icon, Button } from 'antd';
 import style from './artical.less';
 
-class Artical extends React.Component {
+class Article extends React.Component {
   state = {
     content: '',
+    visible: false,
   };
-  componentWillMount() {
-    // todo 根据传来的path参数来请求文章内容
-    console.log(this.props.path);
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      content: nextProps.content,
+      visible: nextProps.visible,
+    });
+  }
+  renderNav = () => {
+    if (!this.state.content) {
+      return '';
+    } else {
+      const navList = [];
+      const children = this.state.content.props.children;
+      for (const item of children) {
+        if (item.type === 'h1') {
+          navList.push(
+            <a href={`#${item.props.id}`} key={navList.length}>
+              {item.props.children}
+            </a>,
+          );
+        }
+      }
+      return navList;
+    }
   }
   render() {
+    this.renderNav();
     return (
-      <div className={style['artical-wrap']}>
-        <div className={style['artical-content']}>
-          {this.state.content}
-          <h1>
-            对话年轻群体
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-            deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste
-            natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-            beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-            sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-            qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-            dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-            quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-            aliquam quaerat voluptatem.
-          </p>
+      <div className={this.state.visible ? style['article-wrap-open'] : style['article-wrap-close']}>
+        <div className={this.state.visible ? style['artical-content-wrap'] : style['artical-content-wrap-hidden']}>
+          <div className={this.state.visible ? style['artical-content'] : style['artical-content-hidden']}>
+            {this.state.content}
+          </div>
         </div>
-        <Button shape="circle" type="primary" className={style['button']}>
-          <Icon className={style['button-icon']} type="close" />
-        </Button>
+        <div className={style['button-wrap']}>
+          <Button
+            onClick={
+              () => {
+                this.props.dispatch({
+                  type: 'article/setVisible',
+                  payload: false,
+                });
+              }
+            }
+            shape="circle"
+            type="primary"
+            className={this.state.visible ? style['button'] : style['button-hidden']}
+          >
+            <Icon className={style['button-icon']} type="close" />
+          </Button>
+        </div>
+        <div className={this.state.visible ? style['article-wrap-background'] : style['article-wrap-background-hidden']}>
+          <div className={`${style['nav-wrap']} ${this.state.visible ? '' : style['nav-wrap-hidden']}`}>
+            {this.renderNav()}
+          </div>
+        </div>
       </div>
     );
   }
 }
-export default Artical;
+export default connect(
+  (models) => {
+    return models.article;
+  },
+)(Article);

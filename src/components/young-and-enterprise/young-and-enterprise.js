@@ -19,22 +19,25 @@ export default class NewYounger extends React.Component {
     const contents = [
       (<div className={style['content-wrap']}>
         <h1>我是新青年</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+        <p>
+          突破学生身份的局限试探成长的边界，发现全新的自己
+        </p>
         <Button text="了解更多" color="white" />
       </div>
       ),
       (<div className={style['content-wrap']}>
         <h1>我是企业</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+        <p>重新定义市场洞察模式提供源源不断的高效决策与创新能量</p>
         <Button text="了解更多" color="white" />
       </div>
       ),
     ];
     const switchers = [];
     for (let i = 0; i < contents.length; i += 1) {
+      const index = switchers.length;
       switchers.push(
         <div
-          key={switchers.length}
+          key={index}
           className={`${style['switcher']} ${this.state.currentIndex === i ? style['active'] : ''}`}
           onClick={() => {
             this.setState({

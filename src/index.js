@@ -7,6 +7,8 @@ const app = dva({
   history: createBrowserHistory(),
 });
 
+app.model(require('./models/article'));
+
 // 2. Plugins
 // app.use({});
 

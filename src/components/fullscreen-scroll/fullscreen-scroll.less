@@ -37,7 +37,6 @@
   top: 0;
   bottom: 0;
   margin: auto;
-  height: 0;
   display: flex;
   flex: 0;
   align-items: flex-end;
@@ -46,7 +45,8 @@
   position: absolute;
   right: 40px;
   transition: all ease 0.4s;
-  z-index: 10000;
+  z-index: 9999;
+  pointer-events: none;
 }
 .dot{
   transition: all ease 0.3s;
@@ -54,6 +54,7 @@
   opacity: 0.5;
   margin: 20px 0;
   color: white;
+  pointer-events: all;
   cursor: pointer;
 }
 .dot-ahead{

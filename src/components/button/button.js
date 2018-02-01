@@ -13,7 +13,7 @@ function Button(props) {
     >
       <path
         fillRule="evenodd"
-        stroke={props.backgroundColor ? 'none' : color}
+        stroke={props.backgroundColor ? props.backgroundColor : color}
         strokeWidth="2px"
         strokeLinecap="butt"
         strokeLinejoin="miter"

@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout } from 'antd';
 import { connect } from 'dva';
 import style from './IndexPage.css';
-
+import Article from '../components/artical/artical';
 import Footer from '../components/jiu-footer/jiu-footer';
 import Header from '../components/jiu-header/jiu-header';
 import Cover from '../components/cover/cover';

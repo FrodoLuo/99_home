@@ -11,7 +11,7 @@
   flex: 1;
 }
 .content-right-container{
-  width: 663px;
+  width: 600px;
   display: flex;
   flex-direction: column;
 }
@@ -51,7 +51,7 @@
 .insight{
   height: 100%;
   width: 100%;
-  background-color: rgba(63,75,187,0.75);
+  background-color: rgba(0,94,181,0.8);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,13 +70,19 @@
 }
 .business{
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  transition: all ease 0.8s;
+  background-color: rgba(0,0,0,0.2);
+  align-items: center;
   height: 100%;
   padding: 10%;
+}
+.business:hover{
+  background-color: rgba(98,113,135,0.6);
 }
 .business h1{
   font-size: 64px;
   color: white;
-  text-shadow: 0 0 15px rgba(0,0,0,0.4);
+  margin-bottom: 40px;
 }

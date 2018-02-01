@@ -2,7 +2,7 @@ import React from 'react';
 import { Icon } from 'antd';
 import style from './business.less';
 import Carousel from '../carousel/carousel';
-
+import Button from '../button/button';
 import companies from './companies';
 
 export default () => {
@@ -12,8 +12,9 @@ export default () => {
         <div className={style['content-left-container']}>
           <div className={style['business']}>
             <h1>
-              我们的业务
+              一切为了销售
             </h1>
+            <Button text="玖久业务" />
           </div>
         </div>
         <div className={style['content-right-container']}>

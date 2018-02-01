@@ -22,7 +22,7 @@
 
 .case-wrap{
   flex: 1;
-  max-width: 320px;
+  width: 320px;
   position: relative;
   overflow: hidden;
   transition: all ease 0.4s;
@@ -43,6 +43,8 @@
 .case-logo-mask{
   display: flex;
   position: absolute;
+  top:0;
+  left: 0;
   width: 100%;
   height: 100%;
   color: white;
@@ -67,6 +69,8 @@
   opacity: 0;
   visibility: hidden;
   position: absolute;
+  top:0;
+  left: 0;
   height: 100%;
   width: 100%;
   display: flex;
@@ -78,6 +82,9 @@
   line-height: 36px;
   color: white;
   
+}
+.case-content > p{
+  width: 100%;
 }
 .case-wrap:hover{
   margin: -20px 0;

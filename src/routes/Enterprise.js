@@ -3,7 +3,7 @@ import { Layout } from 'antd';
 import Header from '../components/jiu-header/jiu-header';
 import Footer from '../components/jiu-footer/jiu-footer';
 import FullScreenScroll from '../components/fullscreen-scroll/fullscreen-scroll';
-
+import Article from '../components/artical/artical';
 import ServiceAspect from '../components/enterprise-cards/service-aspect';
 import Insight from '../components/enterprise-cards/insight';
 import ThinkDepth from '../components/enterprise-cards/think-depth';
@@ -34,6 +34,7 @@ const caseData = [{
 export default function Enterprise() {
   return (
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>
+      <Article />
       <Header enterprise />
       <FullScreenScroll>
         <ServiceAspect title="服务方向" />

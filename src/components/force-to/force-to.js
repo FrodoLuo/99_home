@@ -17,9 +17,11 @@ export default class ForceTo extends React.Component {
           >
             <div className={style['sub-left-content']}>
               <h2>
-                基于结构洞的未来企业
+                始于连接的未来企业
               </h2>
-              <h2>一家连接企业与学生的企业</h2>
+              <h2>
+                助企业洞见未来
+              </h2>
               <Button text="了解玖久" color="#ffffff" />
             </div>
           </div>
@@ -31,15 +33,18 @@ export default class ForceTo extends React.Component {
           >
             <div className={style['sub-right-top']}>
               <h1>
-                我们致力于
+                玖久使命
               </h1>
             </div>
             <div className={style['sub-right-bottom']}>
               <h2>
-                为企业带来价值
+                连接商业力量
+              </h2>
+              <h2>
+                为企业提供价值
               </h2>
               <h2 style={{ marginBottom: '40px' }}>
-                为新青年赋能
+                为青年赋能
               </h2>
               <Button text="玖久价值观" color="#000000" />
             </div>

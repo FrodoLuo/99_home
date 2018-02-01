@@ -4,6 +4,7 @@ import Carousel from '../carousel/carousel';
 import leftbg from '../../assets/image/500241064.png';
 import rightbg from '../../assets/image/50032123.png';
 import avatar from '../../assets/image/avatar.png';
+import Button from '../button/button';
 
 export default class ForceTo extends React.Component {
   render() {
@@ -17,10 +18,9 @@ export default class ForceTo extends React.Component {
             }}
           >
             <div className={style['sub-left-content']}>
-              <div>
-                <h1>玖久关注</h1>
-                <h2>年轻人的成长</h2>
-              </div>
+              <h1>玖久关注</h1>
+              <p>变革学生参与商业实践的方式<br />培养学生洞察及解决问题的能力</p>
+              <Button text="了解更多" />
             </div>
           </div>
           <div
@@ -35,7 +35,7 @@ export default class ForceTo extends React.Component {
                 arrows
               >
                 <div className={style['intro-people']}>
-                  <img src={avatar} role="presentation" />
+                  {/* <img src={avatar} role="presentation" /> */}
                   <h3>
                     <span>李凡</span><span>中央财经大学</span>
                   </h3>
