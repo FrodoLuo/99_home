@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Map, Marker } from 'react-amap';
 import { Icon } from 'antd';
 
 import Header from '../components/jiu-header/jiu-header';
@@ -29,7 +29,16 @@ export default class extends React.Component {
             <Icon type="right" />
           </div>
           <div className={style['map-wrap']} id="map-wrap">
-            there should be a map, no matter whether Baidu or Gaode.
+            <Map
+              amapkey={'b377916e7d977df6e8d7169223d2bba7'}
+              zoom={35}
+              center={{ longitude: 116.457125, latitude: 39.983006 }}
+            >
+              <Marker
+                position={{ longitude: 116.457429, latitude: 39.983311 }}
+                onClick={this.toggleDetail}
+              />
+            </Map>
           </div>
           <div className={this.state.detail ? style['detail-wrap-active'] : style['detail-wrap']}>
             <div className={style['company-wrap']}>
