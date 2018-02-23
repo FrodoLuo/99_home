@@ -42,7 +42,7 @@ export default function () {
               <h1>A4纸训练系列课程</h1>
             </div>
             <div className={style['button']}>
-              <Button text={'了解更多'} backgroundColor="#00b3ee" />
+              <Button colorful text={'了解更多'} backgroundColor="#00b3ee" />
             </div>
           </div>
           <div
@@ -58,7 +58,7 @@ export default function () {
               <h1>A4纸训练系列课程</h1>
             </div>
             <div className={style['button']}>
-              <Button text={'了解更多'} backgroundColor="#00b3ee" />
+              <Button colorful text={'了解更多'} backgroundColor="#00b3ee" />
             </div>
           </div>
         </div>

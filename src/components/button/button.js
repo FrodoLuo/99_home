@@ -56,9 +56,19 @@ function Button(props) {
   );
 }
 function bgButton(props) {
+  if (props.colorful) {
+    return (
+      <div style={props.style} className={style['button-color']} onClick={props.onClick} >
+        <img src={bg} alt="" />
+        <span>
+          {props.text}
+        </span>
+      </div>
+    );
+  }
   if (props.dark) {
     return (
-      <div className={style['button-dark']} onClick={props.onClick}>
+      <div style={props.style} className={style['button-dark']} onClick={props.onClick} >
         <img src={bgdark} alt="" />
         <span>
           {props.text}
@@ -67,7 +77,7 @@ function bgButton(props) {
     );
   } else {
     return (
-      <div className={style['button']} onClick={props.onClick}>
+      <div style={props.style} className={style['button']} onClick={props.onClick}>
         <img src={bg} alt="" />
         <span>
           {props.text}

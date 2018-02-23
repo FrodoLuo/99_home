@@ -73,6 +73,9 @@ export default function () {
               </div>
             ),
           }, {
+            title: <div style={{ opacity: 0, pointerEvents: 'none' }}>1</div>,
+            content: null,
+          }, {
             title: '客服团队',
             content: (
               <div className={style['content-wrap']}>
@@ -108,6 +111,7 @@ export default function () {
           },
         ]}
       />
+
     </div>
   );
 }

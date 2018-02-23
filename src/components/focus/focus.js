@@ -3,7 +3,7 @@ import style from './focus.less';
 import Carousel from '../carousel/carousel';
 import leftbg from '../../assets/image/500241064.png';
 import rightbg from '../../assets/image/50032123.png';
-import avatar from '../../assets/image/avatar.png';
+// import avatar from '../../assets/image/avatar.png';
 import Button from '../button/button';
 
 export default class ForceTo extends React.Component {

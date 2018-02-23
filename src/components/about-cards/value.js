@@ -65,7 +65,7 @@ export default function () {
                   </ul>
                 </p>
                 <Button
-                  backgroundColor="rgb(0, 110, 255)"
+                  colorful
                   style={{
                     position: 'absolute',
                     left: 0,
@@ -96,7 +96,7 @@ export default function () {
                   </ul>
                 </p>
                 <Button
-                  backgroundColor="rgb(0, 110, 255)"
+                  colorful
                   style={{
                     position: 'absolute',
                     left: 0,
@@ -118,7 +118,7 @@ export default function () {
                   的智慧平台型组织, 高效使用所有可以集中起来的智慧资源
                 </p>
                 <Button
-                  backgroundColor="rgb(0, 110, 255)"
+                  colorful
                   style={{
                     position: 'absolute',
                     left: 0,

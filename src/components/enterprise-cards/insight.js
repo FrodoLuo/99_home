@@ -1,16 +1,16 @@
 import React from 'react';
 import { connect } from 'dva';
 import commonStyle from './common-style.less';
-import bg from '../../assets/image/537222.png';
+// import bg from '../../assets/image/537222.png';
 import style from './insight.less';
 
 function Insight(props) {
   return (
     <div
       className={commonStyle['card-wrap']}
-      style={{
-        backgroundImage: `url(${bg})`,
-      }}
+      // style={{
+      //   backgroundImage: `url(${bg})`,
+      // }}
     >
       <div className={style['content-wrap']}>
         <div className={`${style['left']} ${style['sub-card']}`}>

@@ -9,11 +9,11 @@ export default class NewYounger extends React.Component {
     currentIndex: 0,
   }
   componentDidMount() {
-    setInterval(() => {
-      this.setState({
-        currentIndex: this.state.currentIndex === 1 ? 0 : this.state.currentIndex + 1,
-      });
-    }, 5000);
+    // setInterval(() => {
+    //   this.setState({
+    //     currentIndex: this.state.currentIndex === 1 ? 0 : this.state.currentIndex + 1,
+    //   });
+    // }, 5000);
   }
   render() {
     const contents = [
@@ -50,11 +50,12 @@ export default class NewYounger extends React.Component {
     const src = [background1, background2];
     return (
       <div
-        style={{
-          backgroundImage: `url(${src[this.state.currentIndex]})`,
-        }}
         className="card-wrap"
       >
+        <div className={style['background-image']}>
+          <img className={this.state.currentIndex >= 0 ? style['active-bg'] : ''} src={background1} alt="" />
+          <img className={this.state.currentIndex >= 1 ? style['active-bg'] : ''} src={background2} alt="" />
+        </div>
         <div className={style['switch-bar-wrap']}>
           {switchers}
         </div>

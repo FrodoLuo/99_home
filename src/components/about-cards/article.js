@@ -1,15 +1,15 @@
 import React from 'react';
 import commonStyle from './common-style.less';
 import style from './article.less';
-import bg from '../../assets/image/500332575.png';
+// import bg from '../../assets/image/500332575.png';
 
 export default function () {
   return (
     <div
       className={commonStyle['card-wrap']}
-      style={{
-        backgroundImage: `url(${bg})`,
-      }}
+      // style={{
+      //   backgroundImage: `url(${bg})`,
+      // }}
     >
       <div className={style['content-wrap']}>
         <div className={style['left']}>

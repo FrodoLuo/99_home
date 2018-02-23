@@ -20,6 +20,11 @@ import { luoYang, yinYuHua, wangBangWei } from '../../assets/article';
 class Story extends React.Component {
   state = {
     currentIndex: 0,
+    0: 0,
+    1: 1,
+    2: 2,
+    3: 3,
+    from: 0,
     storys: [
       {
         name: '罗杨',
@@ -52,7 +57,11 @@ class Story extends React.Component {
     ],
   }
   switchTo = (index) => {
+    const ci = this.state.currentIndex;
     this.setState({
+      from: this.state[index],
+      [index]: 0,
+      [this.state.currentIndex]: this.state[index],
       currentIndex: index,
     });
   }
@@ -67,6 +76,8 @@ class Story extends React.Component {
     const item = this.state.storys[this.state.currentIndex];
     const matrix = [[1, 2, 3], [0, 2, 3], [0, 1, 3], [0, 1, 2]];
     const m = matrix[this.state.currentIndex];
+    const photoStyle = ['item0', 'item1', 'item2', 'item3'];
+    const fromStyle = [{}, { left: 0 }, { left: 0, right: 0, margin: 'auto' }, { right: 0 }];
     return (
       <div
         className={commonStyle['card-wrap']}
@@ -74,29 +85,34 @@ class Story extends React.Component {
       >
         <div className={style['content-wrap']}>
           <div className={style['photo-wrap']}>
-            <div className={style['current-photo-wrap']}>
-              <img src={item.image} role="presentation" />
-            </div>
-            <div className={style['photo-list-wrap']}>
-              <span
-                className={style['photo-list-item']}
-                onClick={() => { this.switchTo(m[0]); }}
-              >
-                <img src={this.state.storys[m[0]].image} role="presentation" />
-              </span>
-              <span
-                className={style['photo-list-item']}
-                onClick={() => { this.switchTo(m[1]); }}
-              >
-                <img src={this.state.storys[m[1]].image} role="presentation" />
-              </span>
-              <span
-                className={style['photo-list-item']}
-                onClick={() => { this.switchTo(m[2]); }}
-              >
-                <img src={this.state.storys[m[2]].image} role="presentation" />
-              </span>
-            </div>
+            <span
+              className={this.state[0] === 0 ? style['photo-list-item-active'] : style[photoStyle[this.state[0]]]}
+              style={this.state[0] === 0 ? fromStyle[this.state.from] : null}
+              onClick={() => { this.switchTo(0); }}
+            >
+              <img src={this.state.storys[0].image} role="presentation" />
+            </span>
+            <span
+              className={this.state[1] === 0 ? style['photo-list-item-active'] : style[photoStyle[this.state[1]]]}
+              style={this.state[1] === 0 ? fromStyle[this.state.from] : null}
+              onClick={() => { this.switchTo(1); }}
+            >
+              <img src={this.state.storys[1].image} role="presentation" />
+            </span>
+            <span
+              className={this.state[2] === 0 ? style['photo-list-item-active'] : style[photoStyle[this.state[2]]]}
+              style={this.state[2] === 0 ? fromStyle[this.state.from] : null}
+              onClick={() => { this.switchTo(2); }}
+            >
+              <img src={this.state.storys[2].image} role="presentation" />
+            </span>
+            <span
+              className={this.state[3] === 0 ? style['photo-list-item-active'] : style[photoStyle[this.state[3]]]}
+              style={this.state[3] === 0 ? fromStyle[this.state.from] : null}
+              onClick={() => { this.switchTo(3); }}
+            >
+              <img src={this.state.storys[3].image} role="presentation" />
+            </span>
           </div>
           <div className={style['intro-wrap']}>
             <div className={style['intro']}>
@@ -119,8 +135,8 @@ class Story extends React.Component {
               </div>
               <Button
                 style={{ transform: 'scale(0.8)', left: '-20px' }}
-                color="black"
                 text="了解更多"
+                dark
                 onClick={this.showArticle}
               />
             </div>
