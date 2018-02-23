@@ -46,7 +46,7 @@ export default class ForceTo extends React.Component {
               <h2 style={{ marginBottom: '40px' }}>
                 为青年赋能
               </h2>
-              <Button text="玖久价值观" color="#000000" />
+              <Button dark text="玖久价值观" color="#000000" />
             </div>
           </div>
         </div>

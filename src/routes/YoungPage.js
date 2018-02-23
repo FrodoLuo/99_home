@@ -3,6 +3,7 @@ import { Layout } from 'antd';
 import Header from '../components/jiu-header/jiu-header';
 import Footer from '../components/jiu-footer/jiu-footer';
 import FullScreenScroll from '../components/fullscreen-scroll/fullscreen-scroll';
+import Article from '../components/artical/artical';
 
 import Youth from '../components/young-cards/youth';
 import Create from '../components/young-cards/create';
@@ -15,6 +16,7 @@ export default function Young() {
   return (
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>
       <Header young />
+      <Article />
       <FullScreenScroll>
         <Youth title="玖久青年" />
         <Create title="青年创造" />

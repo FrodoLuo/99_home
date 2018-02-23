@@ -44,7 +44,7 @@ export default class extends React.Component {
   }
   render() {
     return (
-      <div className={style['wrap']} style={this.props.style}>
+      <div className={style['wrap']} style={this.props.style} onWheel={(e) => { e.stopPropagation(); }}>
         <div className={style['title-wrap']}>
           {this.renderTitle()}
         </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import commonStyle from './common-style.less';
 import style from './thinking-value.less';
-import bg from '../../assets/image/116605.png';
+import bg from '../../assets/image/youth/y_06.jpg';
 import Button from '../button/button';
 
 import posterBg from '../../assets/image/poster.png';

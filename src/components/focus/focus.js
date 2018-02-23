@@ -37,18 +37,34 @@ export default class ForceTo extends React.Component {
                 <div className={style['intro-people']}>
                   {/* <img src={avatar} role="presentation" /> */}
                   <h3>
-                    <span>李凡</span><span>中央财经大学</span>
+                    <span>罗杨</span> <span>南京大学</span>
                   </h3>
                   <h2>
-                    &quot;玖久让我走上非凡之路&quot;
+                    玖久送给了我一份从学生时代到工作一直能回味的成人礼
                 </h2>
                 </div>
                 <div className={style['intro-people']}>
                   <h3>
-                    <span>李凡</span><span>中央财经大学</span>
+                    <span>潘毅斌</span> <span>台湾大学</span>
                   </h3>
                   <h2>
-                    &quot;玖久让我走上非凡之路&quot;
+                    在玖久，完成社会化的最后一里路
+                </h2>
+                </div>
+                <div className={style['intro-people']}>
+                  <h3>
+                    <span>尹钰华</span> <span>中南大学</span>
+                  </h3>
+                  <h2>
+                    不对可能性说不，过无法复制的人生
+                </h2>
+                </div>
+                <div className={style['intro-people']}>
+                  <h3>
+                    <span>汪邦威</span> <span>中山大学</span>
+                  </h3>
+                  <h2>
+                    玖久让我遇见更好的自己
                 </h2>
                 </div>
               </Carousel>

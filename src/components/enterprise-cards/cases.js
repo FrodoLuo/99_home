@@ -3,7 +3,7 @@ import React from 'react';
 import commonStyle from './common-style.less';
 import style from './cases.less';
 
-import bg from '../../assets/image/2492010.png';
+import bg from '../../assets/image/enterprise/e_05.jpg';
 
 export default function (props) {
   const cases = [];

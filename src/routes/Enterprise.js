@@ -38,9 +38,9 @@ export default function Enterprise() {
       <Header enterprise />
       <FullScreenScroll>
         <ServiceAspect title="服务方向" />
-        <Insight title="玖久洞察-方法论" />
+        <Insight title="玖久方法论" />
         <ThinkDepth title="玖久洞察-思考深度" />
-        <Cases title="案例展示" caseData={caseData} />
+        <Cases title="优秀案例" caseData={caseData} />
         <Feedback title="用户反馈" />
         <div data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />

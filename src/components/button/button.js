@@ -1,5 +1,7 @@
 import React from 'react';
 import style from './button.less';
+import bg from './button.svg';
+import bgdark from './button_dark.svg';
 
 function Button(props) {
   const color = props.color || 'rgb(255,255,255)';
@@ -7,7 +9,7 @@ function Button(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="213px" height="77px"
-      onClick={props.onclick}
+      onClick={props.onClick}
       className={style['button-wrap']}
       style={props.style}
     >
@@ -46,11 +48,32 @@ function Button(props) {
         d="M202.000,45.000 C202.000,45.000 199.673,62.950 179.000,68.000 "
       />
       <text
-        fontFamily="HYQiHei" fill={color} fontSize="29.167px" x="107px" y="48.6210000000001px" textAnchor="middle"
+        fontFamily="HYQiHei" fill={color} fontSize="20px" x="107px" y="48.6210000000001px" textAnchor="middle"
       >
         {props.text}
       </text>
     </svg>
   );
 }
-export default Button;
+function bgButton(props) {
+  if (props.dark) {
+    return (
+      <div className={style['button-dark']} onClick={props.onClick}>
+        <img src={bgdark} alt="" />
+        <span>
+          {props.text}
+        </span>
+      </div>
+    );
+  } else {
+    return (
+      <div className={style['button']} onClick={props.onClick}>
+        <img src={bg} alt="" />
+        <span>
+          {props.text}
+        </span>
+      </div>
+    );
+  }
+}
+export default bgButton;

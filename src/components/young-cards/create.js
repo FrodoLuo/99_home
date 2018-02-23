@@ -3,7 +3,7 @@ import commonStyle from './common-style.less';
 import style from './create.less';
 
 import brainStorm from '../../assets/image/brain-storm.png';
-import bg from '../../assets/image/500332575.png';
+import bg from '../../assets/image/youth/y_05.jpg';
 
 export default function () {
   return (

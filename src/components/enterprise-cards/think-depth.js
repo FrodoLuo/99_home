@@ -1,7 +1,7 @@
 import React from 'react';
 
 import commonStyle from './common-style.less';
-import bg from '../../assets/image/1081956.png';
+import bg from '../../assets/image/enterprise/e_04.jpg';
 import style from './think-depth.less';
 import listImg from '../../assets/image/500056635.png';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import commonStyle from './common-style.less';
 import style from './join.less';
-import bg from '../../assets/image/500559009.png';
+import bg from '../../assets/image/youth/y_09.jpg';
 import Button from '../button/button';
 import logo from '../../assets/image/brain-storm.png';
 

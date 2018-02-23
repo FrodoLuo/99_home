@@ -25,7 +25,7 @@ export default () => {
 
         </div>
         <div className={style['cover-arrow']}>
-          <span className={style['arrow-title']}>向下滚动</span>
+          <span className={style['arrow-title']}>向下滑动</span>
           <div className={style['arrows-wrap']}>
             <span className={style['arrow']}>
               <img src={arrow} role="presentation" />

@@ -1,7 +1,7 @@
 import React from 'react';
 import commonStyle from './common-style.less';
 import style from './comment.less';
-import bg from '../../assets/image/9430.png';
+import bg from '../../assets/image/youth/y_08.jpg';
 import avatar from '../../assets/image/avatar.png';
 
 export default function () {
