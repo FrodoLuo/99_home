@@ -24,9 +24,14 @@ export default class extends React.Component {
         <div className={style['content-wrap']}>
           <div
             className={this.state.detail ? style['button-active'] : style['button']}
-            onClick={this.toggleDetail}
+
           >
-            <Icon type="right" />
+            <div
+              className={style['offset']}
+              onClick={this.toggleDetail}
+            >
+              <Icon type="right" />
+            </div>
           </div>
           <div className={style['map-wrap']} id="map-wrap">
             <Map

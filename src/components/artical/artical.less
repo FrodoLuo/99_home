@@ -32,14 +32,19 @@
   overflow: auto;
   font-family: "HYQiHei";
   transition: all ease 0.4s;
+  height: 100%;
   opacity: 0;
 }
 .artical-content-hidden  h1{
   font-weight: bold;
   font-size: 42px;
 }
-.artical-content-hidden  p{
+.artical-content-hidden p{
   font-size: 22px;
+}
+.artical-content pre{
+  width: 100%;
+  word-wrap: break-word;
 }
 .artical-content  h1{
   font-weight: bold;
@@ -55,11 +60,11 @@
   z-index: 10000;
 }
 .button{
-  width: 72px;
-  height: 72px;
+  width: 56px;
+  height: 56px;
   position: relative;
-  top: -36px;
-  right: -36px;
+  top: -28px;
+  right: -28px;
   transition: opacity ease 0.4s 0.8s, background-color ease 0.4s;
 }
 .button-hidden{
@@ -140,4 +145,10 @@
 }
 .nav-wrap-hidden{
   opacity: 0;
+}
+:global{
+  t{
+    margin: 0 10px;
+    display: inline; 
+  }
 }

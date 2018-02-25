@@ -10,7 +10,7 @@ export default {
       return { ...state, content: data, visible: true };
     },
     saveVisible(state, { payload: visible }) {
-      return { ...state, visible };
+      return { ...state, visible, content: '' };
     },
   },
   effects: {
