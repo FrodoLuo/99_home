@@ -1,21 +1,25 @@
+@import "../../config.less";
 .footer-wrap{
   width: 100%;
   z-index: 1000;
+  font-family:"微软雅黑";
 }
 .footer-info-wrap{
   background-color: #2e2e2e;
-  height: 450px;
+  padding: 6rem 9rem;
   color: white;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  font-weight:lighter;
 }
 .footer-info-sub-wrap{
 }
 .footer-info-left-wrap{
+  width: calc(55% - 11rem);
   .footer-info-sub-wrap;
 }
 .footer-info-right-wrap{
+  width: calc(45% - 11rem);
   .footer-info-sub-wrap;
   display: flex;
   flex-direction: column;
@@ -23,31 +27,36 @@
 .contact-wrap{
   display: flex;
   flex-direction: column;
-  font-family: "HYQiHei";
-  font-size: 16px;
+  font-size: 1.3rem;
+  line-height: 2em;
   color: #a4a4a4;
-  margin-bottom: 10px;
+  margin-bottom: 1.4rem;
 }
 .logo-and-intro{
   display: flex;
-  width: 675px;
+  //width: 675px;
   flex-direction: row;
   justify-content: space-between;
+  .logo{
+    width: 7.2rem;
+    margin-right: 3rem;
+  }
 }
 .logo-and-intro p {
-  font-size: 18px;
+  font-size: 1.3rem;
   color: #a4a4a4;
-  font-weight: normal;
-  font-family: "HYQiHei";
-  width: 480px;
+  line-height: 2em;
+  font-weight: 300;
+  text-align: justify;
+  word-break: break-all;
 }
 .footer-bottom-wrap{
   flex: 1;
-  height: 72px;
+  height: 5.2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 10%;
+  padding: 0 5%;
   background-color: black;
   align-items: center;
 }
@@ -57,18 +66,18 @@
 }
 .footer-nav > a{
   color: white;
-  padding: 0 20px;
-  font-size: 16px;
-  line-height: 72px;
+  padding: 0 2.2rem;
+  font-size: 1.4rem;
+  line-height: 5.2rem;
 }
 
 .footer-copyright {
-  font-size: 16px;
-  color: gray;
+  font-size: 1.4rem;
+  color: #bbb;
 }
 .footer-copyright a {
-  color: gray;
-  font-size: 16px;
+  color: #bbb;
+  font-size: 1.4rem;
 }
 .footer-copyright a:hover{
   color: white;
@@ -79,32 +88,39 @@
   background-color: #4c4c4c;
   content: ' ';
   display: block;
-  margin: 20px 0;
+  margin: 1.5rem 0;
+}
+.co-wrap{
+  margin-top: 3rem;
 }
 .co-title{
-  font-size: 18px;
-  font-family: "HYQiHei";
+  font-size: 1.4rem;
   color: #a4a4a4;
 }
 .logo-container > span{
-  font-size: 50px;
+  font-size: 2.8rem;
   color: #a4a4a4;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 .qr-wrap{
   display: flex;
   flex-direction: row;
 }
 .qr-wrap span{
-  font-size: 16px;
-  padding-top: 10px;
-  font-family: "HYQiHei";
+  font-size: 1.6rem;
+  padding-top: 1rem;
   color: #a4a4a4;
 }
 .qr{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 3rem;
+  .qr-img{
+    width: 10rem;
+  }
+  span{
+    font-size:1.4rem;
+  }
 }

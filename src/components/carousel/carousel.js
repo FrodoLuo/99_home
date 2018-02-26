@@ -4,7 +4,7 @@ import style from './carousel.less';
 
 export default class Carousel extends React.Component {
   state = {
-    currentIdex: 0,
+    currentIndex: 0,
     children: [],
     left: 0,
   }
@@ -21,13 +21,13 @@ export default class Carousel extends React.Component {
   next = () => {
     const index = this.state.currentIdex;
     this.setState({
-      currentIdex: index === this.props.children.length - 1 ? 0 : index + 1,
+      currentIndex: index === this.props.children.length - 1 ? 0 : index + 1,
     });
   }
   prev = () => {
     const index = this.state.currentIdex;
     this.setState({
-      currentIdex: index === 0 ? this.props.children.length - 1 : index - 1,
+      currentIndex: index === 0 ? this.props.children.length - 1 : index - 1,
     });
   }
   nextIndex = (index) => {
@@ -60,11 +60,11 @@ export default class Carousel extends React.Component {
         const index = dots.length;
         dots.push(
           <span
-            className={`${style['dot']} ${this.state.currentIdex === dots.length ? style['active'] : ''}`}
+            className={`${style['dot']} ${this.state.currentIndex === dots.length ? style['active'] : ''}`}
             key={dots.length}
             onClick={() => {
               this.setState({
-                currentIdex: index,
+                currentIndex: index,
               });
             }}
           />,
@@ -83,7 +83,7 @@ export default class Carousel extends React.Component {
         <div
           className={style['content-wrap']}
           style={{
-            left: (-100 * this.state.currentIdex).toString().concat('%'),
+            left: (-100 * this.state.currentIndex).toString().concat('%'),
             width: (this.props.children.length * 100).toString().concat('%'),
           }}
         >

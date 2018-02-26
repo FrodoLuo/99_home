@@ -10,7 +10,7 @@ export default function (props) {
         <div className={style['footer-info-left-wrap']}>
           <div className={style['logo-and-intro']}>
             <div>
-              <img src={logo} role="presentation" />
+              <img src={logo} className={style['logo']} role="presentation" />
             </div>
             <div>
               <p>
@@ -23,8 +23,8 @@ export default function (props) {
             </div>
           </div>
           <span className={style['seperator']} />
-          <div>
-            <span className={style['co-title']}>玖久大成合作伙伴</span>
+          <div className={style['co-wrap']}>
+            <span className={style['co-title']}>玖久大成合作伙伴:</span>
             <div className={style['logo-container']}>
               <span>LOGO 1</span>
               <span>LOGO 2</span>
@@ -41,7 +41,7 @@ export default function (props) {
           <div className={style['qr-wrap']}>
             <div className={style['qr']}>
               <div>
-                <img src={QRCode} role="presentation" />
+                <img src={QRCode} className={style['qr-img']} role="presentation" />
               </div>
               <span>
                 扫码填写问卷
@@ -49,7 +49,7 @@ export default function (props) {
             </div>
             <div className={style['qr']}>
               <div>
-                <img src={QRCode} role="presentation" />
+                <img src={QRCode} className={style['qr-img']} role="presentation" />
               </div>
               <span>
                 官方微信公众号
@@ -68,7 +68,7 @@ export default function (props) {
         </div>
         <div className={style['footer-copyright']}>
           <span>
-            <a>京ICP备12047175号-4</a>&nbsp;Copyright 2017 玖久
+            <a>京ICP备12047175号-4</a>&nbsp;Copyright ©2017 玖久
           </span>
         </div>
       </div>
