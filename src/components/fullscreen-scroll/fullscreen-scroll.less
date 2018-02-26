@@ -31,7 +31,12 @@
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
 }
 .child-wrap > div > div{
-  transition: all ease 1s;
+  transition: all ease 1s 0.1s;
+  opacity: 1;
+}
+.not-active > div > div{
+  opacity: 0;
+  transition: all ease 1s 0.5s;
 }
 .dots-wrap{
   top: 0;
@@ -83,9 +88,7 @@
   font-size: 20px;
   opacity: 1;
 }
-.not-active > div > div{
-  opacity: 0;
-}
+
 .button-wrap{
   transition: all ease 0.4s;
   display: flex;

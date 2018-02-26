@@ -9,13 +9,13 @@
   height: 80%;
   width: 70%;
   overflow: hidden;
-  transition: all ease 1s;
-  clip: rect(0 auto auto auto);
+  transition: all cubic-bezier(0.75,0,0.1,1) 1s;
+  clip: rect(0vh auto auto auto);
 }
 .artical-content-wrap-hidden{
   .artical-content-wrap;
   clip: rect(100vh auto auto auto);
-  transition: all ease 1s 0.1s;
+  transition: all cubic-bezier(0.65,0,0,0.75) 1s;
 }
 .artical-content{
   font-family: "HYQiHei";
@@ -35,23 +35,25 @@
   height: 100%;
   opacity: 0;
 }
+.artical-content-hidden h2 {
+  font-size: 27px;
+}
 .artical-content-hidden  h1{
   font-weight: bold;
-  font-size: 42px;
+  font-size: 36px;
 }
 .artical-content-hidden p{
-  font-size: 22px;
+  font-size: 18px;
 }
-.artical-content pre{
-  width: 100%;
-  word-wrap: break-word;
+.artical-content h2{
+  font-size: 27px;
 }
 .artical-content  h1{
   font-weight: bold;
-  font-size: 42px;
+  font-size: 36px;
 }
 .artical-content  p{
-  font-size: 22px;
+  font-size: 18px;
 }
 .button-wrap{
   position: absolute;
@@ -88,19 +90,19 @@
 .article-wrap-open{
   .article-wrap;
   // visibility: visible;
-  transition: all ease 0.8s;
+  transition: all ease 0.5s;
   opacity: 1;
 }
 .article-wrap-close{
   .article-wrap;
   // visibility: hidden;
-  transition: all ease 0.8s 1s;
+  transition: all ease 1s;
   opacity: 0;
   pointer-events: none;
 }
 .article-wrap-background{
   background-color: #171717;
-  transition: all ease 0.8s;
+  transition: all cubic-bezier(0.75,0,0,0.75) 1s;
   position: absolute;
   height: 100vh;
   width: 100%;

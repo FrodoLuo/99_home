@@ -7,14 +7,13 @@
   left: 20%;
   position: absolute;
   transition: left cubic-bezier(0.6,0,0.6,1) 0.7s 0.1s;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  top: 50%;
   height: fit-content;
   z-index: 100;
   .offset{
     font-size: 32px;
     left: -24px;
+    top: -24px;
     color: white;
     background-color: rgb(0, 128, 255);
     position: relative;
@@ -66,7 +65,7 @@
   color: white;
   font-size: 20px;
   transition: all ease-in 0.7s;
-  clip: rect(auto 0 auto auto);
+  clip: rect(auto 0vw auto auto);
 }
 .detail-wrap-active{
   .detail-wrap;
