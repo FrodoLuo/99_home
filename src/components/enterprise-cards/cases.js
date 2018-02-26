@@ -12,9 +12,6 @@ export default function (props) {
       <div className={style['case-wrap']}>
         <div
           className={style['case-bg']}
-          style={{
-            backgroundImage: `url(${item.bg})`,
-          }}
         >
           <div className={style['case-title']}>
             {item.title}
