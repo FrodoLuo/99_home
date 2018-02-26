@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from 'antd';
+import { Link } from 'dva/router';
 import style from './jiu-header.less';
 import logo from '../../assets/image/logo.png';
 
@@ -8,26 +9,26 @@ export default (props) => {
     <div id="header" className={style['header-wrap']}>
       <div className={style['header-nav-part']}>
         <span className={props.enterprise ? style['active'] : ''}>
-          <a href="/enterprise">企业服务</a>
+          <Link to="/enterprise">企业服务</Link>
         </span>
         <span className={props.young ? style['active'] : ''}>
-          <a href="/young">新青年实践</a>
+          <Link to="/young">新青年实践</Link>
         </span>
       </div>
       <div className={style['header-logo']}>
         <span>
-          <a href="/">
+          <Link to="/">
             <img className={style['logo']} src={logo} role="presentation" />
             <Icon className={style['home']} type="home" />
-          </a>
+          </Link>
         </span>
       </div>
       <div className={style['header-nav-part']}>
         <span className={props.about ? style['active'] : ''}>
-          <a href="/about">关于玖久</a>
+          <Link to="/about">关于玖久</Link>
         </span>
         <span className={props.contact ? style['active'] : ''}>
-          <a href="/contact">联系我们</a>
+          <Link to="/contact">联系我们</Link>
         </span>
       </div>
     </div>

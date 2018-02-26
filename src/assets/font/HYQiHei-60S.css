@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "HYQiHei-60S";
+    src: url("HYQiHei-60S.eot"); /* IE9 */
+    src: url("HYQiHei-60S.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("HYQiHei-60S.woff") format("woff"), /* chrome, firefox */
+    url("HYQiHei-60S.ttf") format("truetype"), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url("HYQiHei-60S.svg#HYQiHei-60S") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
