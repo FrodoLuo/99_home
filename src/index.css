@@ -5,32 +5,43 @@ html, body, :global(#root) {
 
 @font-face{
   font-family: 'HYQiHei';
+  src: url('./assets/font/HYQiHei-40S.eot');
+  src:
+          url('./assets/font/HYQiHei-40S.eot') format('embedded-opentype'),
+          url('./assets/font/HYQiHei-40S.woff') format('woff'),
+          url('./assets/font/HYQiHei-40S.ttf') format('truetype'),
+          url('./assets/font/HYQiHei-40S.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'HYQiHei-60S';
   src: url('./assets/font/HYQiHei-60S.eot');
   src:
           url('./assets/font/HYQiHei-60S.eot') format('embedded-opentype'),
           url('./assets/font/HYQiHei-60S.woff') format('woff'),
-          url('./assets/font/source/HYQiHei-60S.ttf') format('truetype'),
+          url('./assets/font/HYQiHei-60S.ttf') format('truetype'),
           url('./assets/font/HYQiHei-60S.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 :global(.card-container) {
-  margin-top: 20px;
+  margin: 2rem 0;
   display: flex;
   flex-direction: column;
   background-color: white;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: 0 7rem;
 }
 :global(.card-wrap) {
   transition: all ease 0.4s;
   width: 100%;
-  /*height: 582px;*/
-  margin-bottom: 40px;
+  height: 38rem;
+  margin-bottom: 3rem;
   position: relative;
   display: flex;
 }

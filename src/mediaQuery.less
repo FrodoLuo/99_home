@@ -1,0 +1,24 @@
+@import "config";
+@media (max-width: @min-screen-width) {
+  :root{
+    font-size:10px;
+  }
+}
+@media (max-width: @middle-screen-width) and (min-width: @min-screen-width){
+  :root{
+    font-size:12px;
+  }
+}
+@media (max-width: @big-screen-width) and (min-width: @middle-screen-width){
+  :root{
+    font-size:13px;
+  }
+}
+@media (max-width: @max-screen-width) and (min-width: @big-screen-width){
+  :root{
+    font-size:14px;
+  }
+}
+*{
+  //transition: all .5s;
+}

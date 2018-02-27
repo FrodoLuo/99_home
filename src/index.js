@@ -1,6 +1,7 @@
 import dva from 'dva';
 import { createBrowserHistory } from 'history';
 import './index.css';
+import './mediaQuery.less';
 
 // 1. Initialize
 const app = dva({

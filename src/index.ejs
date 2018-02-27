@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name=renderer content=webkit>
   <title>玖久</title>
+    <% if (process.env.NODE_ENV === 'development') { %>
+      <script>Blob = void 0</script>
+      <script>window.addEventListener('load', function () { var iframe = document.createElement('iframe'); iframe.style.display = 'none'; document.body.appendChild(iframe); Blob = iframe.contentWindow.Blob })</script>
+    <% } %>
   <link rel="stylesheet" href="/index.css" />
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
