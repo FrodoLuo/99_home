@@ -11,10 +11,9 @@ export default class ForceTo extends React.Component {
         <div className={style['content-wrap']}>
           <div
             className={style['sub-content-wrap']}
-            style={{
-              backgroundImage: `url(${leftbg})`,
-            }}
+
           >
+            <img className={style['bg-left-img']} src={leftbg} alt="" />
             <div className={style['sub-left-content']}>
               <h2>
                 始于连接的未来企业
@@ -27,10 +26,8 @@ export default class ForceTo extends React.Component {
           </div>
           <div
             className={style['sub-content-wrap']}
-            style={{
-              backgroundImage: `url(${rightbg})`,
-            }}
           >
+            <img className={style['bg-right-img']} src={rightbg} alt="" />
             <div className={style['sub-right-top']}>
               <h1>
                 玖久使命

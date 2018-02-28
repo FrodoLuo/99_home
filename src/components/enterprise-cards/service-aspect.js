@@ -11,6 +11,13 @@ import { e1, e2, e3 } from '../../assets/article';
 
 import style from './service-aspect.less';
 
+const buttonStyle = {
+  transform: 'scale(0.7)',
+  left: '2rem',
+  bottom: '2.5rem',
+  position: 'absolute',
+};
+
 function ServiceAspect(props) {
   return (
     <div
@@ -33,7 +40,7 @@ function ServiceAspect(props) {
                 payload: e1,
               });
             }}
-            style={{ transform: 'scale(0.7)', left: '-5%', position: 'relative' }} text="了解更多"
+            style={buttonStyle} text="了解更多"
           />
         </div>
         <div className={style['content-card']} background={bg2}>
@@ -50,7 +57,7 @@ function ServiceAspect(props) {
                 type: 'article/setContent',
                 payload: e2,
               });
-            }} style={{ transform: 'scale(0.7)', left: '-5%', position: 'relative' }} text="了解更多"
+            }} style={buttonStyle} text="了解更多"
           />
         </div>
         <div className={style['content-card']} background={bg3}>
@@ -67,7 +74,7 @@ function ServiceAspect(props) {
                 type: 'article/setContent',
                 payload: e3,
               });
-            }} style={{ transform: 'scale(0.7)', left: '-5%', position: 'relative' }} text="了解更多"
+            }} style={buttonStyle} text="了解更多"
           />
         </div>
       </SimpleCarousel>

@@ -19,13 +19,13 @@ export default class Carousel extends React.Component {
   }
   interval = null;
   next = () => {
-    const index = this.state.currentIdex;
+    const index = this.state.currentIndex;
     this.setState({
       currentIndex: index === this.props.children.length - 1 ? 0 : index + 1,
     });
   }
   prev = () => {
-    const index = this.state.currentIdex;
+    const index = this.state.currentIndex;
     this.setState({
       currentIndex: index === 0 ? this.props.children.length - 1 : index - 1,
     });
@@ -38,7 +38,7 @@ export default class Carousel extends React.Component {
   }
   render() {
     const arrowStyle = {
-      fontSize: 48,
+      fontSize: '3rem',
       color: 'rgba(255,255,255,0.7)',
       cursor: 'pointer',
     };
@@ -98,7 +98,7 @@ export default class Carousel extends React.Component {
               height: '100%',
               width: this.props.fade ? '140%' : '100%',
               position: 'absolute',
-              padding: '10%',
+              padding: '5%',
               left: this.props.fade ? '-20%' : 0,
               top: 0,
             }}
@@ -108,7 +108,7 @@ export default class Carousel extends React.Component {
               onClick={this.prev}
             >
               {this.props.prevArrow || <Icon
-                style={{ color: this.props.fade ? '#333333' : '#ffffff' }}
+                style={{ color: this.props.fade ? '#333333' : 'rgba(255,255,255,0.7)' }}
                 type="left"
               />}
             </div>
@@ -117,7 +117,7 @@ export default class Carousel extends React.Component {
               onClick={this.next}
             >
               {this.props.nextArrow || <Icon
-                style={{ color: this.props.fade ? '#333333' : '#ffffff' }}
+                style={{ color: this.props.fade ? '#333333' : 'rgba(255,255,255,0.7)' }}
                 type="right"
               />}
             </div>

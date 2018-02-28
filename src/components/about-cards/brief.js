@@ -38,7 +38,7 @@ export default function (props) {
         </div>
         <div className={style['content-card']} background={bg3}>
           <div className={style['intro']}>
-            <h1 style={{ fontSize: 45 }}>自营调研资源覆盖全国主要城市</h1>
+            <h1 >自营调研资源覆盖全国主要城市</h1>
             <p>
               玖久的调研资源（访谈员和访谈能力、研究员和研究能力等）
               覆盖全国超过30+主要城市，最大程度的支持企业在中国业务的发展，

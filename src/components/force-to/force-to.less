@@ -2,14 +2,19 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 100%;
   margin-right: -4px;
+  position: relative;
+  overflow: hidden;
 }
 .sub-content-wrap{
   background-size: cover;
   background-position: center center;
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+
 }
 .sub-left-content{
   align-self: bottom;
@@ -23,6 +28,19 @@
   width: 50%;
   padding-bottom: 10%;
   transition: all ease 0.8s;
+}
+.bg-left-img,.bg-right-img{
+  transition: all ease 0.8s;
+  width: 100%;
+  height: 100%;
+}
+.sub-content-wrap:nth-of-type(1):hover .bg-left-img{
+  width: 105%;
+  height: 105%;
+}
+.sub-content-wrap:nth-of-type(2):hover .bg-right-img{
+  width: 105%;
+  height: 105%;
 }
 .sub-left-content:hover{
   background-color: rgba(255,255,255,0.3);

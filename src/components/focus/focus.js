@@ -19,7 +19,7 @@ export default class ForceTo extends React.Component {
           >
             <div className={style['sub-left-content']}>
               <h1>玖久关注</h1>
-              <p>变革学生参与商业实践的方式<br />培养学生洞察及解决问题的能力</p>
+              <p>年轻人的成长</p>
               <Button text="了解更多" />
             </div>
           </div>
@@ -32,7 +32,6 @@ export default class ForceTo extends React.Component {
             <div className={style['sub-right-content']}>
               <Carousel
                 dots
-                arrows
               >
                 <div className={style['intro-people']}>
                   {/* <img src={avatar} role="presentation" /> */}

@@ -52,7 +52,7 @@ export default () => {
                     <img src={companies.bilibili} role="presentation" />
                   </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                <div className={style['company']} style={{ backgroundColor: 'rgb(0,129,221)' }}>
                   <a>
                     <img src={companies.aliyun} role="presentation" />
                   </a>
