@@ -134,7 +134,7 @@ class Story extends React.Component {
                 <p>{item.story}</p>
               </div>
               <Button
-                style={{ transform: 'scale(0.8)', left: '-20px' }}
+                style={{ transform: 'scale(0.8)', left: '-2rem', fontSize: '1.4rem' }}
                 text="了解更多"
                 dark
                 onClick={this.showArticle}

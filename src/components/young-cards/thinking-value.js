@@ -41,6 +41,7 @@ function tv(props) {
             </div>
             <div className={style['button']}>
               <Button
+                style={{ transform: 'scale(0.7)' }}
                 onClick={() => {
                   props.dispatch({
                     type: 'article/setContent',
@@ -65,6 +66,7 @@ function tv(props) {
             </div>
             <div className={style['button']}>
               <Button
+                style={{ transform: 'scale(0.7)' }}
                 onClick={() => {
                   props.dispatch({
                     type: 'article/setContent',

@@ -32,6 +32,7 @@ function Create(props) {
             </p>
           </div>
           <Button
+            style={{ transform: 'scale(0.7)' }}
             onClick={() => {
               props.dispatch({
                 type: 'article/setContent',
@@ -55,6 +56,7 @@ function Create(props) {
             </p>
           </div>
           <Button
+            style={{ transform: 'scale(0.7)' }}
             onClick={() => {
               props.dispatch({
                 type: 'article/setContent',

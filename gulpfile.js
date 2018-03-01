@@ -40,12 +40,13 @@ gulp.task('fontmin', function (cb) {
  */
 gulp.task('imagemin', function() {
   return gulp.src(['./dist/static/*.{png,jpg,jpeg,gif}'])
-    .pipe(imagemin({
-      progressive: true,
-      svgoPlugins: [{
-        removeViewBox: false
-      }]
-    }))
+    .pipe(imagemin(
+      [
+        imagemin.gifsicle({interlaced: true}),
+        imagemin.jpegtran({progressive: true}),
+        imagemin.optipng({optimizationLevel: 5})
+      ]
+    ))
     .pipe(gulp.dest('./dist/static/'))
 });
 
@@ -77,7 +78,7 @@ gulp.task('upload', function (cb) {
   var qiniu = new Qiniu(qiniuOptions)
   // replaceAssets()
   return  qiniu.remove()
-    .then(r => qiniu.upload().then(files=>console.log(files))) //根据自己的需求来调用相应的方法
+    .then(r => qiniu.upload().then()) //根据自己的需求来调用相应的方法
     .then(r => qiniu.refresh())
     .then(r => qiniu.prefetch())
     .then(replaceAssets)
@@ -91,15 +92,15 @@ function replaceAssets(){
   let regCss=/\/static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)/g
   gulp.src(['./dist/*.css'])
     .pipe(replace(regCss, (match, p1, offset, string)=>{
-      console.log(match, p1, offset)
       return base+match
     }))
     .pipe(gulp.dest('./dist'))
   return  gulp.src(['./dist/*.js'])
     .pipe(replace(regJs, (match, p1, offset, string)=>{
-      console.log(match, p1, offset)
-      console.log(match.substring(5,match.length-1))
       return '"'+base+'/'+match.substring(5,match.length-1)+'"'
     }))
     .pipe(gulp.dest('./dist'))
 }
+gulp.task('default', function (cb) {
+  runSequence('imagemin', 'upload', cb)
+})
