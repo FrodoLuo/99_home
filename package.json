@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "roadhog server",
-    "build": "gulp fontmin & roadhog build",
+    "build": "gulp fontmin & roadhog build & gulp upload",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
@@ -32,7 +32,7 @@
     "gulp": "^3.9.1",
     "gulp-fontmin": "^0.7.4",
     "gulp-imagemin": "^4.1.0",
-    "gulp-qiniu-utils": "^1.1.1",
+    "gulp-qiniu-utils": "^2.0.1",
     "gulp-replace": "^0.6.1",
     "husky": "^0.12.0",
     "redbox-react": "^1.4.3",

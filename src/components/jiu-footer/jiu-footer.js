@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'dva/router';
 import style from './jiu-footer.less';
 import logo from '../../assets/image/logo.png';
 import QRCode from '../../assets/image/QRCode/1511444835.png';
@@ -60,11 +61,11 @@ export default function (props) {
       </div>
       <div className={style['footer-bottom-wrap']}>
         <div className={style['footer-nav']}>
-          <a href="/">首页</a>
-          <a href="/enterprise">企业服务</a>
-          <a href="/young">新青年实践</a>
-          <a href="/about">关于玖久</a>
-          <a href="/contact">联系我们</a>
+          <Link to="/">首页</Link>
+          <Link to="/enterprise">企业服务</Link>
+          <Link to="/young">新青年实践</Link>
+          <Link to="/about">关于玖久</Link>
+          <Link to="/contact">联系我们</Link>
         </div>
         <div className={style['footer-copyright']}>
           <span>
