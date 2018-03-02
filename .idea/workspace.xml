@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f820e6-feb0-422d-bdee-bb99ed8238d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/font/HYQiHei-40S.eot" afterPath="$PROJECT_DIR$/src/assets/font/HYQiHei-40S.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/font/HYQiHei-40S.ttf" afterPath="$PROJECT_DIR$/src/assets/font/HYQiHei-40S.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/font/HYQiHei-40S.woff" afterPath="$PROJECT_DIR$/src/assets/font/HYQiHei-40S.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/font/HYQiHei-60S.eot" afterPath="$PROJECT_DIR$/src/assets/font/HYQiHei-60S.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/font/HYQiHei-60S.ttf" afterPath="$PROJECT_DIR$/src/assets/font/HYQiHei-60S.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/font/HYQiHei-60S.woff" afterPath="$PROJECT_DIR$/src/assets/font/HYQiHei-60S.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/100477685.png" afterPath="$PROJECT_DIR$/src/assets/image/100477685.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/36kr.png" afterPath="$PROJECT_DIR$/src/assets/image/36kr.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500056635.png" afterPath="$PROJECT_DIR$/src/assets/image/500056635.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500186530.png" afterPath="$PROJECT_DIR$/src/assets/image/500186530.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500241064.png" afterPath="$PROJECT_DIR$/src/assets/image/500241064.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500268728.png" afterPath="$PROJECT_DIR$/src/assets/image/500268728.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/50032123.png" afterPath="$PROJECT_DIR$/src/assets/image/50032123.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500553231.png" afterPath="$PROJECT_DIR$/src/assets/image/500553231.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500559009.png" afterPath="$PROJECT_DIR$/src/assets/image/500559009.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/500592072.jpg" afterPath="$PROJECT_DIR$/src/assets/image/500592072.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/537223.png" afterPath="$PROJECT_DIR$/src/assets/image/537223.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/53773.png" afterPath="$PROJECT_DIR$/src/assets/image/53773.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/599475.png" afterPath="$PROJECT_DIR$/src/assets/image/599475.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/82724.png" afterPath="$PROJECT_DIR$/src/assets/image/82724.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/99 CONSULTING.png" afterPath="$PROJECT_DIR$/src/assets/image/99 CONSULTING.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/about/a_01.jpg" afterPath="$PROJECT_DIR$/src/assets/image/about/a_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/about/a_02.jpg" afterPath="$PROJECT_DIR$/src/assets/image/about/a_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/about/a_03.jpg" afterPath="$PROJECT_DIR$/src/assets/image/about/a_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/about/a_04.jpg" afterPath="$PROJECT_DIR$/src/assets/image/about/a_04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/about/a_05.jpg" afterPath="$PROJECT_DIR$/src/assets/image/about/a_05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/about/a_06.jpg" afterPath="$PROJECT_DIR$/src/assets/image/about/a_06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/aliyun.png" afterPath="$PROJECT_DIR$/src/assets/image/aliyun.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/arrow_down.png" afterPath="$PROJECT_DIR$/src/assets/image/arrow_down.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/bilibili.png" afterPath="$PROJECT_DIR$/src/assets/image/bilibili.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/brain-storm.png" afterPath="$PROJECT_DIR$/src/assets/image/brain-storm.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/business-bg.png" afterPath="$PROJECT_DIR$/src/assets/image/business-bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/cover_background.jpg" afterPath="$PROJECT_DIR$/src/assets/image/cover_background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/enterprise/e_01.jpg" afterPath="$PROJECT_DIR$/src/assets/image/enterprise/e_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/enterprise/e_02.jpg" afterPath="$PROJECT_DIR$/src/assets/image/enterprise/e_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/enterprise/e_03.jpg" afterPath="$PROJECT_DIR$/src/assets/image/enterprise/e_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/enterprise/e_04.jpg" afterPath="$PROJECT_DIR$/src/assets/image/enterprise/e_04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/enterprise/e_05.jpg" afterPath="$PROJECT_DIR$/src/assets/image/enterprise/e_05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/enterprise/e_06.jpg" afterPath="$PROJECT_DIR$/src/assets/image/enterprise/e_06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/fake_map.png" afterPath="$PROJECT_DIR$/src/assets/image/fake_map.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/ferrari.png" afterPath="$PROJECT_DIR$/src/assets/image/ferrari.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/force-left.png" afterPath="$PROJECT_DIR$/src/assets/image/force-left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/force-right.png" afterPath="$PROJECT_DIR$/src/assets/image/force-right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/logo.png" afterPath="$PROJECT_DIR$/src/assets/image/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/outside.png" afterPath="$PROJECT_DIR$/src/assets/image/outside.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/poster.png" afterPath="$PROJECT_DIR$/src/assets/image/poster.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_01.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_01.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_02.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_02.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_03.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_03.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_04.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_04.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_05.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_06.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_06.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_07.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_07.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_08.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_08.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth/y_09.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth/y_09.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth_story/ly.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth_story/ly.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth_story/pyb.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth_story/pyb.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth_story/wbw.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth_story/wbw.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/image/youth_story/yyh.jpg" afterPath="$PROJECT_DIR$/src/assets/image/youth_story/yyh.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" afterPath="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/young-cards/comment.js" afterPath="$PROJECT_DIR$/src/components/young-cards/comment.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/young-cards/comment.less" afterPath="$PROJECT_DIR$/src/components/young-cards/comment.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/young-cards/join.less" afterPath="$PROJECT_DIR$/src/components/young-cards/join.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/young-cards/simple-carousel.js" afterPath="$PROJECT_DIR$/src/components/young-cards/simple-carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/young-cards/youth.js" afterPath="$PROJECT_DIR$/src/components/young-cards/youth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.ejs" afterPath="$PROJECT_DIR$/src/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/Enterprise.js" afterPath="$PROJECT_DIR$/src/routes/Enterprise.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,7 +19,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7723304">
+    <splitter split-orientation="horizontal" split-proportion="0.43787777">
       <split-first>
         <leaf>
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
@@ -228,7 +160,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="business.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="business.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/business/business.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-679">
@@ -270,11 +202,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="comment.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="comment.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/young-cards/comment.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="430">
-                  <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+                <state relative-caret-position="466">
+                  <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -370,12 +302,12 @@
         <option value="$PROJECT_DIR$/src/routes/Enterprise.js" />
         <option value="$PROJECT_DIR$/src/components/young-cards/youth.js" />
         <option value="$PROJECT_DIR$/src/components/young-cards/simple-carousel.js" />
-        <option value="$PROJECT_DIR$/src/components/young-cards/comment.js" />
         <option value="$PROJECT_DIR$/src/components/young-cards/comment.less" />
         <option value="$PROJECT_DIR$/src/components/young-cards/join.less" />
         <option value="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
         <option value="$PROJECT_DIR$/src/index.ejs" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/components/young-cards/comment.js" />
       </list>
     </option>
   </component>
@@ -437,6 +369,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="young-cards" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -559,12 +531,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519540799432</updated>
-      <workItem from="1519540804216" duration="84830000" />
+      <workItem from="1519540804216" duration="85235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84830000" />
+    <option name="totallyTimeSpent" value="85235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
@@ -886,16 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/young-cards/join.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -980,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/business/business.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-679">
-          <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/YoungPage.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1035,6 +989,24 @@
         <state relative-caret-position="107">
           <caret line="79" column="17" lean-forward="false" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/business/business.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679">
+          <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/young-cards/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
