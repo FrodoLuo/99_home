@@ -13,7 +13,7 @@ export default function () {
       <div className={style['content-wrap']}>
         <div className={style['single-wrap']}>
           <div className={style['avatar-wrap']}>
-            {/* <img role="presentation" src={avatar} /> */}
+            <img role="presentation" src={bg} />
           </div>
           <div className={style['intro-wrap']}>
             <span className={style['name']}>宗世杰</span>
@@ -35,7 +35,7 @@ export default function () {
         </div>
         <div className={style['single-wrap']}>
           <div className={style['avatar-wrap']}>
-            {/* <img role="presentation" src={avatar} /> */}
+            <img role="presentation" src={bg} />
           </div>
           <div className={style['intro-wrap']}>
             <span className={style['name']}>宗世杰</span>

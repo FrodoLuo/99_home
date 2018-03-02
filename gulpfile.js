@@ -59,7 +59,7 @@ var qiniuOptions = {
   bucket: '99-web', //七牛空间名
   zone: 'Zone_z1', //空间对应存储区域（华东：z0，华北：z1，华南：z2，北美：na0）
   upload: {
-    dir: './dist/static',//上传本地目录
+    dir: './dist/',//上传本地目录
     prefix: '99-web/',//上传时添加的前缀，可省略
     except: /\.(html)$/ //上传时不上传文件的正则匹配
   },
@@ -76,12 +76,12 @@ var qiniuOptions = {
 
 gulp.task('upload', function (cb) {
   var qiniu = new Qiniu(qiniuOptions)
-  // replaceAssets()
+  replaceAssets()
   return  qiniu.remove()
     .then(r => qiniu.upload().then()) //根据自己的需求来调用相应的方法
     .then(r => qiniu.refresh())
     .then(r => qiniu.prefetch())
-    .then(replaceAssets)
+    .then()
 })
 
 function replaceAssets(){
@@ -90,6 +90,12 @@ function replaceAssets(){
   // let reg=/(\/static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)|n\.p\+"static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)")/g
   let regJs=/n\.p\+"static\/.+?\.(jpg|png|gif|svg|mp4|ttf|eot|woff)"/g
   let regCss=/\/static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)/g
+  let regHtml=/\/index\.(css|js)/g
+  gulp.src(['./dist/*.html'])
+    .pipe(replace(regHtml, (match, p1, offset, string)=>{
+      return base+match
+    }))
+    .pipe(gulp.dest('./dist'))
   gulp.src(['./dist/*.css'])
     .pipe(replace(regCss, (match, p1, offset, string)=>{
       return base+match
