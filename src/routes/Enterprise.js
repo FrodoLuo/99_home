@@ -5,7 +5,7 @@ import Footer from '../components/jiu-footer/jiu-footer';
 import FullScreenScroll from '../components/fullscreen-scroll/fullscreen-scroll';
 import Article from '../components/artical/artical';
 import ServiceAspect from '../components/enterprise-cards/service-aspect';
-import Insight from '../components/enterprise-cards/insight';
+import Methodology from '../components/enterprise-cards/methodology';
 import ThinkDepth from '../components/enterprise-cards/think-depth';
 import Cases from '../components/enterprise-cards/cases';
 import Feedback from '../components/enterprise-cards/feedback';
@@ -38,7 +38,7 @@ export default function Enterprise() {
       <Header enterprise />
       <FullScreenScroll>
         <ServiceAspect key="1" title="服务方向" />
-        <Insight key="2" title="玖久方法论" />
+        <Methodology key="2" title="玖久方法论" />
         <ThinkDepth key="3" title="玖久洞察" />
         <Cases key="4" title="优秀案例" caseData={caseData} />
         <Feedback key="5" title="用户反馈" />

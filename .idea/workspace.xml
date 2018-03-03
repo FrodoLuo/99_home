@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f820e6-feb0-422d-bdee-bb99ed8238d5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/methodology.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/methodology.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/carousel/carousel.js" afterPath="$PROJECT_DIR$/src/components/carousel/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/cases.less" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/cases.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/feedback.js" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/feedback.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/feedback.less" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/feedback.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/think-depth.js" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/think-depth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/think-depth.less" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/think-depth.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/article.js" afterPath="$PROJECT_DIR$/src/components/about-cards/article.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/article.less" afterPath="$PROJECT_DIR$/src/components/about-cards/article.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/common-style.less" afterPath="$PROJECT_DIR$/src/components/about-cards/common-style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/group.js" afterPath="$PROJECT_DIR$/src/components/about-cards/group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/group.less" afterPath="$PROJECT_DIR$/src/components/about-cards/group.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/value.js" afterPath="$PROJECT_DIR$/src/components/about-cards/value.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/value.less" afterPath="$PROJECT_DIR$/src/components/about-cards/value.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cover/cover.less" afterPath="$PROJECT_DIR$/src/components/cover/cover.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" afterPath="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" afterPath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.less" afterPath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/ContactPage.js" afterPath="$PROJECT_DIR$/src/routes/ContactPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/ContactPage.less" afterPath="$PROJECT_DIR$/src/routes/ContactPage.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/Enterprise.js" afterPath="$PROJECT_DIR$/src/routes/Enterprise.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,86 +37,86 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3948959">
+    <splitter split-orientation="horizontal" split-proportion="0.46138212">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/index.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="feedback.less" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/feedback.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="936">
-                  <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="think-depth.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/think-depth.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="329">
-                  <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="fullscreen-scroll.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
+                <state relative-caret-position="36">
                   <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="insight.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/insight.js">
+          <file leaf-file-name="group.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/group.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-216">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="service-aspect.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="720">
-                  <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="22" />
+                <state relative-caret-position="746">
+                  <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="service-aspect.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js">
+          <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-864">
-                  <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+                <state relative-caret-position="468">
+                  <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cover.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/cover/cover.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="684">
+                  <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="simple-carousel.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js">
+          <file leaf-file-name="fullscreen-scroll.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1927">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="-1476">
+                  <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common-style.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/common-style.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="108">
+                  <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="methodology.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ContactPage.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/routes/ContactPage.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="73" column="7" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="7" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -115,23 +124,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cases.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/cases.js">
+          <file leaf-file-name="value.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/value.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="216">
+                  <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cases.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/cases.less">
+          <file leaf-file-name="simple-tab.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="71" column="14" lean-forward="false" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="14" />
+                <state relative-caret-position="288">
+                  <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -144,35 +151,29 @@
           <file leaf-file-name="Enterprise.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/routes/Enterprise.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-                  <folding />
+                <state relative-caret-position="396">
+                  <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="youth.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/young-cards/youth.less">
+          <file leaf-file-name="methodology.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="828">
-                  <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-                  <folding />
+                <state relative-caret-position="540">
+                  <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="54" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="business.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/business/business.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1728">
-                  <caret line="48" column="3" lean-forward="false" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="companies.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/business/companies.js">
+          <file leaf-file-name="ArticalPage.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/routes/ArticalPage.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
                   <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -181,21 +182,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="young-and-enterprise.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/young-and-enterprise/young-and-enterprise.js">
+          <file leaf-file-name="ContactPage.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/routes/ContactPage.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2232">
-                  <caret line="66" column="14" lean-forward="false" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
+                <state relative-caret-position="468">
+                  <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="comment.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/young-cards/comment.js">
+          <file leaf-file-name="value.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/value.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="466">
-                  <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+                <state relative-caret-position="108">
+                  <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -203,33 +204,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="join.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/young-cards/join.less">
+          <file leaf-file-name="group.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/group.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="648">
-                  <caret line="57" column="2" lean-forward="true" selection-start-line="57" selection-start-column="2" selection-end-line="57" selection-end-column="43" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="think-depth.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/think-depth.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="750">
-                  <caret line="27" column="46" lean-forward="false" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
-                  <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-                  <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="feedback.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/feedback.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="717">
-                  <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+                <state relative-caret-position="576">
+                  <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -237,7 +216,39 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="carousel.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="article.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="674">
+                  <caret line="75" column="23" lean-forward="false" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="cover.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/cover/cover.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-648">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="simple-tab.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="carousel.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/carousel/carousel.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="144">
@@ -270,11 +281,13 @@
       <find>png</find>
       <find>商业评价</find>
       <find>blab</find>
+      <find>op</find>
+      <find>1368px</find>
     </findStrings>
     <dirStrings>
       <dir>D:\study\nodeitem\reactitem\99_home\src</dir>
-      <dir>D:\study\nodeitem\reactitem\99_home\src\components</dir>
       <dir>D:\study\nodeitem\reactitem\99_home\src\components\enterprise-cards</dir>
+      <dir>D:\study\nodeitem\reactitem\99_home\src\components</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -283,21 +296,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/index.less" />
-        <option value="$PROJECT_DIR$/src/components/jiu-footer/jiu-footer.less" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/mediaQuery.less" />
-        <option value="$PROJECT_DIR$/src/config.less" />
-        <option value="$PROJECT_DIR$/src/components/jiu-header/jiu-header.less" />
-        <option value="$PROJECT_DIR$/src/components/cover/cover.less" />
-        <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/business/business.js" />
-        <option value="$PROJECT_DIR$/src/components/focus/focus.js" />
-        <option value="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.less" />
-        <option value="$PROJECT_DIR$/src/components/enterprise-cards/common-style.less" />
-        <option value="$PROJECT_DIR$/src/components/young-cards/simple-carousel.less" />
-        <option value="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.less" />
-        <option value="$PROJECT_DIR$/src/components/young-cards/youth.less" />
         <option value="$PROJECT_DIR$/src/components/about-cards/simple-carousel.less" />
         <option value="$PROJECT_DIR$/src/components/about-cards/brief.less" />
         <option value="$PROJECT_DIR$/src/components/about-cards/brief.js" />
@@ -305,7 +303,6 @@
         <option value="$PROJECT_DIR$/src/components/force-to/force-to.js" />
         <option value="$PROJECT_DIR$/src/components/force-to/force-to.less" />
         <option value="$PROJECT_DIR$/src/components/business/business.less" />
-        <option value="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" />
         <option value="$PROJECT_DIR$/src/components/focus/focus.less" />
         <option value="$PROJECT_DIR$/src/components/jiu-footer/jiu-footer.js" />
         <option value="$PROJECT_DIR$/dist/index.html" />
@@ -328,12 +325,28 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/think-depth.less" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/think-depth.js" />
-        <option value="$PROJECT_DIR$/src/routes/Enterprise.js" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/cases.less" />
-        <option value="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/feedback.less" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/feedback.js" />
         <option value="$PROJECT_DIR$/src/components/carousel/carousel.js" />
+        <option value="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js" />
+        <option value="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" />
+        <option value="$PROJECT_DIR$/src/routes/Enterprise.js" />
+        <option value="$PROJECT_DIR$/src/components/enterprise-cards/methodology.js" />
+        <option value="$PROJECT_DIR$/src/components/enterprise-cards/methodology.less" />
+        <option value="$PROJECT_DIR$/src/routes/ContactPage.js" />
+        <option value="$PROJECT_DIR$/src/routes/ContactPage.less" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/value.less" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/common-style.less" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/value.js" />
+        <option value="$PROJECT_DIR$/src/components/simple-tab/simple-tab.less" />
+        <option value="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/group.js" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/group.less" />
+        <option value="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/article.js" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/article.less" />
+        <option value="$PROJECT_DIR$/src/components/cover/cover.less" />
       </list>
     </option>
   </component>
@@ -453,7 +466,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="young-cards" />
+              <option name="myItemId" value="simple-tab" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,7 +510,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="enterprise-cards" />
+              <option name="myItemId" value="cover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about-cards" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -542,6 +577,9 @@
     <property name="js-jscs-nodeInterpreter" value="D:\study\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\study\nodeitem\reactitem\99_home\src\components\enterprise-cards" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\study\nodeitem\reactitem\99_home\src" />
       <recent name="D:\study\nodeitem\reactitem\99_home\src\assets\font\source" />
@@ -626,7 +664,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519540799432</updated>
       <workItem from="1519540804216" duration="85509000" />
-      <workItem from="1520077259699" duration="8594000" />
+      <workItem from="1520077259699" duration="18228000" />
     </task>
     <task id="LOCAL-00001" summary="cache js and css ,minify images">
       <created>1520001849072</created>
@@ -635,11 +673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520001849072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modify enterprise-cards&#10;">
+      <created>1520092870882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520092870882</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94103000" />
+    <option name="totallyTimeSpent" value="103737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
@@ -652,8 +697,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25831485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19600432" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25831485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20302376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Graph Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37804878" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,140 +728,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/jiu-header/jiu-header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/focus/focus.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#648#803#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/jiu-footer/jiu-footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="62" column="5" lean-forward="false" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019132">
-          <caret line="0" column="329140" lean-forward="false" selection-start-line="0" selection-start-column="329140" selection-end-line="0" selection-end-column="329140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.roadhogrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/button/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/create.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/button/button.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/thinking-value.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-and-enterprise/young-and-enterprise.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/story.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="127" column="16" lean-forward="false" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="58" column="46" lean-forward="false" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="136" column="75" lean-forward="false" selection-start-line="136" selection-start-column="75" selection-end-line="136" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/young-cards/simple-carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/young-cards/thinking-value.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -845,6 +756,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -875,22 +789,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/routes/AboutPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ArticalPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/ContactPage.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -952,6 +850,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -968,7 +867,7 @@
         <state relative-caret-position="466">
           <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -977,14 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/think-depth.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -999,20 +890,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes/Enterprise.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/cases.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1033,20 +916,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/insight.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-216">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1059,36 +934,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1927">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/feedback.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1103,10 +952,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/feedback.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="65" column="48" lean-forward="false" selection-start-line="65" selection-start-column="48" selection-end-line="65" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/carousel/carousel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108">
+          <caret line="62" column="62" lean-forward="false" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/think-depth.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/Enterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/Enterprise.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ArticalPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ContactPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="73" column="7" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routes/ContactPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1476">
+          <caret line="58" column="14" lean-forward="false" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/common-style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/value.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/value.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/group.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="75" column="23" lean-forward="false" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cover/cover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-648">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cover/cover.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
           <folding />
         </state>
       </provider>
