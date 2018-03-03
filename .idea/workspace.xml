@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f820e6-feb0-422d-bdee-bb99ed8238d5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/methodology.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/methodology.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/article.js" afterPath="$PROJECT_DIR$/src/components/about-cards/article.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/article.less" afterPath="$PROJECT_DIR$/src/components/about-cards/article.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/common-style.less" afterPath="$PROJECT_DIR$/src/components/about-cards/common-style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/group.js" afterPath="$PROJECT_DIR$/src/components/about-cards/group.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/group.less" afterPath="$PROJECT_DIR$/src/components/about-cards/group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/value.js" afterPath="$PROJECT_DIR$/src/components/about-cards/value.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/about-cards/value.less" afterPath="$PROJECT_DIR$/src/components/about-cards/value.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/cover/cover.less" afterPath="$PROJECT_DIR$/src/components/cover/cover.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js" afterPath="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" afterPath="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" afterPath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.less" afterPath="$PROJECT_DIR$/src/components/simple-tab/simple-tab.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/ContactPage.js" afterPath="$PROJECT_DIR$/src/routes/ContactPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/ContactPage.less" afterPath="$PROJECT_DIR$/src/routes/ContactPage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/routes/Enterprise.js" afterPath="$PROJECT_DIR$/src/routes/Enterprise.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,10 +19,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46138212">
+    <splitter split-orientation="horizontal" split-proportion="0.61382115">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-          <file leaf-file-name="fullscreen-scroll.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="fullscreen-scroll.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="36">
@@ -63,8 +45,8 @@
           <file leaf-file-name="article.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
-                  <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+                <state relative-caret-position="324">
+                  <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -72,7 +54,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cover.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cover.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/cover/cover.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="684">
@@ -160,11 +142,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="methodology.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="methodology.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="540">
-                  <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="54" />
+                  <caret line="48" column="79" lean-forward="false" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="79" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -226,7 +208,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="cover.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="cover.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/cover/cover.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-648">
@@ -241,8 +223,8 @@
           <file leaf-file-name="simple-tab.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+                <state relative-caret-position="252">
+                  <caret line="47" column="70" lean-forward="false" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
                   <folding />
                 </state>
               </provider>
@@ -332,7 +314,6 @@
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/simple-carousel.js" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/service-aspect.js" />
         <option value="$PROJECT_DIR$/src/routes/Enterprise.js" />
-        <option value="$PROJECT_DIR$/src/components/enterprise-cards/methodology.js" />
         <option value="$PROJECT_DIR$/src/components/enterprise-cards/methodology.less" />
         <option value="$PROJECT_DIR$/src/routes/ContactPage.js" />
         <option value="$PROJECT_DIR$/src/routes/ContactPage.less" />
@@ -340,13 +321,14 @@
         <option value="$PROJECT_DIR$/src/components/about-cards/common-style.less" />
         <option value="$PROJECT_DIR$/src/components/about-cards/value.js" />
         <option value="$PROJECT_DIR$/src/components/simple-tab/simple-tab.less" />
-        <option value="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" />
         <option value="$PROJECT_DIR$/src/components/about-cards/group.js" />
         <option value="$PROJECT_DIR$/src/components/about-cards/group.less" />
-        <option value="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
-        <option value="$PROJECT_DIR$/src/components/about-cards/article.js" />
         <option value="$PROJECT_DIR$/src/components/about-cards/article.less" />
         <option value="$PROJECT_DIR$/src/components/cover/cover.less" />
+        <option value="$PROJECT_DIR$/src/components/simple-tab/simple-tab.js" />
+        <option value="$PROJECT_DIR$/src/components/enterprise-cards/methodology.js" />
+        <option value="$PROJECT_DIR$/src/components/about-cards/article.js" />
+        <option value="$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js" />
       </list>
     </option>
   </component>
@@ -489,6 +471,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fullscreen-scroll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="99_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="enterprise-cards" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -664,7 +668,7 @@
       <option name="presentableId" value="Default" />
       <updated>1519540799432</updated>
       <workItem from="1519540804216" duration="85509000" />
-      <workItem from="1520077259699" duration="18228000" />
+      <workItem from="1520077259699" duration="18731000" />
     </task>
     <task id="LOCAL-00001" summary="cache js and css ,minify images">
       <created>1520001849072</created>
@@ -684,7 +688,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103737000" />
+    <option name="totallyTimeSpent" value="104240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
@@ -697,7 +701,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25831485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25831485" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20302376" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Graph Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37804878" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1030,16 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1090,14 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/about-cards/value.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -1124,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
@@ -1150,10 +1128,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.js">
+    <entry file="file://$PROJECT_DIR$/src/components/simple-tab/simple-tab.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        <state relative-caret-position="252">
+          <caret line="47" column="70" lean-forward="false" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/enterprise-cards/methodology.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" column="79" lean-forward="false" selection-start-line="48" selection-start-column="79" selection-end-line="48" selection-end-column="79" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1164,6 +1150,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="684">
           <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/about-cards/article.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fullscreen-scroll/fullscreen-scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
