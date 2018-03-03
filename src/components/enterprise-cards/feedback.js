@@ -20,7 +20,7 @@ export default function (props) {
           <Carousel
             arrows
             fade
-            index="1"
+            index={1}
             arrowPosition={'10rem'}
           >
             <div className={style['client-wrap']}>
