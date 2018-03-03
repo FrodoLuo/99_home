@@ -1,10 +1,10 @@
 .content-wrap{
-  height: 55%;
-  width: 65%;
+  height: 60%;
+  width: 70%;
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
+  top: 2rem;
   bottom: 0;
   margin: auto;
   display: flex;
@@ -12,17 +12,17 @@
   justify-content: center;
 }
 .case-wrap:first-child{
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+  border-bottom-left-radius: 1.4rem;
+  border-top-left-radius: 1.4rem;
 }
 .case-wrap:last-child{
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom-right-radius: 1.4rem;
+  border-top-right-radius: 1.4rem;
 }
 
 .case-wrap{
   flex: 1;
-  max-width: 270px;
+  //max-width: 270px;
   position: relative;
   overflow: hidden;
   transition: all ease 0.4s;
@@ -46,26 +46,28 @@
   justify-content: center;
   align-items: center;
   transition: all ease 0.4s;
-  background-color: rgba(34,53,103,0.7);
+  background-color: rgba(0, 129, 255, 0.5);
   flex: 1;
 }
 .case-title{
   height: 0;
   transition: all ease 0.4s;
-  background-color: rgba(19,40,81,1);
+  background-color: rgba(0, 129, 255, 0.7);
   color: white;
-  font-size: 28px;
+  font-size: 2rem;
+  font-family:HYQiHei-60S;
+  font-weight:bolder;
   line-height: 100px;
   text-align: center;
 }
 .case-wrap:hover{
-  margin: -20px 0;
-  box-shadow: 0 0 80px rgba(0,0,0,0.4);
+  margin: -2rem 0;
+  box-shadow: 0 0 8rem rgba(0,0,0,0.6);
   z-index: 10;
 }
 .case-wrap:hover .case-logo-mask{
   background-color: transparent;
 }
 .case-wrap:hover .case-title{
-  height: 100px;
+  height: 8rem;
 }

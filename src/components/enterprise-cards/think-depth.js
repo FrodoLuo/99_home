@@ -18,14 +18,14 @@ export default function ThinkDepth() {
           <div className={style['content']}>
             <h1>商业评价</h1>
             <div className={style['list-wrap']}>
-              <span style={{ alignSelf: 'flex-start', margin: '0 10px 0 0' }}>01</span>
+              <span className={style['order']}>01</span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
               </p>
               <img src={listImg} role="presentation" />
             </div>
             <div className={style['list-wrap']}>
-              <span style={{ alignSelf: 'flex-start', margin: '0 10px 0 0' }}>02</span>
+              <span className={style['order']}>02</span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
               </p>
@@ -37,14 +37,14 @@ export default function ThinkDepth() {
           <div className={style['content']}>
             <h1>商业评价</h1>
             <div className={style['list-wrap']}>
-              <span style={{ alignSelf: 'flex-start', margin: '0 10px 0 0' }}>01</span>
+              <span className={style['order']}>01</span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
               </p>
               <img src={listImg} role="presentation" />
             </div>
             <div className={style['list-wrap']}>
-              <span style={{ alignSelf: 'flex-start', margin: '0 10px 0 0' }}>02</span>
+              <span className={style['order']}>02</span>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing
               </p>

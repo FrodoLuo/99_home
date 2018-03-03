@@ -1,10 +1,10 @@
 .content-wrap{
-  height: 55%;
+  height: 60%;
   width: 65%;
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
+  top: 2rem;
   bottom: 0;
   margin: auto;
   display: flex;
@@ -13,7 +13,7 @@
 .sub-card-wrap{
   height: 100%;
   width: 50%;
-  padding: 4% 3%;
+  padding: 4rem;
   transition: all ease 0.4s;
   box-shadow: 0 0 0 transparent;
   position: relative;
@@ -21,27 +21,30 @@
 .sub-card-wrap-h1-after{
   content: ' ';
   background-color: #555555;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.4rem;
   width: 100%;
-  height: 2px;
+  height: 1px;
   display: block;
 }
 .sub-card-wrap-hover{
-  box-shadow: 0 0 100px rgba(0,0,0,0.5);
+  z-index: 99;
+  box-shadow: 0 0 12rem rgba(0,0,0,0.7);
 }
 .left-wrap{
   .sub-card-wrap;
-  background-color: #333333;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
-  color: white;
+  background-color: #212121;
+  border-bottom-left-radius: 1.6rem;
+  border-top-left-radius: 1.6rem;
+  color: rgba(255,255,255,0.9);
 }
 .left-wrap h1{
   color: white;
   text-align: center;
   width: 100%;
-  font-size: 36px;
+  font-family:HYQiHei-60S;
+  font-weight:bolder;
+  font-size: 2.2rem;
 }
 .left-wrap h1::after{
   .sub-card-wrap-h1-after;
@@ -49,14 +52,16 @@
 .right-wrap{
   .sub-card-wrap;
   background-color: #f6f6f6;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
+  border-bottom-right-radius: 1.6rem;
+  border-top-right-radius: 1.4rem;
 }
 .right-wrap h1{
-  color: black;
+  color: #212121;
   text-align: center;
   width: 100%;
-  font-size: 36px;
+  font-family:HYQiHei-60S;
+  font-weight:bolder;
+  font-size: 2.2rem;
 }
 .right-wrap h1::after{
   .sub-card-wrap-h1-after;
@@ -77,14 +82,20 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-size: 24px;
-  margin-bottom: 30px;
+  //align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 1.8rem;
 }
 .list-wrap img{
-  width: 60px;
-  height: 60px;
+  width: 4.6rem;
+  height: 4.6rem;
 }
 .list-wrap p {
   margin: 0;
+
+}
+.list-wrap .order {
+  //align-self: flex-start;
+  margin: 0 0.8rem 0 0;
+  font-weight:bolder;
 }

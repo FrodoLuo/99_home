@@ -4,7 +4,7 @@ import style from './carousel.less';
 
 export default class Carousel extends React.Component {
   state = {
-    currentIndex: 0,
+    currentIndex: this.props.index || 0,
     children: [],
     left: 0,
   }
@@ -108,7 +108,7 @@ export default class Carousel extends React.Component {
               onClick={this.prev}
             >
               {this.props.prevArrow || <Icon
-                style={{ color: this.props.fade ? '#333333' : 'rgba(255,255,255,0.7)' }}
+                style={{ color: this.props.fade ? '#333333' : 'rgba(255,255,255,0.7)', marginTop: this.props.arrowPosition ? this.props.arrowPosition : '0' }}
                 type="left"
               />}
             </div>
@@ -117,7 +117,7 @@ export default class Carousel extends React.Component {
               onClick={this.next}
             >
               {this.props.nextArrow || <Icon
-                style={{ color: this.props.fade ? '#333333' : 'rgba(255,255,255,0.7)' }}
+                style={{ color: this.props.fade ? '#333333' : 'rgba(255,255,255,0.7)', marginTop: this.props.arrowPosition ? this.props.arrowPosition : '0' }}
                 type="right"
               />}
             </div>

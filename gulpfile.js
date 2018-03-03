@@ -30,7 +30,6 @@ gulp.task('fontmin', function (cb) {
     })
     .on('end', function () {
       var text = Buffer.concat(buffers).toString('utf-8')
-      // console.log(text)
       minifyFont(text, cb)
     })
 })
