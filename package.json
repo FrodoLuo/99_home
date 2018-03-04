@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "roadhog server",
-    "build": "gulp fontmin & roadhog build & gulp upload",
+    "build": "gulp fontmin && roadhog build && gulp upload",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
