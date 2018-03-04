@@ -90,11 +90,12 @@ function replaceAssets(){
   let regJs=/n\.p\+"static\/.+?\.(jpg|png|gif|svg|mp4|ttf|eot|woff)"/g
   let regCss=/\/static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)/g
   let regHtml=/\/index\.(css|js)/g
-  gulp.src(['./dist/*.html'])
-    .pipe(replace(regHtml, (match, p1, offset, string)=>{
-      return base+match
-    }))
-    .pipe(gulp.dest('./dist'))
+  //会缓存，要加hash
+  // gulp.src(['./dist/*.html'])
+  //   .pipe(replace(regHtml, (match, p1, offset, string)=>{
+  //     return base+match
+  //   }))
+  //   .pipe(gulp.dest('./dist'))
   gulp.src(['./dist/*.css'])
     .pipe(replace(regCss, (match, p1, offset, string)=>{
       return base+match
