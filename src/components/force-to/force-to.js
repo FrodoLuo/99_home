@@ -16,7 +16,7 @@ export default class ForceTo extends React.Component {
             <img className={style['bg-left-img']} src={leftbg} alt="" />
             <div className={style['sub-left-content']}>
               <h2>
-                始于连接的未来企业
+                基于连接的未来形态
               </h2>
               <h2>
                 助企业洞见未来
@@ -35,13 +35,13 @@ export default class ForceTo extends React.Component {
             </div>
             <div className={style['sub-right-bottom']}>
               <h2>
-                连接商业力量
+                我们致力于
               </h2>
               <h2>
-                为企业提供价值
+                为企业创造价值
               </h2>
               <h2 style={{ marginBottom: '40px' }}>
-                为青年赋能
+                为新青年赋能
               </h2>
               <Button dark text="玖久价值观" color="#000000" />
             </div>

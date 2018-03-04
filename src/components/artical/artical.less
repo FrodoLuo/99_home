@@ -1,6 +1,6 @@
 .artical-content-wrap{
   background-color: whitesmoke;
-  padding: 70px 140px;
+  padding: 0 100px;
   padding-bottom: 0;
   z-index: 10000;
   position: absolute;
@@ -18,42 +18,53 @@
   transition: all cubic-bezier(0.65,0,0,0.75) 1s;
 }
 .artical-content{
-  font-family: "HYQiHei";
+  padding-top: 50px;
+  font-family: "HYQiHei-40S";
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 20px;
   transition: all ease 0.4s;
   overflow: auto;
   height: 100%;
   opacity: 1;
+  h1{
+    font-weight: bold;
+    font-size: 36px;
+  }
+  h1:before{
+    display: block;
+    content: ' ';
+    background-color: lightgray;
+    height: 2px;
+    width: 100%;
+  }
+  h1:first-child:before{
+    display: none;
+  }
+  h2{
+    font-size: 27px;
+  }
+  h3{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 20px;
+  }
+  h5{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  p{
+    font-size: 16px;
+  }
 }
 .artical-content a {
   color: black;
   text-decoration: none;
 }
 .artical-content-hidden{
-  overflow: auto;
-  font-family: "HYQiHei";
-  transition: all ease 0.4s;
-  height: 100%;
+  .artical-content;
   opacity: 0;
-}
-.artical-content-hidden h2 {
-  font-size: 27px;
-}
-.artical-content-hidden  h1{
-  font-weight: bold;
-  font-size: 36px;
-}
-.artical-content-hidden p{
-  font-size: 18px;
-}
-.artical-content h2{
-  font-size: 27px;
-}
-.artical-content  h1{
-  font-weight: bold;
-  font-size: 36px;
-}
-.artical-content  p{
-  font-size: 18px;
 }
 .button-wrap{
   position: absolute;

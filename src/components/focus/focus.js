@@ -19,7 +19,10 @@ export default class ForceTo extends React.Component {
           >
             <div className={style['sub-left-content']}>
               <h1>玖久关注</h1>
-              <p>年轻人的成长</p>
+              <p>
+                变革学生参与商业实践的方式<br />
+                培养学生洞察及解决问题的能力
+              </p>
               <Button text="了解更多" />
             </div>
           </div>
@@ -39,7 +42,7 @@ export default class ForceTo extends React.Component {
                     <span>罗杨</span> <span>南京大学</span>
                   </h3>
                   <h2>
-                    玖久送给了我一份从学生时代到工作一直能回味的成人礼
+                    玖久送给了我一份<br />从学生时代到工作一直能回味的成人礼
                 </h2>
                 </div>
                 <div className={style['intro-people']}>
@@ -55,7 +58,7 @@ export default class ForceTo extends React.Component {
                     <span>尹钰华</span> <span>中南大学</span>
                   </h3>
                   <h2>
-                    不对可能性说不，过无法复制的人生
+                    不对可能性说不<br />过无法复制的人生
                 </h2>
                 </div>
                 <div className={style['intro-people']}>

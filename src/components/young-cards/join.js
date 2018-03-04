@@ -1,11 +1,14 @@
 import React from 'react';
+import { connect } from 'dva';
 import commonStyle from './common-style.less';
 import style from './join.less';
 import bg from '../../assets/image/youth/y_09.jpg';
 import Button from '../button/button';
 import logo from '../../assets/image/brain-storm.png';
 
-export default function (props) {
+import { join } from '../../assets/article';
+
+function Join(props) {
   const caseData = [
     {
       bg,
@@ -17,14 +20,15 @@ export default function (props) {
     }, {
       bg,
       intro: `
-      我想找到一个深度接触商业、接触创业内部的平台。我想沉下心来获得赋能，拥有低成本试错、对标优秀前辈的机会。
+      我想找到一个深度接触商业、接触创业内部的平台。<br/>我想沉下心来获得赋能，拥有低成本试错、对标优秀前辈的机会。
       `,
       logo,
       title: '企业成员',
     }, {
       bg,
       intro: `
-      我想突破地域的局限，在真实的商业环境中寻找适合自己的方向；我想短时间了解商业前沿，观察资深咨询顾问如何解决商业问题
+        我想突破地域的局限，在真实的商业环境中寻找适合自己的方向；<br />
+        我想短时间了解商业前沿，观察资深咨询顾问如何解决商业问题。
       `,
       logo,
       title: '咨询PTA',
@@ -48,10 +52,15 @@ export default function (props) {
           }}
         >
           <div className={style['case-content']}>
-            <p>
-              {item.intro}
-            </p>
-            <Button style={{ transform: 'scale(0.8)' }} text="了解更多" />
+            <p dangerouslySetInnerHTML={{ __html: item.intro }} />
+            <Button
+              onClick={() => {
+                props.dispatch({
+                  type: 'article/setContent',
+                  payload: join,
+                });
+              }} style={{ transform: 'scale(0.8)' }} text="了解更多"
+            />
           </div>
           <div className={style['case-logo-mask']}>
             <div>
@@ -78,3 +87,4 @@ export default function (props) {
     </div>
   );
 }
+export default connect()(Join);
