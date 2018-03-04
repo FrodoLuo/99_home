@@ -20,14 +20,14 @@ export default class NewYounger extends React.Component {
       (<div className={style['content-wrap']} key={0}>
         <h1>我是新青年</h1>
         <p>
-          突破学生身份的局限试探成长的边界，发现全新的自己
+          突破学生身份的局限<br />试探成长的边界，发现全新的自己
         </p>
         <Button text="了解更多" color="white" />
       </div>
       ),
       (<div className={style['content-wrap']} key={1}>
         <h1>我是企业</h1>
-        <p>重新定义市场洞察模式提供源源不断的高效决策与创新能量</p>
+        <p>重新定义市场洞察模式<br />提供源源不断的高效决策与创新能量</p>
         <Button text="了解更多" color="white" />
       </div>
       ),

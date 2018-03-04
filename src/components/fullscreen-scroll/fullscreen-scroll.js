@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon } from 'antd';
+import { Icon, Tooltip } from 'antd';
 import style from './fullscreen-scroll.less';
 
 class FullScreenScroll extends React.Component {
@@ -152,12 +152,16 @@ class FullScreenScroll extends React.Component {
           style={{ opacity: this.state.currentIndex === this.props.children.length - 1 ? 0 : 1 }}
         >
 
-          <div className={style['button']}>
-            <Icon type="edit" />
-          </div>
-          <div className={style['button']}>
-            <Icon type="scan" />
-          </div>
+          <Tooltip title="需求问卷" text>
+            <a href="https://jinshuju.net/f/XF0Poy" className={style['button']}>
+              <Icon type="edit" />
+            </a>
+          </Tooltip>
+          <Tooltip title="关注玖久" text>
+            <div className={style['button']}>
+              <Icon type="scan" />
+            </div>
+          </Tooltip>
         </div>
       </div>
     );

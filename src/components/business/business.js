@@ -12,7 +12,8 @@ export default () => {
         <div className={style['content-left-container']}>
           <div className={style['business']}>
             <h1>
-              一切为了销售
+              时代呼唤<br />
+              市场洞察模式
             </h1>
             <Button text="玖久业务" />
           </div>
