@@ -17,14 +17,15 @@ export default function () {
     >
       <SimpleTab
         style={{
-          height: '55%',
-          width: '70%',
+          height: '40%',
+          width: '50%',
           left: 0,
           right: 0,
-          top: 0,
+          top: '2rem',
           bottom: 0,
           margin: 'auto',
         }}
+        index={1}
         data={[
           {
             title: '愿景',
@@ -67,6 +68,7 @@ export default function () {
                 <Button
                   colorful
                   style={{
+                    transform: 'scale(0.7)',
                     position: 'absolute',
                     left: 0,
                     right: 0,
@@ -98,6 +100,7 @@ export default function () {
                 <Button
                   colorful
                   style={{
+                    transform: 'scale(0.7)',
                     position: 'absolute',
                     left: 0,
                     right: 0,
@@ -120,6 +123,7 @@ export default function () {
                 <Button
                   colorful
                   style={{
+                    transform: 'scale(0.7)',
                     position: 'absolute',
                     left: 0,
                     right: 0,

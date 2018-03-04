@@ -10,7 +10,7 @@ import style from './ContactPage.less';
 
 export default class extends React.Component {
   state = {
-    detail: false,
+    detail: true,
   }
   toggleDetail = () => {
     this.setState({

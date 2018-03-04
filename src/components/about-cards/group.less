@@ -13,12 +13,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 240px;
+  max-width: 22rem;
   color: white;
+  padding-top: 3rem;
 }
 .divider{
-  font-size: 72px;
-  line-height: 72px;
+  font-size: 4rem;
+  line-height: 4rem;
   display: inline-block;
   color: rgba(255,255,255,0.3);
   opacity: 0.5;
@@ -27,38 +28,45 @@
   display: block;
   height: fit-content;
   width: fit-content;
-  margin: 0 15px;
+  margin: 3rem 15px;
 }
 .circle{
-  width: 96px;
-  height: 96px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
-  border: 3px solid #FFF;
+  border: 0.2rem solid #FFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s;
+}
+.circle:hover{
+  background: #0366ee;
+  border: 0.2rem solid #0366ee;
 }
 .num{
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  font-weight:bolder;
+  line-height: 5rem;
 }
 .count{
-  font-size: 18px;
-  line-height: 48px;
-  margin-top: 20px;
+  font-size: 1.2rem;
+  margin-bottom: -0.5rem;
 }
 .intro > p{
   line-break: auto;
   word-break: break-all;
 }
 .occupation{
-  font-size: 24px;
-  margin: 10px 0 15px 0;
+  font-size: 1.6rem;
+  margin: 0.6rem 0 1rem 0;
   font-weight: bold;
 }
 .intro{
   text-align: center;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 1.8em;
   width: 100%;
+  opacity: 0.9;
 }

@@ -16,13 +16,17 @@ export default function () {
     >
       <SimpleTab
         style={{
-          height: '55%',
-          width: '70%',
+          height: '45%',
+          width: '65%',
           left: 0,
           right: 0,
-          top: 0,
+          top: '5%',
           bottom: 0,
           margin: 'auto',
+        }}
+        titleStyle={{
+          fontSize: '2rem',
+          width: '50%',
         }}
         data={[
           {
@@ -31,7 +35,7 @@ export default function () {
               <div className={style['content-wrap']}>
                 <div className={style['content-single']}>
                   <div className={style['circle']}>
-                    <span className={style['num']}>6</span><span className={style['count']}>人</span>
+                    <span className={style['num']}>1</span><span className={style['count']}>人</span>
                   </div>
                   <div className={style['occupation']}>
                     玖久顾问
@@ -45,7 +49,7 @@ export default function () {
                 <div className={style['divider']}>+</div>
                 <div className={style['content-single']}>
                   <div className={style['circle']}>
-                    <span className={style['num']}>20</span><span className={style['count']}>+</span>
+                    <span className={style['num']}>2</span><span className={style['count']}>人</span>
                   </div>
                   <div className={style['occupation']}>
                     行业专家
@@ -59,7 +63,7 @@ export default function () {
                 <div className={style['divider']}>+</div>
                 <div className={style['content-single']}>
                   <div className={style['circle']}>
-                    <span className={style['num']}>200</span><span className={style['count']}>+</span>
+                    <span className={style['num']}>5</span><span className={style['count']}>人</span>
                   </div>
                   <div className={style['occupation']}>
                     学生顾问

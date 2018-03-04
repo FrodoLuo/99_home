@@ -93,10 +93,32 @@
   z-index: 10;
 }
 .case-wrap:hover .case-logo-mask{
-  opacity: 0;
-  visibility: hidden;
-}
-.case-wrap:hover .case-content{
   opacity: 1;
-  visibility: visible;
+  background-color: rgba(0, 129, 255, 0);
+  //visibility: hidden;
+}
+//.case-wrap:hover .case-content{
+//  opacity: 1;
+//  visibility: visible;
+//}
+.content{
+  width: 70%;
+  height: 60%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .title{
+    font-size:1.8rem;
+    font-weight:bolder;
+    margin: 1rem;
+  }
+  .intro{
+    font-size:1.2rem;
+  }
+
+}
+.btn{
+  //width: 60%;
 }

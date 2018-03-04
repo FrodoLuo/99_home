@@ -25,7 +25,7 @@ function ServiceAspect(props) {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <SimpleCarousel>
-        <div className={style['content-card']} background={bg}>
+        <div className={style['content-card']} data-background={bg}>
           <div className={style['intro']}>
             <h1>追赶式洞察</h1>
             <p>
@@ -43,7 +43,7 @@ function ServiceAspect(props) {
             style={buttonStyle} text="了解更多"
           />
         </div>
-        <div className={style['content-card']} background={bg2}>
+        <div className={style['content-card']} data-background={bg2}>
           <div className={style['intro']}>
             <h1>零距离洞察</h1>
             <p>
@@ -60,7 +60,7 @@ function ServiceAspect(props) {
             }} style={buttonStyle} text="了解更多"
           />
         </div>
-        <div className={style['content-card']} background={bg3}>
+        <div className={style['content-card']} data-background={bg3}>
           <div className={style['intro']}>
             <h1>青年浸润研究</h1>
             <p>

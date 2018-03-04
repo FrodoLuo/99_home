@@ -3,7 +3,7 @@ import style from './simple-tab.less';
 
 export default class extends React.Component {
   state = {
-    currentIndex: 0,
+    currentIndex: this.props.index || 0,
   }
   switchTo = (index) => {
     this.setState({
@@ -45,7 +45,7 @@ export default class extends React.Component {
   render() {
     return (
       <div className={style['wrap']} style={this.props.style} onWheel={(e) => { e.stopPropagation(); }}>
-        <div className={style['title-wrap']}>
+        <div style={this.props.titleStyle ? this.props.titleStyle : {}} className={style['title-wrap']}>
           {this.renderTitle()}
         </div>
         {this.renderContent()}
