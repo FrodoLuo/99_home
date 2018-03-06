@@ -9,12 +9,12 @@
   background-image: url('../../assets/image/business-bg.png');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 100% 100%;
   flex: 1;
   transition: all ease 0.8s;
 }
 .content-left-container:hover{
-  background-size: 105%;
+  background-size: 105% 105%;
 }
 .content-right-container{
   width: 37rem;
@@ -75,11 +75,12 @@
   height: 100%;
   background-image: url("../../assets/image/100477685.png");
   flex-direction: column;
-  background-size: contain;
+  background-size: 100% 100%;
+  background-position: center center;
   transition: all ease 0.8s;
 }
 .insight-wrap:hover{
-  transform:scaleY(1.05);
+  background-size: 105% 105%;
 }
 .insight{
   height: 100%;
@@ -119,7 +120,8 @@
 }
 
 .business h1{
-  font-size: 5.2rem;
+  font-size: 5rem;
+  text-align: center;
   color: white;
   margin-bottom: 40px;
 }

@@ -8,13 +8,28 @@
   overflow: hidden;
 }
 .sub-content-wrap{
-  background-size: cover;
+  background-size: 100%;
+  transition: all ease 0.7s;
   background-position: center center;
   width: 50%;
   height: 100%;
   display: flex;
   flex-direction: column;
 
+}
+.sub-content-wrap-left:hover{
+  background-size: 105%;
+}
+.sub-content-wrap-right:hover{
+  background-size: 105%;
+}
+.sub-content-wrap-left{
+  .sub-content-wrap;
+  background-image: url('../../assets/image/index/force_left.jpg');
+}
+.sub-content-wrap-right{
+  .sub-content-wrap;
+  background-image: url('../../assets/image/index/force_right.jpg');
 }
 .sub-left-content{
   align-self: bottom;
@@ -28,16 +43,6 @@
   width: 50%;
   padding-bottom: 10%;
   transition: all ease 0.8s;
-}
-.bg-left-img,.bg-right-img{
-  transition: all ease 0.8s;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
 }
 .sub-content-wrap:nth-of-type(1):hover .bg-left-img{
   width: 105%;
@@ -86,4 +91,11 @@
 .sub-right-bottom h2{
   font-size: 24px;
   margin-bottom: 5px;
+}
+.jiujiu{
+  left: 0;
+  right: 0;
+  top: 15%;
+  background-blend-mode: overlay;
+
 }

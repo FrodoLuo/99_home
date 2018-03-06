@@ -32,9 +32,11 @@ export default class ForceTo extends React.Component {
               backgroundImage: `url(${rightbg})`,
             }}
           >
+            <div className={style['line']} />
             <div className={style['sub-right-content']}>
               <Carousel
                 dots
+                arrows
               >
                 <div className={style['intro-people']}>
                   {/* <img src={avatar} role="presentation" /> */}

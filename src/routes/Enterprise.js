@@ -36,7 +36,7 @@ export default function Enterprise() {
     <div style={{ height: '100%', width: '100%', position: 'absolute' }}>
       <Article />
       <Header enterprise />
-      <FullScreenScroll>
+      <FullScreenScroll enterprise>
         <ServiceAspect key="1" title="服务方向" />
         <Methodology key="2" title="玖久方法论" />
         <ThinkDepth key="3" title="玖久洞察" />

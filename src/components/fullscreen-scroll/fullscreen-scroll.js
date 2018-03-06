@@ -1,12 +1,14 @@
 import React from 'react';
 import { Icon, Tooltip } from 'antd';
 import style from './fullscreen-scroll.less';
+import QR from '../../assets/image/QRCode/public.bmp';
 
 class FullScreenScroll extends React.Component {
   state = {
     currentIndex: 0,
     next: true,
     clientHeight: 0,
+    showQR: false,
   }
   componentDidMount() {
     this.header = window.document.getElementById('header');
@@ -131,9 +133,33 @@ class FullScreenScroll extends React.Component {
     window.document.getElementById('header').style.opacity = flag ? 1 : 0;
     window.document.getElementById('header').style.visibility = flag ? 'visible' : 'hidden';
   }
+  toggleQR = () => {
+    this.setState({
+      showQR: !this.state.showQR,
+    });
+  }
   render() {
     return (
       <div style={{ height: '100%', minWidth: 1024, position: 'relative' }}>
+        <div
+          className={style['QR-masking-wrapper']}
+          onClick={this.toggleQR}
+          style={this.state.showQR ? {
+            opacity: 1,
+            visibility: 'visible',
+          } : {
+            opacity: 0,
+            visibility: 'hidden',
+          }}
+        >
+          <img src={QR} className={style['QR-code']} alt="" />
+          <p>
+            扫描二维码关注玖久大成微信公众号<br /> 及时获取最新咨询
+          </p>
+          <span>
+            <Icon type="close" />
+          </span>
+        </div>
         <div
           onTouchStart={this.handleTouchStart}
           onTouchEnd={this.handleTouchEnd}
@@ -152,13 +178,15 @@ class FullScreenScroll extends React.Component {
           style={{ opacity: this.state.currentIndex === this.props.children.length - 1 ? 0 : 1 }}
         >
 
-          <Tooltip title="需求问卷" text>
-            <a href="https://jinshuju.net/f/XF0Poy" className={style['button']}>
-              <Icon type="edit" />
-            </a>
-          </Tooltip>
+          {this.props.enterprise ? (
+            <Tooltip title="需求问卷" text>
+              <a href="https://jinshuju.net/f/XF0Poy" className={style['button']}>
+                <Icon type="edit" />
+              </a>
+            </Tooltip>
+          ) : null}
           <Tooltip title="关注玖久" text>
-            <div className={style['button']}>
+            <div className={style['button']} onClick={this.toggleQR}>
               <Icon type="scan" />
             </div>
           </Tooltip>

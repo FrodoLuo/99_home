@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './force-to.less';
-import leftbg from '../../assets/image/force-left.png';
+import leftbg from '../../assets/image/index/force_left.jpg';
 import rightbg from '../../assets/image/force-right.png';
+import jiujiu from '../../assets/image/index/JIUJIU.png';
 import Button from '../button/button';
 
 export default class ForceTo extends React.Component {
@@ -10,10 +11,10 @@ export default class ForceTo extends React.Component {
       <div className="card-wrap">
         <div className={style['content-wrap']}>
           <div
-            className={style['sub-content-wrap']}
+            className={style['sub-content-wrap-left']}
 
           >
-            <img className={style['bg-left-img']} src={leftbg} alt="" />
+            <img className={style['jiujiu']} src={jiujiu} alt="" />
             <div className={style['sub-left-content']}>
               <h2>
                 基于连接的未来形态
@@ -25,9 +26,8 @@ export default class ForceTo extends React.Component {
             </div>
           </div>
           <div
-            className={style['sub-content-wrap']}
+            className={style['sub-content-wrap-right']}
           >
-            <img className={style['bg-right-img']} src={rightbg} alt="" />
             <div className={style['sub-right-top']}>
               <h1>
                 玖久使命

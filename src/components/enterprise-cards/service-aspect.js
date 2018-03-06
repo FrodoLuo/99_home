@@ -12,7 +12,6 @@ import { e1, e2, e3 } from '../../assets/article';
 import style from './service-aspect.less';
 
 const buttonStyle = {
-  transform: 'scale(0.7)',
   left: '2rem',
   bottom: '2.5rem',
   position: 'absolute',

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './young-and-enterprise.less';
-import background1 from '../../assets/image/500553231.png';
-import background2 from '../../assets/image/500592072.jpg';
+import youngBg from '../../assets/image/500553231.png';
+import enterpriseBg from '../../assets/image/500592072.jpg';
 import Button from '../button/button';
 
 export default class NewYounger extends React.Component {
@@ -17,17 +17,17 @@ export default class NewYounger extends React.Component {
   }
   render() {
     const contents = [
-      (<div className={style['content-wrap']} key={0}>
-        <h1>我是新青年</h1>
-        <p>
-          突破学生身份的局限<br />试探成长的边界，发现全新的自己
-        </p>
+      (<div className={style['content-wrap']} key={1}>
+        <h1>服务于企业</h1>
+        <p>重新定义市场洞察模式<br />提供源源不断的高效决策与创新能量</p>
         <Button text="了解更多" color="white" />
       </div>
       ),
-      (<div className={style['content-wrap']} key={1}>
-        <h1>我是企业</h1>
-        <p>重新定义市场洞察模式<br />提供源源不断的高效决策与创新能量</p>
+      (<div className={style['content-wrap']} key={0}>
+        <h1>链接新青年</h1>
+        <p>
+          突破学生身份的局限<br />试探成长的边界，发现全新的自己
+        </p>
         <Button text="了解更多" color="white" />
       </div>
       ),
@@ -47,14 +47,14 @@ export default class NewYounger extends React.Component {
         />,
       );
     }
-    const src = [background1, background2];
+    const src = [enterpriseBg, youngBg];
     return (
       <div
         className="card-wrap"
       >
         <div className={style['background-image']}>
-          <img className={this.state.currentIndex >= 0 ? style['active-bg'] : ''} src={background1} alt="" />
-          <img className={this.state.currentIndex >= 1 ? style['active-bg'] : ''} src={background2} alt="" />
+          <img className={this.state.currentIndex >= 0 ? style['active-bg'] : ''} src={enterpriseBg} alt="" />
+          <img className={this.state.currentIndex >= 1 ? style['active-bg'] : ''} src={youngBg} alt="" />
         </div>
         <div className={style['switch-bar-wrap']}>
           {switchers}
