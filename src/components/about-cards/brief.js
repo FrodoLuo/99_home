@@ -36,7 +36,11 @@ export default function (props) {
             </p>
           </div>
         </div>
-        <div className={style['content-card']} background={bg3}>
+        <div
+          className={style['content-card']}
+          background={bg3}
+          floatComponents={[(<div style={{ position: 'absolute', height: 20, widti: 20, backgroundColor: 'white' }}>1</div>)]}
+        >
           <div className={style['intro']}>
             <h1 >自营调研资源覆盖全国主要城市</h1>
             <p>

@@ -81,6 +81,10 @@ class FullScreenScroll extends React.Component {
       const below = children.length > this.state.currentIndex;
       const beforeLast = children.length === this.props.children.length - 2;
       const atLast = children.length === this.props.children.length - 1;
+      const cover = children.length === 0 && this.props.withCover;
+      const clonedCover = React.cloneElement(child, {
+        next: this.scrollNext,
+      });
       children.push(
         <div
           onWheel={at || beforeLast ? this.handleScroll : null}
@@ -93,7 +97,7 @@ class FullScreenScroll extends React.Component {
           }}
           className={`${style['child-wrap']} ${at ? '' : style['not-active']}`}
         >
-          {child}
+          {cover ? clonedCover : child}
           {beforeLast ? (
             <div
               className={style['masking']}
@@ -111,7 +115,8 @@ class FullScreenScroll extends React.Component {
   wrapDot = () => {
     const dots = [];
     for (let i = 0; i < this.props.children.length; i += 1) {
-      if (!this.props.children[i].props['data-ignore']) {
+      const cover = i === 0 && this.props.withCover;
+      if (!(this.props.children[i].props['data-ignore'] || cover)) {
         dots.push(
           <div
             key={i}
@@ -139,15 +144,19 @@ class FullScreenScroll extends React.Component {
     });
   }
   render() {
+    const cover = this.state.currentIndex === 0 && this.props.withCover;
     return (
       <div style={{ height: '100%', minWidth: 1024, position: 'relative' }}>
         <div
           className={style['QR-masking-wrapper']}
           onClick={this.toggleQR}
-          style={this.state.showQR ? {
+          style={this.state.showQR ?
+          {
             opacity: 1,
             visibility: 'visible',
-          } : {
+          }
+          :
+          {
             opacity: 0,
             visibility: 'hidden',
           }}
@@ -169,7 +178,9 @@ class FullScreenScroll extends React.Component {
         </div>
         <div
           className={style['dots-wrap']}
-          style={{ opacity: this.state.currentIndex === this.props.children.length - 1 ? 0 : 1 }}
+          style={{
+            opacity: (this.state.currentIndex === this.props.children.length - 1) || cover ? 0 : 1,
+          }}
         >
           {this.wrapDot()}
         </div>

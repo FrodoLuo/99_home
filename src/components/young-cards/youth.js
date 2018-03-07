@@ -12,9 +12,8 @@ import Button from '../button/button';
 import style from './youth.less';
 
 const buttonStyle = {
-  transform: 'scale(0.7)',
-  left: '2rem',
   bottom: '2.5rem',
+  left: '2rem',
   position: 'absolute',
 };
 export default function (props) {

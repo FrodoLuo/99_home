@@ -80,7 +80,7 @@ export default function () {
             title: <div style={{ opacity: 0, pointerEvents: 'none' }}>1</div>,
             content: null,
           }, {
-            title: '客服团队',
+            title: '管理团队',
             content: (
               <div className={style['content-wrap']}>
                 <div className={style['content-single']}>
