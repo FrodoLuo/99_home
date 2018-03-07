@@ -48,14 +48,29 @@ export default () => {
               <Carousel
                 arrows
               >
-                <div className={style['company']} style={{ backgroundColor: '#00a1d6' }}>
+                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a>
-                    <img src={companies.bilibili} role="presentation" />
+                    <img src={companies.baidu} role="presentation" />
                   </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: 'rgb(0,129,221)' }}>
+                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a>
-                    <img src={companies.aliyun} role="presentation" />
+                    <img src={companies.didi} role="presentation" />
+                  </a>
+                </div>
+                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                  <a>
+                    <img src={companies.netease} role="presentation" />
+                  </a>
+                </div>
+                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                  <a>
+                    <img src={companies.nielsen} role="presentation" />
+                  </a>
+                </div>
+                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                  <a>
+                    <img src={companies.wuba} role="presentation" />
                   </a>
                 </div>
               </Carousel>

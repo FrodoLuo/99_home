@@ -97,11 +97,23 @@
   font-size: 1.4rem;
   color: #a4a4a4;
 }
-.logo-container > span{
-  font-size: 2.8rem;
-  color: #a4a4a4;
-  font-weight: bold;
-  margin-right: 1rem;
+.logo-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logo-container > div{
+  width: 180px;
+  height: 70px;
+  padding: 5px 8px;
+  display: flex;
+  justify-content: center;
+  margin: 3px 4px;
+  align-items: center;
+  img{
+    width: 100%;
+    height: auto;
+  }
 }
 .qr-wrap{
   display: flex;
@@ -119,6 +131,11 @@
   margin-right: 3rem;
   .qr-img{
     width: 10rem;
+  }
+  .qr-img-q{
+    .qr-img;
+    background-color: white;
+    padding: 10px;
   }
   span{
     font-size:1.4rem;

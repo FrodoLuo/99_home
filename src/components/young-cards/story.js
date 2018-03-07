@@ -15,7 +15,7 @@ import wbw from '../../assets/image/youth_story/wbw.jpg';
 import pyb from '../../assets/image/youth_story/pyb.jpg';
 import yyh from '../../assets/image/youth_story/yyh.jpg';
 
-import { luoYang, yinYuHua, wangBangWei } from '../../assets/article';
+import { luoYang, yinYuHua, wangBangWei, panYiBin } from '../../assets/article';
 
 class Story extends React.Component {
   state = {
@@ -30,28 +30,38 @@ class Story extends React.Component {
         name: '罗杨',
         occupation: 'HRT & EO部门Head',
         image: ly,
-        tag: '团队核心',
-        story: '从时代的诉求思考问题的习惯、为无数灵感落地的努力，以及无法被解释的好奇心',
+        tag: ['独特洞见', '团队核心'],
+        story: `你是不是有足够的潜力来和我共事？” 这是每一位企业面试官都希望求职者能够向自己说明的问题。
+        越来越多的求职者也努力尝试以无数的实习、商赛、交换经历来证明自己解决商业问题的潜力。
+        但其实你还有一种可能：把潜力变成事实，告诉他“我的能力，毋庸置疑
+        `,
         article: luoYang,
       }, {
         name: '潘毅斌',
         occupation: '管理团队，思维培训部Member',
         image: pyb,
-        tag: '职场老司机',
-        story: '好奇心猎手 学术小混混 中度中二病患者 思维海军陆战队',
+        tag: ['好奇心猎手', '职场老司机'],
+        story: `我来自福建，旅台5年，对台湾问题有迷之执念和思考
+        我是文科出身，却喜欢数理分析和建模，是技术流+历史流的双线性选手；
+        我喜欢不同层次的思考，以及和不同价值观或知识背景的人嘴炮；还喜欢美食、游泳和重训。
+        这样的我，想和你说说“玖久与我”。
+        `,
+        article: panYiBin,
       }, {
         name: '尹钰华',
         occupation: '商业项目PTA',
         image: yyh,
-        tag: '业务精英',
-        story: '成就感Max、冒险挑战、独创性',
+        tag: ['领导力MAX', '业务精英'],
+        story: `从最开始的浮躁，到学会深入学习、领悟、思考。某一天，发现自己开始陶醉于追求严谨细致系统考量、追求学习生活更加充实立体可感可塑。在行为习惯、任务安排的背后，是逻辑框架层层肢解，重新用更密实的材料、通过更精密的推算、摸索，逐步的拼接、完善。
+        #不甘的心 永远在颤动# 可以来到玖久，真好。
+        `,
         article: yinYuHua,
       }, {
         name: '汪邦威',
         occupation: '管理团队，企业运营部Member',
         image: wbw,
-        tag: '业务精英',
-        story: '成就感Max、冒险挑战、独创性',
+        tag: ['独特洞见', '职场新手'],
+        story: '加入玖久是我大学阶段最幸运的事情。在无所适从的成长迷茫期，玖久里面优秀的共事者和玖久基于自身独特定位而产生的高效工作氛围给了我极大的启发。作为成长道路中灯塔一样的存在，玖久于我将永远是一段如数家珍般的经历。',
         article: wangBangWei,
       },
     ],
@@ -119,15 +129,18 @@ class Story extends React.Component {
               <div className={style['identity']}>
                 <span><h1>{item.name}</h1></span><span className={style['occupation']}>{item.occupation}</span>
               </div>
-              <div className={style['identity-icon']}>
-                <div className={style['img-wrap']}>
-                  <img src={driven} role="presentation" />
+              <div className={style['tags']}>
+                <div className={style['tag-wrap']}>
+                  <div className={style['img-wrap']}>
+                    <img src={driven} role="presentation" />
+                  </div>
+                  <span>{this.state.storys[this.state.currentIndex].tag[0]}</span>
                 </div>
-                <div className={style['hat-wrap']}>
+                <div className={style['tag-wrap']}>
                   <div className={style['img-wrap']}>
                     <img src={hat} role="presentation" />
                   </div>
-                  <span>{this.state.storys[this.state.currentIndex].tag}</span>
+                  <span>{this.state.storys[this.state.currentIndex].tag[1]}</span>
                 </div>
               </div>
               <div className={style['intro-phrase']}>

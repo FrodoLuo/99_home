@@ -6,15 +6,23 @@ import Header from '../components/jiu-header/jiu-header';
 import Footer from '../components/jiu-footer/jiu-footer';
 import Button from '../components/button/button';
 
+import QR from '../assets/image/QRCode/public.bmp';
+
 import style from './ContactPage.less';
 
 export default class extends React.Component {
   state = {
     detail: true,
+    showQR: false,
   }
   toggleDetail = () => {
     this.setState({
       detail: !this.state.detail,
+    });
+  }
+  toggleQR = () => {
+    this.setState({
+      showQR: !this.state.showQR,
     });
   }
   render() {
@@ -22,6 +30,28 @@ export default class extends React.Component {
       <div>
         <Header contact />
         <div className={style['content-wrap']}>
+          <div
+            className={style['QR-masking-wrapper']}
+            onClick={this.toggleQR}
+            style={this.state.showQR ?
+            {
+              opacity: 1,
+              visibility: 'visible',
+            }
+            :
+            {
+              opacity: 0,
+              visibility: 'hidden',
+            }}
+          >
+            <img src={QR} className={style['QR-code']} alt="" />
+            <p>
+              扫描二维码关注玖久大成微信公众号<br /> 及时获取最新咨询
+          </p>
+            <span>
+              <Icon type="close" />
+            </span>
+          </div>
           <div
             className={this.state.detail ? style['button-active'] : style['button']}
 
@@ -57,7 +87,7 @@ export default class extends React.Component {
                 邮编: 100007
             </p>
               <p>
-                电子邮箱: 1234567890@abcde.fgh
+                电子邮箱: Marketing@jiujiudacheng.com
             </p>
               <p>
                 咨询热线: 400-851-9337
@@ -67,8 +97,8 @@ export default class extends React.Component {
             </p>
             </div>
             <div className={style['buttons-wrap']}>
-              <Button style={{ transform: 'scale(0.7)', position: 'relative', left: -20 }} text="需求问卷" />
-              <Button style={{ transform: 'scale(0.7)', position: 'relative', left: -60 }} text="关注久久" />
+              <Button style={{ transform: 'scale(0.7)', position: 'relative', left: -20 }} text="预约服务" />
+              <Button onClick={this.toggleQR} style={{ transform: 'scale(0.7)', position: 'relative', left: -60 }} text="关注玖久" />
             </div>
           </div>
         </div>
