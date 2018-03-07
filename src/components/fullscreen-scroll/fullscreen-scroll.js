@@ -190,8 +190,8 @@ class FullScreenScroll extends React.Component {
         >
 
           {this.props.enterprise ? (
-            <Tooltip title="需求问卷" text>
-              <a href="https://jinshuju.net/f/XF0Poy" className={style['button']}>
+            <Tooltip title="预约合作" text>
+              <a href="https://jinshuju.net/f/XF0Poy" target="_blank" rel="noopener noreferrer" className={style['button']}>
                 <Icon type="edit" />
               </a>
             </Tooltip>

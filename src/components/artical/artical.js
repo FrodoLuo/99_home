@@ -33,7 +33,6 @@ class Article extends React.Component {
     }
   }
   render() {
-    this.renderNav();
     return (
       <div className={this.state.visible ? style['article-wrap-open'] : style['article-wrap-close']}>
         <div className={this.state.visible ? style['artical-content-wrap'] : style['artical-content-wrap-hidden']}>
