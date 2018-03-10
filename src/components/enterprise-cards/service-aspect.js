@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'dva';
 import commonStyle from './common-style.less';
-import SimpleCarousel from './simple-carousel';
+import SimpleCarousel from '../simple-carousel/simple-carousel';
 import bg from '../../assets/image/enterprise/e_01.jpg';
 import bg2 from '../../assets/image/enterprise/e_02.jpg';
 import bg3 from '../../assets/image/enterprise/e_03.jpg';
@@ -12,9 +12,12 @@ import { e1, e2, e3 } from '../../assets/article';
 import style from './service-aspect.less';
 
 const buttonStyle = {
-  left: '2rem',
-  bottom: '2.5rem',
+  bottom: 0,
+  left: 0,
   position: 'absolute',
+  width: '8rem',
+  fontSize: '1.1rem',
+  margin: 0,
 };
 
 function ServiceAspect(props) {
@@ -33,6 +36,7 @@ function ServiceAspect(props) {
             </p>
           </div>
           <Button
+            small
             onClick={() => {
               props.dispatch({
                 type: 'article/setContent',
@@ -51,6 +55,7 @@ function ServiceAspect(props) {
                       </p>
           </div>
           <Button
+            small
             onClick={() => {
               props.dispatch({
                 type: 'article/setContent',
@@ -68,6 +73,7 @@ function ServiceAspect(props) {
             </p>
           </div>
           <Button
+            small
             onClick={() => {
               props.dispatch({
                 type: 'article/setContent',

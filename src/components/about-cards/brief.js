@@ -1,6 +1,6 @@
 import React from 'react';
 import commonStyle from './common-style.less';
-import SimpleCarousel from './simple-carousel';
+import SimpleCarousel from '../simple-carousel/simple-carousel';
 import bg from '../../assets/image/about/a_02.jpg';
 import bg2 from '../../assets/image/about/a_03.jpg';
 import bg3 from '../../assets/image/about/a_04.jpg';

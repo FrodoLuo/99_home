@@ -11,7 +11,11 @@ class FullScreenScroll extends React.Component {
     showQR: false,
   }
   componentDidMount() {
-    this.header = window.document.getElementById('header');
+    const query = parseSearch(window.location);
+    console.log(query);
+    if (query.index) {
+      this.scrollTo(parseInt(query.index, 10));
+    }
   }
   data = {
     startX: 0,
@@ -155,7 +159,7 @@ class FullScreenScroll extends React.Component {
             opacity: 1,
             visibility: 'visible',
           }
-          :
+            :
           {
             opacity: 0,
             visibility: 'hidden',
@@ -207,3 +211,18 @@ class FullScreenScroll extends React.Component {
   }
 }
 export default FullScreenScroll;
+
+function parseSearch(location) {
+  if (location.search) {
+    const queries = location.search.substr(1);
+    const pairs = queries.split('&');
+    const result = {};
+    for (const item of pairs) {
+      console.log(item);
+      result[item.split('=')[0]] = item.split('=')[1];
+    }
+    return result;
+  } else {
+    return {};
+  }
+}

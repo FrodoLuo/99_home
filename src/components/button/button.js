@@ -60,7 +60,7 @@ function bgButton(props) {
     return (
       <div style={props.style} className={style['button-color']} onClick={props.onClick} >
         <img src={bg} alt="" />
-        <span>
+        <span style={{ fontSize: props.small ? '1.1rem' : ' 1.5rem' }}>
           {props.text}
         </span>
       </div>
@@ -70,7 +70,7 @@ function bgButton(props) {
     return (
       <div style={props.style} className={style['button-dark']} onClick={props.onClick} >
         <img src={bgdark} alt="" />
-        <span>
+        <span style={{ fontSize: props.small ? '1.1rem' : ' 1.5rem' }}>
           {props.text}
         </span>
       </div>
@@ -79,7 +79,7 @@ function bgButton(props) {
     return (
       <div style={props.style} className={style['button']} onClick={props.onClick}>
         <img src={bg} alt="" />
-        <span>
+        <span style={{ fontSize: props.small ? '1.1rem' : ' 1.5rem' }}>
           {props.text}
         </span>
       </div>

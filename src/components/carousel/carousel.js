@@ -41,6 +41,7 @@ export default class Carousel extends React.Component {
       fontSize: '3rem',
       color: 'rgba(255,255,255,0.7)',
       cursor: 'pointer',
+      pointerEvents: 'all',
     };
     const children = [];
     for (const item of this.props.children) {
@@ -76,7 +77,9 @@ export default class Carousel extends React.Component {
         style={{
           width: '100%',
           height: '100%',
-          position: 'relative',
+          position: 'absolute',
+          top: 0,
+          left: 0,
           overflow: this.props.fade ? 'visiable' : 'hidden',
         }}
       >
@@ -101,6 +104,7 @@ export default class Carousel extends React.Component {
               padding: '5%',
               left: this.props.fade ? '-20%' : 0,
               top: 0,
+              pointerEvents: 'none',
             }}
           >
             <div

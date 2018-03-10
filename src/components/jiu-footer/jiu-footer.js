@@ -73,7 +73,7 @@ export default function (props) {
         </div>
         <div className={style['footer-copyright']}>
           <span>
-            <a>京ICP备12047175号-4</a>&nbsp;Copyright ©2017 玖久
+            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备17030875号-1</a>&nbsp;Copyright ©2017 玖久
           </span>
         </div>
       </div>

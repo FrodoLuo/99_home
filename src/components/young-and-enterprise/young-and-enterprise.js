@@ -9,18 +9,18 @@ export default class NewYounger extends React.Component {
     currentIndex: 0,
   }
   componentDidMount() {
-    // setInterval(() => {
-    //   this.setState({
-    //     currentIndex: this.state.currentIndex === 1 ? 0 : this.state.currentIndex + 1,
-    //   });
-    // }, 5000);
+    setInterval(() => {
+      this.setState({
+        currentIndex: this.state.currentIndex === 1 ? 0 : this.state.currentIndex + 1,
+      });
+    }, 5000);
   }
   render() {
     const contents = [
       (<div className={style['content-wrap']} key={1}>
         <h1>服务于企业</h1>
         <p>重新定义市场洞察模式<br />提供源源不断的高效决策与创新能量</p>
-        <Button text="了解更多" color="white" />
+        <Button onClick={() => { window.location.href = '/enterprise'; }} text="了解更多" color="white" />
       </div>
       ),
       (<div className={style['content-wrap']} key={0}>
@@ -28,7 +28,7 @@ export default class NewYounger extends React.Component {
         <p>
           突破学生身份的局限<br />试探成长的边界，发现全新的自己
         </p>
-        <Button text="了解更多" color="white" />
+        <Button onClick={() => { window.location.href = '/young'; }} text="了解更多" color="white" />
       </div>
       ),
     ];

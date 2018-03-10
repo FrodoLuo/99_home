@@ -28,7 +28,7 @@ class Story extends React.Component {
     storys: [
       {
         name: '罗杨',
-        occupation: 'HRT & EO部门Head',
+        occupation: '玖久创始团队成员',
         image: ly,
         tag: ['独特洞见', '团队核心'],
         story: `你是不是有足够的潜力来和我共事？” 这是每一位企业面试官都希望求职者能够向自己说明的问题。
@@ -127,7 +127,7 @@ class Story extends React.Component {
           <div className={style['intro-wrap']}>
             <div className={style['intro']}>
               <div className={style['identity']}>
-                <span><h1>{item.name}</h1></span><span className={style['occupation']}>{item.occupation}</span>
+                <span className={style['name']}>{item.name}</span><span className={style['occupation']}>{item.occupation}</span>
               </div>
               <div className={style['tags']}>
                 <div className={style['tag-wrap']}>

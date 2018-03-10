@@ -1,5 +1,12 @@
 @import "config";
-@media (max-width: @min-screen-width) {
+
+@media(max-width: @xs-screen-width) {
+  :root{
+    font-size: 8px;
+  }
+}
+
+@media (max-width: @min-screen-width) and (min-width: @xs-screen-width) {
   :root{
     font-size:10px;
   }

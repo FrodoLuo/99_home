@@ -1,6 +1,6 @@
 import React from 'react';
 import commonStyle from './common-style.less';
-import SimpleCarousel from './simple-carousel';
+import SimpleCarousel from '../simple-carousel/simple-carousel';
 import bg from '../../assets/image/youth/y_01.jpg';
 import bg2 from '../../assets/image/youth/y_02.jpg';
 import bg3 from '../../assets/image/youth/y_03.jpg';
@@ -12,9 +12,12 @@ import Button from '../button/button';
 import style from './youth.less';
 
 const buttonStyle = {
-  bottom: '2.5rem',
-  left: '2rem',
+  bottom: 0,
+  left: 0,
   position: 'absolute',
+  width: '8rem',
+  fontSize: '1.1rem',
+  margin: 0,
 };
 export default function (props) {
   return (
@@ -31,7 +34,7 @@ export default function (props) {
             在开放平台中结交精英，获得洞见，输出价值。
             </p>
           </div>
-          <Button style={buttonStyle} text="了解更多" />
+          <Button small style={buttonStyle} text="了解更多" />
         </div>
         <div className={style['content-card']} data-background={bg2}>
           <div className={style['intro']}>
@@ -40,7 +43,7 @@ export default function (props) {
               作为企业的一员，跳脱出学生视角，从商业实战的角度，与内部成员一起相互配合，参与到企业从0到1的各业务线搭建过程
             </p>
           </div>
-          <Button style={buttonStyle} text="了解更多" />
+          <Button small style={buttonStyle} text="了解更多" />
         </div>
         <div className={style['content-card']} data-background={bg3}>
           <div className={style['intro']}>
@@ -50,7 +53,7 @@ export default function (props) {
               像……在这里了解商业前沿动态，洞察商业现象背后的隐秘。
             </p>
           </div>
-          <Button style={buttonStyle} text="了解更多" />
+          <Button small style={buttonStyle} text="了解更多" />
         </div>
         <div className={style['content-card']} data-background={bg4}>
           <div className={style['intro']}>
@@ -60,7 +63,7 @@ export default function (props) {
             商业敏感度，培养说服力。我们为你提供理论学习和实践机会，让你的思维落地为现实。
             </p>
           </div>
-          <Button style={buttonStyle} text="了解更多" />
+          <Button small style={buttonStyle} text="了解更多" />
         </div>
       </SimpleCarousel>
     </div>

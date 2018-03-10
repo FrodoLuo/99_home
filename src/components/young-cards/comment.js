@@ -49,7 +49,7 @@ function Comment(props) {
           </div>
           <div className={style['intro-wrap']}>
             <span className={style['name']}>罗杨</span>
-            <span className={style['title']}>HRT &and; EO部门head</span>
+            <span className={style['title']}>玖久创始团队成员</span>
           </div>
           <div className={style['intro']}>
             <p>

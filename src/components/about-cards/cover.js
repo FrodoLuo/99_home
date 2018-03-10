@@ -28,7 +28,7 @@ class Cover extends React.Component {
         className={commonStyle['card-wrap']}
       >
         <div className={style['content-wrap']}>
-          <div className={style['interest-area']} onMouseEnter={this.handleInterest} />
+          <div className={style['interest-area']} />
           <div
             className={style['welcome']}
             style={{
@@ -38,6 +38,7 @@ class Cover extends React.Component {
             <h1>始于连接的未来企业</h1>
           </div>
           <div
+            onMouseEnter={this.handleInterest}
             className={style['intro']}
             style={{
               opacity: this.state.interested ? 1 : 0,

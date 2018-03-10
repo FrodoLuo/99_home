@@ -22,7 +22,7 @@ export default class ForceTo extends React.Component {
               <h2>
                 助企业洞见未来
               </h2>
-              <Button text="了解玖久" color="#ffffff" />
+              <Button onClick={() => { window.location.href = '/about'; }} text="了解玖久" color="#ffffff" />
             </div>
           </div>
           <div
@@ -43,7 +43,7 @@ export default class ForceTo extends React.Component {
               <h2 style={{ marginBottom: '40px' }}>
                 为新青年赋能
               </h2>
-              <Button dark text="玖久价值观" color="#000000" />
+              <Button onClick={() => { window.location.href = '/about?index=2'; }} dark text="玖久价值观" color="#000000" />
             </div>
           </div>
         </div>

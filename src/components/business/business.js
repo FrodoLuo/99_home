@@ -13,9 +13,9 @@ export default () => {
           <div className={style['business']}>
             <h1>
               时代呼唤<br />
-              市场洞察模式
+              市场洞察新模式
             </h1>
-            <Button text="玖久业务" />
+            <Button onClick={() => { window.location.href = '/enterprise'; }} text="玖久业务" />
           </div>
         </div>
         <div className={style['content-right-container']}>
@@ -49,27 +49,27 @@ export default () => {
                 arrows
               >
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
-                  <a>
+                  <a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer">
                     <img src={companies.baidu} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
-                  <a>
+                  <a href="http://www.xiaojukeji.com/index/index" target="_blank" rel="noopener noreferrer">
                     <img src={companies.didi} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
-                  <a>
+                  <a href="http://www.163.com/" target="_blank" rel="noopener noreferrer">
                     <img src={companies.netease} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
-                  <a>
+                  <a href="http://www.nielsen.com/cn/zh.html" target="_blank" rel="noopener noreferrer">
                     <img src={companies.nielsen} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
-                  <a>
+                  <a href="https://www.58.com" target="_blank" rel="noopener noreferrer">
                     <img src={companies.wuba} role="presentation" />
                   </a>
                 </div>
