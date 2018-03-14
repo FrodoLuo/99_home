@@ -89,6 +89,10 @@ class FullScreenScroll extends React.Component {
       const clonedCover = React.cloneElement(child, {
         next: this.scrollNext,
       });
+      const jumpClone = React.cloneElement(child, {
+        jump: child.props.jumpTrigger && child.props.jumpTrigger.from === index ?
+          () => { this.scrollTo(child.props.jumpTrigger.to); } : null,
+      });
       children.push(
         <div
           onWheel={at || beforeLast ? this.handleScroll : null}
@@ -101,7 +105,9 @@ class FullScreenScroll extends React.Component {
           }}
           className={`${style['child-wrap']} ${at ? '' : style['not-active']}`}
         >
-          {cover ? clonedCover : child}
+          {cover ?
+            clonedCover : child.props.jumpTrigger && child.props.jumpTrigger.from === index ?
+              jumpClone : child}
           {beforeLast ? (
             <div
               className={style['masking']}
@@ -150,7 +156,7 @@ class FullScreenScroll extends React.Component {
   render() {
     const cover = this.state.currentIndex === 0 && this.props.withCover;
     return (
-      <div style={{ height: '100%', minWidth: 1024, position: 'relative' }}>
+      <div style={{ height: '100%', position: 'relative' }}>
         <div
           className={style['QR-masking-wrapper']}
           onClick={this.toggleQR}

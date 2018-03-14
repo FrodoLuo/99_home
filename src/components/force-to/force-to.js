@@ -28,12 +28,10 @@ export default class ForceTo extends React.Component {
           <div
             className={style['sub-content-wrap-right']}
           >
-            <div className={style['sub-right-top']}>
+            <div className={style['sub-right-content']}>
               <h1>
                 玖久使命
               </h1>
-            </div>
-            <div className={style['sub-right-bottom']}>
               <h2>
                 我们致力于
               </h2>

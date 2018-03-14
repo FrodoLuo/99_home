@@ -42,7 +42,7 @@ export default class ForceTo extends React.Component {
                 dots
                 arrows
               >
-                <div className={style['intro-people']}>
+                <a href="/young?index=3" className={style['intro-people']}>
                   {/* <img src={avatar} role="presentation" /> */}
 
                   <h2>
@@ -51,8 +51,8 @@ export default class ForceTo extends React.Component {
                   <h3>
                     <span>罗杨</span> <span>南京大学</span>
                   </h3>
-                </div>
-                <div className={style['intro-people']}>
+                </a>
+                <a href="/young?index=3" className={style['intro-people']}>
 
                   <h2>
                     在玖久<br />完成社会化的最后一里路
@@ -60,8 +60,8 @@ export default class ForceTo extends React.Component {
                   <h3>
                     <span>潘毅斌</span> <span>台湾大学</span>
                   </h3>
-                </div>
-                <div className={style['intro-people']}>
+                </a>
+                <a href="/young?index=3" className={style['intro-people']}>
 
                   <h2>
                     不对可能性说不<br />过无法复制的人生
@@ -69,8 +69,8 @@ export default class ForceTo extends React.Component {
                   <h3>
                     <span>尹钰华</span> <span>中南大学</span>
                   </h3>
-                </div>
-                <div className={style['intro-people']}>
+                </a>
+                <a href="/young?index=3" className={style['intro-people']}>
 
                   <h2>
                     玖久让我遇见更好的自己
@@ -78,7 +78,7 @@ export default class ForceTo extends React.Component {
                   <h3>
                     <span>汪邦威</span> <span>中山大学</span>
                   </h3>
-                </div>
+                </a>
               </Carousel>
             </div>
           </div>

@@ -22,6 +22,7 @@
 }
 .cover-background > img, .cover-background > video {
   object-fit: cover;
+  filter: brightness(0.95)
 }
 .cover-content-title{
   width: 100%;
@@ -34,7 +35,10 @@
   left: 0;
   top: 0;
   z-index: 100;
-  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.2), rgba(255,255,255,0.05), rgba(255,255,255,0));
+  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.05), rgba(255,255,255,0.05), rgba(255,255,255,0));
+  h1, h2 {
+    text-shadow: 0 0 2rem rgba(0,0,0,0.8);
+  }
 }
 .cover-content-title-font{
   color: white;

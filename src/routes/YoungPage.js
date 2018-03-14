@@ -18,7 +18,7 @@ export default function Young() {
       <Header young />
       <Article />
       <FullScreenScroll>
-        <Youth title="玖久青年" />
+        <Youth title="玖久青年" jumpTrigger={{ from: 0, to: 5 }} />
         <Create title="青年创造" />
         <ThinkingValue title="思维价值" />
         <Story title="青年故事" />

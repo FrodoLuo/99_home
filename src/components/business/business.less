@@ -48,10 +48,46 @@
     align-items: center;
     transition: all ease 0.5s;
     display: flex;
+    .brand{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      height: fit-content;
+      transition: all ease 0.5s;
+      opacity: 0;
+      h2{
+        text-align: center;
+        color: white;
+        font-family: 'HYQiHei-40S';
+        font-weight: bold;
+        
+      }
+      h3{
+        text-align: center;
+        color: white;
+        font-family: 'HYQiHei-60S'
+      }
+    } 
+    img{
+      opacity: 1;
+      width: auto;
+      height: 5rem;
+    }
+  }
+  a:hover{
+    .brand{
+      opacity: 1;
+    }
+    img{
+      opacity: 0;
+    }
   }
   img{
     width: 40%;
-    transition: all ease 0.8s;
+    transition: all ease 0.5s;
   }
 }
 .company-wrap:hover{

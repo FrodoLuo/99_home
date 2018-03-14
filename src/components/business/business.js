@@ -25,7 +25,7 @@ export default () => {
                 arrows
               >
                 <div className={style['insight']}>
-                  <div>
+                  <a href="/enterprise?index=2">
                     <h1>
                       玖久洞察|我们对于
                     </h1>
@@ -35,10 +35,20 @@ export default () => {
                     <h2>
                       玖久对商业的理解 01
                     </h2>
-                  </div>
+                  </a>
                 </div>
                 <div className={style['insight']}>
-                  la
+                  <a>
+                    <h1>
+                      玖久洞察|我们对于
+                    </h1>
+                    <h1>
+                      商业的理解
+                    </h1>
+                    <h2>
+                      玖久对商业的理解 01
+                    </h2>
+                  </a>
                 </div>
               </Carousel>
             </div>
@@ -50,26 +60,46 @@ export default () => {
               >
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer">
+                    <div className={style['brand']}>
+                      <h2>玖久合作伙伴</h2>
+                      <h3>百度</h3>
+                    </div>
                     <img src={companies.baidu} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a href="http://www.xiaojukeji.com/index/index" target="_blank" rel="noopener noreferrer">
+                    <div className={style['brand']}>
+                      <h2>玖久合作伙伴</h2>
+                      <h3>滴滴</h3>
+                    </div>
                     <img src={companies.didi} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a href="http://www.163.com/" target="_blank" rel="noopener noreferrer">
+                    <div className={style['brand']}>
+                      <h2>玖久合作伙伴</h2>
+                      <h3>网易</h3>
+                    </div>
                     <img src={companies.netease} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a href="http://www.nielsen.com/cn/zh.html" target="_blank" rel="noopener noreferrer">
+                    <div className={style['brand']}>
+                      <h2>玖久合作伙伴</h2>
+                      <h3>尼尔森</h3>
+                    </div>
                     <img src={companies.nielsen} role="presentation" />
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
                   <a href="https://www.58.com" target="_blank" rel="noopener noreferrer">
+                    <div className={style['brand']}>
+                      <h2>玖久合作伙伴</h2>
+                      <h3>58同城</h3>
+                    </div>
                     <img src={companies.wuba} role="presentation" />
                   </a>
                 </div>

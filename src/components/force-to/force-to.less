@@ -15,7 +15,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   position: relative;
 
@@ -41,6 +41,7 @@
   justify-content: flex-end;
   align-items: center;
   position: absolute;
+  left: 0;
   bottom: 0;
   height: 100%;
   width: 100%;
@@ -69,31 +70,25 @@
 .sub-left-content > h2:nth-last-child(2){
   margin-bottom: 40px;
 }
-.sub-right{
+.sub-right-content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   position: absolute;
-}
-.sub-right-top{
-  .sub-right;
-  height: 40%;
-  top: 15%;
-}
-.sub-right-top h1{
-  font-size: 64px;
-  font-weight: normal;
-}
-.sub-right-bottom{
-  .sub-right;
-  bottom: 5%;
-  height: 50%;
-}
-.sub-right-bottom h2{
-  font-size: 24px;
-  margin-bottom: 5px;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 10%;
+  h1{
+    font-family: 'HYQiHei-60S';
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 2rem;
+    font-family: 'HYQiHei-60S';
+    margin-bottom: 0.3rem;
+  }
 }
 .jiujiu{
   left: 0;
