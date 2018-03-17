@@ -9,6 +9,7 @@ import bg from '../../assets/image/youth/y_05.jpg';
 import Button from '../button/button';
 
 import { inside, outside } from '../../assets/article';
+import { zhaobill, luoyang } from '../../assets/author';
 
 function Create(props) {
   return (
@@ -35,8 +36,8 @@ function Create(props) {
             style={{ transform: 'scale(0.7)' }}
             onClick={() => {
               props.dispatch({
-                type: 'article/setContent',
-                payload: inside,
+                type: 'article/setContentWithAuthor',
+                payload: { content: inside, author: zhaobill },
               });
             }} text="了解更多"
           />
@@ -59,8 +60,8 @@ function Create(props) {
             style={{ transform: 'scale(0.7)' }}
             onClick={() => {
               props.dispatch({
-                type: 'article/setContent',
-                payload: outside,
+                type: 'article/setContentWithAuthor',
+                payload: { content: outside, author: luoyang },
               });
             }} text="了解更多"
           />

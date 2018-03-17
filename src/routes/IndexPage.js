@@ -14,7 +14,7 @@ import Focus from '../components/focus/focus';
 function IndexPage() {
   return (
     <Layout style={{ display: 'flex' }}>
-      <Header />
+      <Header fixed />
       <Layout.Content className={style['main-container']}>
         <Cover />
         <div className="card-container">

@@ -85,10 +85,20 @@
   //align-items: center;
   font-size: 1.4rem;
   margin-bottom: 1.8rem;
+  .order{
+    transition: all ease 0.5s;
+  }
+}
+.list-wrap:hover{
+  .order{
+    color: #3780c4;
+  }
 }
 .list-wrap img{
   width: 4.6rem;
   height: 4.6rem;
+  object-fit: cover;
+  object-position: left top;
 }
 .left-wrap{
   .list-wrap {
@@ -98,9 +108,7 @@
       font-weight: bold;
       width: 100%;
     }
-    a:hover{
-      color: #3780c4;
-    }
+
   }
 }
 .right-wrap{
@@ -110,9 +118,6 @@
       font-family: 'HYQiHei-40S';
       font-weight: bold;
       width: 100%;
-    }
-    a:hover{
-      color: #3780c4;
     }
   }
 }

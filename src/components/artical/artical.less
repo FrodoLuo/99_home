@@ -29,33 +29,38 @@
   opacity: 1;
   h1{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 2.5rem;
   }
   h1:before{
     display: block;
     content: ' ';
     background-color: lightgray;
-    height: 2px;
+    height: 1px;
     width: 100%;
+    margin-bottom: 3rem;
   }
   h1:first-child:before{
     display: none;
   }
   h2{
-    font-size: 27px;
+    font-size: 2rem;
   }
   h3{
-    font-size: 24px;
+    font-size: 1.8rem;
   }
   h4{
-    font-size: 20px;
+    font-size: 1.6rem;
   }
   h5{
-    font-size: 16px;
+    font-size: 1.4rem;
     font-weight: bold;
   }
   p{
-    font-size: 16px;
+    font-size: 1.4rem;
+  }
+  img{
+    width: 100%;
+    margin: 4rem 0;
   }
 }
 .artical-content a {
@@ -164,4 +169,49 @@
     margin: 0 10px;
     display: inline; 
   }
+}
+.author-wrapper{
+  top: 20%;
+  position: relative;
+  width: 30%;
+  padding: 20px 8rem 0 5rem;
+  opacity: 1;
+  transition: all ease 0.5s;
+  h3{
+    color: #444;
+    font-family: 'HYQiHei-40S';
+    font-weight: bold;
+  }
+  .author{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+
+    span{
+      margin: 0 0.8rem 0 0.3rem;
+      font-family: 'HYQiHei-40S';
+      font-weight: bold;
+    }
+    .name{
+    }
+    .position{
+      color: lightgray;
+    }
+  }
+  .author-intro{
+    margin-top: 2rem;
+    margin-left: 0.3rem;
+    p{
+      color: lightgray;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+  }
+}
+.author-wrapper-hidden{
+  top: 20%;
+  position: relative;
+  width: 30%;
+  padding: 20px 8rem 0 5rem;
+  opacity: 0;
 }

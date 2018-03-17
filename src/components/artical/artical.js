@@ -12,6 +12,7 @@ class Article extends React.Component {
     this.setState({
       content: nextProps.content,
       visible: nextProps.visible,
+      author: nextProps.author || null,
     });
   }
   renderNav = () => {
@@ -32,6 +33,7 @@ class Article extends React.Component {
       return navList;
     }
   }
+
   render() {
     return (
       <div className={this.state.visible ? style['article-wrap-open'] : style['article-wrap-close']}>
@@ -58,9 +60,26 @@ class Article extends React.Component {
           </Button>
         </div>
         <div className={this.state.visible ? style['article-wrap-background'] : style['article-wrap-background-hidden']}>
-          <div className={`${style['nav-wrap']} ${this.state.visible ? '' : style['nav-wrap-hidden']}`}>
-            {this.renderNav()}
-          </div>
+          {this.state.author ?
+            (
+              <div className={`${style['author-wrapper']} ${this.state.visible ? '' : style['author-wrap-hidden']}`}>
+                <h3>作者信息</h3>
+                <div className={style['author']}>
+                  <span className={style['name']}>{this.state.author.name}</span><span className={style['position']}>{this.state.author.position}</span>
+                </div>
+                <div className={style['author-intro']}>
+                  <p>
+                    {this.state.author.intro}
+                  </p>
+                </div>
+              </div>
+            )
+            :
+            (
+              <div className={`${style['nav-wrap']} ${this.state.visible ? '' : style['nav-wrap-hidden']}`}>
+                {this.renderNav()}
+              </div>
+            )}
         </div>
       </div>
     );

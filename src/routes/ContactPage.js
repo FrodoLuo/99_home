@@ -38,7 +38,7 @@ export default class extends React.Component {
               opacity: 1,
               visibility: 'visible',
             }
-            :
+              :
             {
               opacity: 0,
               visibility: 'hidden',
@@ -67,7 +67,7 @@ export default class extends React.Component {
             <Map
               amapkey={'b377916e7d977df6e8d7169223d2bba7'}
               zoom={35}
-              center={{ longitude: 116.457125, latitude: 39.983006 }}
+              center={{ longitude: 116.456625, latitude: 39.983806 }}
             >
               <Marker
                 position={{ longitude: 116.457429, latitude: 39.983311 }}
@@ -97,7 +97,9 @@ export default class extends React.Component {
             </p>
             </div>
             <div className={style['buttons-wrap']}>
-              <Button style={{ transform: 'scale(0.7)', position: 'relative', left: -20 }} text="预约服务" />
+              <a href="https://jinshuju.net/f/XF0Poy" target="_blank" rel="noopener noreferrer">
+                <Button style={{ transform: 'scale(0.7)', position: 'relative', left: -20 }} text="预约合作" />
+              </a>
               <Button onClick={this.toggleQR} style={{ transform: 'scale(0.7)', position: 'relative', left: -60 }} text="关注玖久" />
             </div>
           </div>

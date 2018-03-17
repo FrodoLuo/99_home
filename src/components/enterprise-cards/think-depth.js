@@ -6,7 +6,8 @@ import { insight_1 as insight1, insight_2 as insight2 } from '../../assets/artic
 import commonStyle from './common-style.less';
 import bg from '../../assets/image/enterprise/e_04.jpg';
 import style from './think-depth.less';
-import listImg from '../../assets/image/500056635.png';
+import listImg from '../../assets/image/enterprise/insight/r-1.jpg';
+import listImg2 from '../../assets/image/enterprise/insight/r-2.jpg';
 
 function ThinkDepth(props) {
   return (
@@ -51,7 +52,7 @@ function ThinkDepth(props) {
               >
                 近来, 为什么深度思考越发重要?
               </a>
-              <img src={listImg} role="presentation" />
+              <img src={listImg2} role="presentation" />
             </div>
           </div>
         </div>

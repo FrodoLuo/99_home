@@ -8,6 +8,7 @@ import bg from '../../assets/image/youth/y_06.jpg';
 import Button from '../button/button';
 
 import posterBg from '../../assets/image/poster.png';
+import posterBgRight from '../../assets/image/poster_right.jpg';
 
 function tv(props) {
   return (
@@ -54,15 +55,15 @@ function tv(props) {
           </div>
           <div
             className={style['poster-wrap']}
-            style={{ backgroundImage: `url(${posterBg})` }}
+            style={{ backgroundImage: `url(${posterBgRight})` }}
           >
             <div className={style['poster-intro-wrap']}>
               <p>
                 在压力训练环境下，实时参与、观察优质商业问题的思考和解决，了解不同行业思考问题的多元角度，提升你的“思维爆发力”。
               </p>
             </div>
-            <div className={style['poster-title-wrap']}>
-              <h1>“开放思维”进阶课</h1>
+            <div className={style['poster-title-wrap']} style={{ backgroundColor: 'rgba(0,0,0,0.1)' }}>
+              <h1 style={{ color: 'white' }}>“开放思维”进阶课</h1>
             </div>
             <div className={style['button']}>
               <Button

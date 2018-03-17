@@ -4,13 +4,17 @@ export default {
   state: {
     content: '',
     visible: false,
+    author: null,
   },
   reducers: {
     saveContent(state, { payload: data }) {
-      return { ...state, content: data, visible: true };
+      return { ...state, content: data, visible: true, author: null };
     },
     saveVisible(state, { payload: visible }) {
-      return { ...state, visible, content: '' };
+      return { ...state, visible };
+    },
+    saveContentWithAuthor(state, { payload: { content, author } }) {
+      return { ...state, content, visible: true, author };
     },
   },
   effects: {
@@ -24,6 +28,12 @@ export default {
       yield put({
         type: 'saveContent',
         payload: content,
+      });
+    },
+    *setContentWithAuthor({ payload: { content, author } }, { put }) {
+      yield put({
+        type: 'saveContentWithAuthor',
+        payload: { content, author },
       });
     },
   },

@@ -6,7 +6,7 @@
 .button{
   left: 15%;
   position: absolute;
-  transition: left cubic-bezier(0.6,0,0.6,1) 0.7s 0.1s;
+  transition: left cubic-bezier(0.6,0,0.6,1) 0.5s;
   top: 50%;
   height: fit-content;
   z-index: 100;
@@ -36,7 +36,7 @@
 }
 .button-active{
   .button;
-  left: 50%;
+  left: 33%;
   .offset{
     color: black;
     background-color: #FFDE00;
@@ -54,7 +54,7 @@
 }
 .detail-wrap{
   height: 100%;
-  width: 50%;
+  width: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,12 +67,12 @@
   color: white;
   font-size: 1.2rem;
   padding-top: 8%;
-  transition: all ease-in 0.7s;
+  transition: all ease 0.5s;
   clip: rect(auto 0vw auto auto);
 }
 .detail-wrap-active{
   .detail-wrap;
-  transition: all ease-out 1s;
+  transition: all ease 0.9s;
   clip: rect(auto 50vw auto auto);
 }
 .buttons-wrap{

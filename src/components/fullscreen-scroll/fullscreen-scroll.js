@@ -74,7 +74,7 @@ class FullScreenScroll extends React.Component {
     const children = [];
     let os = 0;
     if (this.state.currentIndex === this.props.children.length - 1) {
-      os = '522px';
+      os = '30rem';
     }
     const last = this.state.currentIndex === this.props.children.length - 1;
 
@@ -100,7 +100,7 @@ class FullScreenScroll extends React.Component {
           style={{
             clip: (at || below) ? 'rect(auto auto 100vh auto)' : (last && beforeLast) ? 'rect(auto auto 100vh auto)' : 'rect(auto auto 0vh auto)',
             zIndex: atLast ? 0 : (this.props.children.length - children.length - 1) * 100,
-            bottom: last && beforeLast ? '522px' : 0,
+            bottom: last && beforeLast ? '40rem' : 0,
             transitionDelay: at ? '0s' : '0.1s',
           }}
           className={`${style['child-wrap']} ${at ? '' : style['not-active']}`}
