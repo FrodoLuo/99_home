@@ -17,6 +17,8 @@ import yyh from '../../assets/image/youth_story/yyh.jpg';
 
 import { luoYang, yinYuHua, wangBangWei, panYiBin } from '../../assets/article';
 import { luoyang, yinyuhua, wangbangwei, panyibin } from '../../assets/author';
+import { special, core, curiosity, handed, leadership, elite, fresher } from '../../assets/labels';
+
 
 class Story extends React.Component {
   state = {
@@ -33,6 +35,7 @@ class Story extends React.Component {
         author: luoyang,
         image: ly,
         tag: ['独特洞见', '团队核心'],
+        labels: [special, core],
         story: `“你是不是有足够的潜力来和我共事？” 这是每一位企业面试官都希望求职者能够向自己说明的问题。
         越来越多的求职者也努力尝试以无数的实习、商赛、交换经历来证明自己解决商业问题的潜力。
         但其实你还有一种可能：把潜力变成事实，告诉他“我的能力，毋庸置疑。”
@@ -44,6 +47,7 @@ class Story extends React.Component {
         author: panyibin,
         image: pyb,
         tag: ['好奇心猎手', '职场老司机'],
+        labels: [curiosity, handed],
         story: `我来自福建，旅台5年，对台湾问题有迷之执念和思考
         我是文科出身，却喜欢数理分析和建模，是技术流+历史流的双线性选手；
         我喜欢不同层次的思考，以及和不同价值观或知识背景的人嘴炮；还喜欢美食、游泳和重训。
@@ -56,6 +60,7 @@ class Story extends React.Component {
         author: yinyuhua,
         image: yyh,
         tag: ['领导力MAX', '业务精英'],
+        labels: [leadership, elite],
         story: `从最开始的浮躁，到学会深入学习、领悟、思考。某一天，发现自己开始陶醉于追求严谨细致系统考量、追求学习生活更加充实立体可感可塑。在行为习惯、任务安排的背后，是逻辑框架层层肢解，重新用更密实的材料、通过更精密的推算、摸索，逐步的拼接、完善。
         #不甘的心 永远在颤动# 可以来到玖久，真好。
         `,
@@ -66,6 +71,7 @@ class Story extends React.Component {
         author: wangbangwei,
         image: wbw,
         tag: ['独特洞见', '职场新手'],
+        labels: [special, fresher],
         story: '加入玖久是我大学阶段最幸运的事情。在无所适从的成长迷茫期，玖久里面优秀的共事者和玖久基于自身独特定位而产生的高效工作氛围给了我极大的启发。作为成长道路中灯塔一样的存在，玖久于我将永远是一段如数家珍般的经历。',
         article: wangBangWei,
       },
@@ -139,13 +145,13 @@ class Story extends React.Component {
               <div className={style['tags']}>
                 <div className={style['tag-wrap']}>
                   <div className={style['img-wrap']}>
-                    <img src={driven} role="presentation" />
+                    <img src={this.state.storys[this.state.currentIndex].labels[0]} role="presentation" />
                   </div>
                   <span>{this.state.storys[this.state.currentIndex].tag[0]}</span>
                 </div>
                 <div className={style['tag-wrap']}>
                   <div className={style['img-wrap']}>
-                    <img src={hat} role="presentation" />
+                    <img src={this.state.storys[this.state.currentIndex].labels[1]} role="presentation" />
                   </div>
                   <span>{this.state.storys[this.state.currentIndex].tag[1]}</span>
                 </div>

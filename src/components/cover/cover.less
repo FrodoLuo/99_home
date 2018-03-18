@@ -1,12 +1,13 @@
 .cover-wrap{
   height: 100vh;
   //min-height: 768px;
-  position: relative;
+  position: fixed;
   width: 100%;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 0;
 }
 .cover-background{
   position: absolute;
@@ -34,8 +35,6 @@
   position: absolute;
   left: 0;
   top: 0;
-  z-index: 100;
-  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.05), rgba(255,255,255,0.05), rgba(255,255,255,0));
   h1, h2 {
     text-shadow: 0 0 2rem rgba(0,0,0,0.8);
   }

@@ -6,3 +6,8 @@
 body{
   /* min-width: 1024px; */
 }
+.gradient{
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,0.05), rgba(255,255,255,0.05), rgba(255,255,255,0));
+}

@@ -3,7 +3,7 @@ import style from './cover.less';
 import coverVideo from '../../assets/video/temp_video.mp4';
 import arrow from '../../assets/image/arrow_down.png';
 
-export default () => {
+export default (props) => {
   return (
     <div
       className={style['cover-wrap']}
@@ -14,7 +14,7 @@ export default () => {
         <video src={coverVideo} loop autoPlay muted />
       </div>
       <div className={style['cover-content']}>
-        <div className={style['cover-content-title']}>
+        <div className={style['cover-content-title']} style={{ opacity: 1 - props.opacity }}>
           <h1>
             玖久
           </h1>

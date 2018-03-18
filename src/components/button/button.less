@@ -21,10 +21,10 @@
   transition: all ease 0.3s;
   img{
     width: 100%;
+    transition:  all 0.3s;
     height: auto;
   }
   span{
-    transition: all ease 0.3s;
     font-family: 'HYQiHei-40S';
     position: absolute;
     left: 0;
@@ -39,7 +39,7 @@
   }
 }
 .button:hover{
-  background-color: #0076EE;
+  background-color: rgb(56, 173, 223);
   border: 1.5px transparent solid;
 }
 .button-dark{
@@ -48,14 +48,18 @@
   color: black;
 }
 .button-dark:hover{
-  background-color: #0076EE;
+  background-color: rgb(56, 173, 223);
   border: 1.5px transparent solid;
+  color: white;
+  img{
+    filter: invert();
+  }
 }
 .button-color{
   .button;
-  background-color: #0076EE;
+  background-color: rgb(56, 173, 223);
   border: 1.5px transparent;
 }
 .button-color:hover{
-  background-color: #0366ee;
+  background-color: rgb(56, 173, 223);
 }

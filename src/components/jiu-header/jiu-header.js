@@ -6,7 +6,7 @@ import logo from '../../assets/image/logo.png';
 
 export default (props) => {
   return (
-    <div id="header" className={style['header-wrap']} style={{ position: props.fiexd ? 'fixed' : '' }}>
+    <div id="header" className={style['header-wrap']} style={{ position: props.fixed ? 'fixed' : '' }}>
       <div className={style['header-nav-part']}>
         <span className={props.enterprise ? style['active'] : ''}>
           <Link to="/enterprise">企业服务</Link>
