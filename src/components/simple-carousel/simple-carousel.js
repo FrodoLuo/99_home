@@ -63,7 +63,7 @@ export default class SimpleCarousel extends React.Component {
           className={style['background']}
           key={backgrounds.length}
           style={{
-            backgroundImage: `url(${item.props['data-background']})`,
+            backgroundImage: `url(${item.props['background']})`,
             clip: backgrounds.length <= this.state.currentIndex ? 'rect(auto auto auto 0vw)' : 'rect(auto auto auto 100vw)',
           }}
         />,
