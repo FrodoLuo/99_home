@@ -16,7 +16,7 @@ export default function (props) {
       className={commonStyle['card-wrap']}
     >
       <SimpleCarousel>
-        <div className={style['content-card']} background={bg}>
+        <div className={style['content-card']} data-background={bg}>
           <div className={style['intro']}>
             <h1>助力企业获得全新商业洞察力</h1>
             <p>
@@ -26,7 +26,7 @@ export default function (props) {
             </p>
           </div>
         </div>
-        <div className={style['content-card']} background={bg2}>
+        <div className={style['content-card']} data-background={bg2}>
           <div className={style['intro']}>
             <h1>与最前沿企业的决策速度接轨</h1>
             <p>
@@ -38,7 +38,7 @@ export default function (props) {
         </div>
         <div
           className={style['content-card']}
-          background={bg3}
+          data-background={bg3}
           floatComponents={[(<div style={{ position: 'absolute', height: 20, widti: 20, backgroundColor: 'white' }}>1</div>)]}
         >
           <div className={style['intro']}>
