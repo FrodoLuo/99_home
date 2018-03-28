@@ -70,7 +70,7 @@ function bgButton(props) {
   if (props.dark) {
     return (
       <div style={props.style} className={style['button-dark']} onClick={props.onClick} >
-        <img src={bgdark} alt="" />
+        <img src={bg} alt="" />
         <span style={{ fontSize: props.small ? '1.1rem' : ' 1.5rem' }}>
           {props.text}
         </span>

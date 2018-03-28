@@ -72,22 +72,48 @@
 .header-nav-part > span{
   pointer-events: all;
   position: relative;
+  a:focus{
+    text-decoration: none;
+  }
 }
 .header-logo{
   margin: 0 8rem;
   padding: 0.8rem 1.6rem;
   height: auto;
 }
-.active::after{
-  position: absolute;
-  bottom: -0.9rem;
-  height: 0.8rem;
-  width: 0.8rem;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: white;
-  content: ' ';
-  border-radius: 50%;
-  display: block;
+.header-nav-part{
+  >span::after{
+    position: absolute;
+    bottom: -0.9rem;
+    height: 0.8rem;
+    width: 0.8rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: white;
+    transition: all ease 0.4s;
+    content: ' ';
+    border-radius: 50%;
+    display: block;
+    bottom: -1.5rem;
+    opacity: 0;
+  }
+  >span:hover::after{
+    bottom: -0.9rem;
+    opacity: 1;
+  }
+  .active::after{
+    bottom: -0.9rem;
+    opacity: 1;
+  }
+}
+.header-wrap:hover{
+  .active::after{
+    bottom: -1.5rem;
+    opacity: 0;
+  }
+  .active:hover::after{
+    bottom: -0.9rem;
+    opacity: 1;
+  }
 }

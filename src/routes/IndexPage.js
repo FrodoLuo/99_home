@@ -17,17 +17,21 @@ class IndexPage extends React.Component {
     opacity: 0,
   }
   componentDidMount() {
-    window.addEventListener('scroll', () => {
-      const scrollY = window.scrollY;
-      const clientHeight = (window.document.body.clientHeight) / 1.4;
-      let opacity = (scrollY / clientHeight) - 0.2;
-      opacity = opacity >= 1 ? 1 : opacity;
-      // opacity = opacity <= 0 ? 0 : opacity;
-      this.setState({
-        opacity,
-      });
-    });
+    window.addEventListener('scroll', this.scrollHandler);
   }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.scrollHandler);
+  }
+  scrollHandler = () => {
+    const scrollY = window.scrollY;
+    const clientHeight = (window.document.body.clientHeight) / 1.4;
+    let opacity = (scrollY / clientHeight) - 0.2;
+    opacity = opacity >= 1 ? 1 : opacity;
+    // opacity = opacity <= 0 ? 0 : opacity;
+    this.setState({
+      opacity,
+    });
+  };
   render() {
     return (
       <Layout style={{ display: 'flex' }}>

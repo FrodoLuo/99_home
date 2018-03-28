@@ -27,7 +27,7 @@ export default () => {
                 <div className={style['insight']}>
                   <a href="/enterprise?index=2">
                     <h1>
-                      玖久洞察|我们对于
+                      玖久洞察<vr />我们对于
                     </h1>
                     <h1>
                       商业的理解

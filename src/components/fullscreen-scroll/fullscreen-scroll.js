@@ -200,7 +200,7 @@ class FullScreenScroll extends React.Component {
         >
 
           {this.props.enterprise ? (
-            <Tooltip title="预约合作" text>
+            <Tooltip title="预约服务" text>
               <a href="https://jinshuju.net/f/XF0Poy" target="_blank" rel="noopener noreferrer" className={style['button']}>
                 <Icon type="edit" />
               </a>

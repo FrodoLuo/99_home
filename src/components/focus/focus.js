@@ -46,6 +46,7 @@ export default class ForceTo extends React.Component {
                   {/* <img src={avatar} role="presentation" /> */}
 
                   <h2>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
                     玖久送给了我一份<br />从学生时代到工作<br />一直能回味的成人礼
                 </h2>
                   <h3>
@@ -55,6 +56,7 @@ export default class ForceTo extends React.Component {
                 <a href="/young?index=3" className={style['intro-people']}>
 
                   <h2>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
                     在玖久<br />完成社会化的最后一里路
                 </h2>
                   <h3>
@@ -64,6 +66,7 @@ export default class ForceTo extends React.Component {
                 <a href="/young?index=3" className={style['intro-people']}>
 
                   <h2>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
                     不对可能性说不<br />过无法复制的人生
                 </h2>
                   <h3>
@@ -73,6 +76,7 @@ export default class ForceTo extends React.Component {
                 <a href="/young?index=3" className={style['intro-people']}>
 
                   <h2>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
                     玖久让我遇见更好的自己
                 </h2>
                   <h3>

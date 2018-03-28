@@ -57,12 +57,18 @@
   visibility: visible;
   background-color: rgba(0, 129, 255, 0.5);
   flex: 1;
-}
-.case-logo-mask img {
-  height: 5rem;
-  object-fit: cover;
-  object-position: center; 
-  margin-bottom: 2rem;
+  .logo-wrapper{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 4rem;
+      object-fit: cover;
+      object-position: center; 
+      margin-bottom: 2rem;
+    }
+  }
 }
 .case-content{
   transition: all ease 0.4s;
@@ -86,8 +92,8 @@
 }
 .case-content > p{
   width: 100%;
-  font-size: 1.4rem;
-  line-height: 1.8em;
+  font-size: 1.2rem;
+  line-height: 2em;
 }
 .case-wrap:hover{
   margin: -20px 0;

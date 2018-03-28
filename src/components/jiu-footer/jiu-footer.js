@@ -65,11 +65,11 @@ export default function (props) {
       </div>
       <div className={style['footer-bottom-wrap']}>
         <div className={style['footer-nav']}>
-          <Link to="/">首页</Link>
+          <Link to="/" onClick={() => { window.scrollTo(0, 0); }}>首页</Link>
           <Link to="/enterprise">企业服务</Link>
           <Link to="/young">新青年实践</Link>
           <Link to="/about">关于玖久</Link>
-          <Link to="/contact">联系我们</Link>
+          <Link to="/contact" onClick={() => { window.scrollTo(0, 0); }}>联系我们</Link>
         </div>
         <div className={style['footer-copyright']}>
           <span>

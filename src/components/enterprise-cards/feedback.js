@@ -30,7 +30,9 @@ export default function (props) {
                 </div>
                 <div className={style['body-wrap']}>
                   <div className={style['client-content-title']}>blabla</div>
-                  <div className={style['client-content-intro']}>blblblblblblblblblblblblblblblb blbl blbl blblbl   blbl</div>
+                  <div className={style['client-content-intro']}>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
+                    blblblblblblblblblblblblblblblb blbl blbl blblbl   blbl</div>
                 </div>
               </div>
             </div>
@@ -41,7 +43,10 @@ export default function (props) {
                 </div>
                 <div className={style['body-wrap']}>
                   <div className={style['client-content-title']}>36氪</div>
-                  <div className={style['client-content-intro']}>战略调整下发现千亿机会，玖久让我们的团队更智慧。</div>
+                  <div className={style['client-content-intro']}>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
+                    战略调整下发现千亿机会，玖久让我们的团队更智慧。
+                  </div>
                   <div className={style['client-content-footer']}>——投资部负责人张明凯</div>
                 </div>
               </div>
@@ -53,7 +58,9 @@ export default function (props) {
                 </div>
                 <div className={style['body-wrap']}>
                   <div className={style['client-content-title']}>blabla</div>
-                  <div className={style['client-content-intro']}>blblblblblblblblblblblblblblblb blbl blbl blblbl   blbl</div>
+                  <div className={style['client-content-intro']}>
+                    <div className={style['equot']}><span>“</span><span>”</span></div>
+                    blblblblblblblblblblblblblblblb blbl blbl blblbl   blbl</div>
                 </div>
               </div>
             </div>

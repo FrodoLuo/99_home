@@ -9,11 +9,14 @@ export default class NewYounger extends React.Component {
     currentIndex: 0,
   }
   componentDidMount() {
-    setInterval(() => {
+    this.interval = setInterval(() => {
       this.setState({
         currentIndex: this.state.currentIndex === 1 ? 0 : this.state.currentIndex + 1,
       });
     }, 5000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.interval);
   }
   render() {
     const contents = [

@@ -4,7 +4,12 @@ import commonStyle from './common-style.less';
 import style from './join.less';
 import bg from '../../assets/image/youth/y_09.jpg';
 import Button from '../button/button';
-import logo from '../../assets/image/brain-storm.png';
+
+import storm from '../../assets/image/storm.png';
+import advicer from '../../assets/image/advicer.png';
+import market from '../../assets/image/market.png';
+import think from '../../assets/image/think.png';
+
 
 import { join } from '../../assets/article';
 
@@ -15,14 +20,14 @@ function Join(props) {
       intro: `
       日常而稳定的现有工作难以满足我对能力提升和价值创造的需求，我希望有更大的平台，让我不受限地在商业世界迅速生长。
       `,
-      logo,
+      logo: advicer,
       title: '青年顾问',
     }, {
       bg,
       intro: `
       我想找到一个深度接触商业、接触创业内部的平台。<br/>我想沉下心来获得赋能，拥有低成本试错、对标优秀前辈的机会。
       `,
-      logo,
+      logo: market,
       title: '企业成员',
     }, {
       bg,
@@ -30,14 +35,14 @@ function Join(props) {
         我想突破地域的局限，在真实的商业环境中寻找适合自己的方向；<br />
         我想短时间了解商业前沿，观察资深咨询顾问如何解决商业问题。
       `,
-      logo,
+      logo: think,
       title: '咨询PTA',
     }, {
       bg,
       intro: `
       我想建立系统的思维体系，成为思维模型和工具的主人，运用它们高效解决问题，让困扰不再是困扰，让挑战升级。
       `,
-      logo,
+      logo: storm,
       title: '思维训练者',
     },
   ];
@@ -63,7 +68,7 @@ function Join(props) {
             />
           </div>
           <div className={style['case-logo-mask']}>
-            <div>
+            <div className={style['logo-wrapper']}>
               <img src={item.logo} role="presentation" />
             </div>
             <div>
