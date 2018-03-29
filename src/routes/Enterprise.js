@@ -38,10 +38,10 @@ export default function Enterprise() {
       <Header enterprise />
       <FullScreenScroll enterprise>
         <ServiceAspect key="1" title="服务方向" />
-        <Methodology key="2" title="玖久方法论" />
+        {/* <Methodology key="2" title="玖久方法论" /> */}
         <ThinkDepth key="3" title="玖久洞察" />
-        <Cases key="4" title="优秀案例" caseData={caseData} />
-        <Feedback key="5" title="客户反馈" />
+        {/* <Cases key="4" title="优秀案例" caseData={caseData} /> */}
+        {/* <Feedback key="5" title="客户反馈" /> */}
         <div key="6" data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />
         </div>

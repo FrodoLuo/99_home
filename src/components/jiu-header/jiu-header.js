@@ -28,7 +28,7 @@ export default (props) => {
           <Link to="/about">关于玖久</Link>
         </span>
         <span className={props.contact ? style['active'] : ''}>
-          <Link to="/contact">联系我们</Link>
+          <Link to="/contact" onClick={() => { window.scrollTo(0, 0); }}>联系我们</Link>
         </span>
       </div>
     </div>

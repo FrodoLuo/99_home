@@ -49,7 +49,7 @@ export default function () {
                 <div className={style['divider']}>+</div>
                 <div className={style['content-single']}>
                   <div className={style['circle']}>
-                    <span className={style['num']}>2</span><span className={style['count']}>人</span>
+                    <span className={style['num']}>20+</span><span className={style['count']}>人</span>
                   </div>
                   <div className={style['occupation']}>
                     行业专家
@@ -63,7 +63,7 @@ export default function () {
                 <div className={style['divider']}>+</div>
                 <div className={style['content-single']}>
                   <div className={style['circle']}>
-                    <span className={style['num']}>5</span><span className={style['count']}>人</span>
+                    <span className={style['num']}>200+</span><span className={style['count']}>人</span>
                   </div>
                   <div className={style['occupation']}>
                     学生顾问
