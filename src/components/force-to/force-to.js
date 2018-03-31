@@ -1,7 +1,5 @@
 import React from 'react';
 import style from './force-to.less';
-import leftbg from '../../assets/image/index/force_left.jpg';
-import rightbg from '../../assets/image/force-right.png';
 import jiujiu from '../../assets/image/index/JIUJIU.png';
 import Button from '../button/button';
 

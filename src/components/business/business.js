@@ -1,7 +1,5 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Icon } from 'antd';
-import { Link } from 'dva/router';
 import style from './business.less';
 import Carousel from '../carousel/carousel';
 import Button from '../button/button';

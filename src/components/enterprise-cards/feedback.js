@@ -7,7 +7,7 @@ import Carousel from '../carousel/carousel';
 import bg from '../../assets/image/enterprise/e_06.jpg';
 import logo from '../../assets/image/36kr.png';
 
-export default function (props) {
+export default function () {
   return (
     <div
       className={commonStyle['card-wrap']}

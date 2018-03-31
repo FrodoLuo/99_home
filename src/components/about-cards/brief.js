@@ -5,12 +5,9 @@ import bg from '../../assets/image/about/a_02.jpg';
 import bg2 from '../../assets/image/about/a_03.jpg';
 import bg3 from '../../assets/image/about/a_04.jpg';
 
-
-import Button from '../button/button';
-
 import style from './brief.less';
 
-export default function (props) {
+export default function () {
   return (
     <div
       className={commonStyle['card-wrap']}

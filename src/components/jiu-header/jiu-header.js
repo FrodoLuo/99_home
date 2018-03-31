@@ -1,5 +1,4 @@
 import React from 'react';
-import { Icon } from 'antd';
 import { Link } from 'dva/router';
 import style from './jiu-header.less';
 import logo from '../../assets/image/logo.png';

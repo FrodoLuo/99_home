@@ -7,9 +7,6 @@ import commonStyle from './common-style.less';
 import style from './story.less';
 import bg from '../../assets/image/youth/y_07.jpg';
 
-import driven from '../../assets/svg/driven.svg';
-import hat from '../../assets/svg/hat.svg';
-
 import ly from '../../assets/image/youth_story/ly.jpg';
 import wbw from '../../assets/image/youth_story/wbw.jpg';
 import pyb from '../../assets/image/youth_story/pyb.jpg';
@@ -77,7 +74,6 @@ class Story extends React.Component {
     ],
   }
   switchTo = (index) => {
-    const ci = this.state.currentIndex;
     this.setState({
       from: this.state[index],
       [index]: 0,
@@ -96,8 +92,6 @@ class Story extends React.Component {
   }
   render() {
     const item = this.state.storys[this.state.currentIndex];
-    const matrix = [[1, 2, 3], [0, 2, 3], [0, 1, 3], [0, 1, 2]];
-    const m = matrix[this.state.currentIndex];
     const photoStyle = ['item0', 'item1', 'item2', 'item3'];
     const fromStyle = [{}, { left: 0 }, { left: 0, right: 0, margin: 'auto' }, { right: 0 }];
     return (

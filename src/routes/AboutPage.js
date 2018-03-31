@@ -7,7 +7,7 @@ import Brief from '../components/about-cards/brief';
 import Value from '../components/about-cards/value';
 import Group from '../components/about-cards/group';
 import Cover from '../components/about-cards/cover';
-import Article from '../components/about-cards/article';
+// import Article from '../components/about-cards/article';
 import AArticle from '../components/artical/artical';
 
 export default function () {

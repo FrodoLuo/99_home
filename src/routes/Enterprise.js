@@ -5,31 +5,31 @@ import Footer from '../components/jiu-footer/jiu-footer';
 import FullScreenScroll from '../components/fullscreen-scroll/fullscreen-scroll';
 import Article from '../components/artical/artical';
 import ServiceAspect from '../components/enterprise-cards/service-aspect';
-import Methodology from '../components/enterprise-cards/methodology';
+// import Methodology from '../components/enterprise-cards/methodology';
 import ThinkDepth from '../components/enterprise-cards/think-depth';
-import Cases from '../components/enterprise-cards/cases';
-import Feedback from '../components/enterprise-cards/feedback';
+// import Cases from '../components/enterprise-cards/cases';
+// import Feedback from '../components/enterprise-cards/feedback';
 
-import caseBg from '../assets/image/500186530.png';
-import caseLogo from '../assets/image/ferrari.png';
+// import caseBg from '../assets/image/500186530.png';
+// import caseLogo from '../assets/image/ferrari.png';
 
-const caseData = [{
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}, {
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}, {
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}, {
-  logo: caseLogo,
-  bg: caseBg,
-  title: 'Ferrari',
-}];
+// const caseData = [{
+//   logo: caseLogo,
+//   bg: caseBg,
+//   title: 'Ferrari',
+// }, {
+//   logo: caseLogo,
+//   bg: caseBg,
+//   title: 'Ferrari',
+// }, {
+//   logo: caseLogo,
+//   bg: caseBg,
+//   title: 'Ferrari',
+// }, {
+//   logo: caseLogo,
+//   bg: caseBg,
+//   title: 'Ferrari',
+// }];
 
 export default function Enterprise() {
   return (

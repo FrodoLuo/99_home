@@ -20,7 +20,6 @@ const buttonStyle = {
   margin: 0,
 };
 export default function (props) {
-  console.log('young props', props);
   return (
     <div
       className={commonStyle['card-wrap']}

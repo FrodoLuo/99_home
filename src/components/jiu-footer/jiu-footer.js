@@ -10,7 +10,7 @@ import netease from '../../assets/image/logo/netease.png';
 import nielsen from '../../assets/image/logo/nielsen.png';
 import wuba from '../../assets/image/logo/58.png';
 
-export default function (props) {
+export default function () {
   return (
     <div className={style['footer-wrap']}>
       <div className={style['footer-info-wrap']}>

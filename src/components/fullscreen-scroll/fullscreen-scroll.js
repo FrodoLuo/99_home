@@ -13,7 +13,6 @@ class FullScreenScroll extends React.Component {
   }
   componentDidMount() {
     const query = parseSearch(window.location);
-    console.log(query);
     if (query.index) {
       this.scrollTo(parseInt(query.index, 10));
     }
@@ -38,12 +37,6 @@ class FullScreenScroll extends React.Component {
     } else {
       this.scrollPrev(event);
     }
-  }
-  handleTouchStart = (event) => {
-    console.log(event.targetTouches);
-  }
-  handleTouchEnd = (event) => {
-    console.log(event.changedTouches);
   }
   scrollNext = (event) => {
     const index = this.state.currentIndex;
@@ -73,15 +66,10 @@ class FullScreenScroll extends React.Component {
   }
   wrapChildren = () => {
     const children = [];
-    let os = 0;
-    if (this.state.currentIndex === this.props.children.length - 1) {
-      os = '30rem';
-    }
     const last = this.state.currentIndex === this.props.children.length - 1;
 
     for (const child of this.props.children) {
       const index = children.length;
-      const over = children.length < this.state.currentIndex;
       const at = children.length === this.state.currentIndex;
       const below = children.length > this.state.currentIndex;
       const beforeLast = children.length === this.props.children.length - 2;
@@ -225,7 +213,6 @@ function parseSearch(location) {
     const pairs = queries.split('&');
     const result = {};
     for (const item of pairs) {
-      console.log(item);
       result[item.split('=')[0]] = item.split('=')[1];
     }
     return result;

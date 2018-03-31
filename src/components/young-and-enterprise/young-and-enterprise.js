@@ -50,7 +50,6 @@ export default class NewYounger extends React.Component {
         />,
       );
     }
-    const src = [enterpriseBg, youngBg];
     return (
       <div
         className="card-wrap"

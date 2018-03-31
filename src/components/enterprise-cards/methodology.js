@@ -5,7 +5,7 @@ import bg from '../../assets/image/enterprise/e_02.jpg';
 import Button from '../button/button';
 import logo from '../../assets/image/brain-storm.png';
 
-export default function (props) {
+export default function () {
   const caseData = [
     {
       bg,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Affix, Button, Icon } from 'antd';
+import { Affix, Icon } from 'antd';
 
 import style from './author-intro.less';
 
@@ -21,7 +21,7 @@ class AuthorIntro extends React.Component {
                   officia deserunt mollit anim.
             </p>
         </div>
-        <Affix offsetTop={0} onChange={(para) => { return false; }}>
+        <Affix offsetTop={0} onChange={() => { return false; }}>
           <div className={style['button-wrap']}>
             <div className={style['button']}>
               <Icon type="edit" />
