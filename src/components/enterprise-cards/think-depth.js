@@ -40,7 +40,8 @@ function ThinkDepth(props) {
                   });
                 }}
               >
-                未来已来
+                未来已来<br />
+                <span>by Zack</span>
               </a>
               <img src={listImg} role="presentation" />
             </div>
@@ -54,7 +55,8 @@ function ThinkDepth(props) {
                   });
                 }}
               >
-                近来, 为什么深度思考越发重要?
+                近来, 为什么深度思考越发重要?<br />
+                <span>by Zack</span>
               </a>
               <img src={listImg2} role="presentation" />
             </div>
