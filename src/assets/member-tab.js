@@ -234,7 +234,7 @@ class MemberTab extends React.Component {
         <div className={styles['tab-wrapper']}>
           {this.renderTab()}
         </div>
-        <div>
+        <div style={{ marginTop: '1.5rem' }}>
           {this.renderTabPane()}
         </div>
       </div>

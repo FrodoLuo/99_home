@@ -17,7 +17,7 @@ class Article extends React.Component {
       rendered: true,
     });
     if (this.state.visible) {
-      window.document.getElementById('article').scrollTo(0, 0);
+      if (window.document.getElementById('article').scrollTo) { window.document.getElementById('article').scrollTo(0, 0); }
       window.document.body.style.overflow = 'auto';
     } else {
       window.document.body.style.overflow = 'hidden';

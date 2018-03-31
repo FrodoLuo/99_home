@@ -14,11 +14,11 @@ const Panel = Collapse.Panel;
 
 export const luoYang = (
   <div>
-    <p>
+    {/* <p>
       <b>拥有从时代的诉求思考问题的习惯<br />
         为无数灵感落地的努力<br />
         以及无法被解释的好奇心</b>
-    </p>
+    </p> */}
 
     <h1 id="个人成长历程">
       个人成长历程
@@ -65,11 +65,11 @@ export const luoYang = (
 
 export const yinYuHua = (
   <div>
-    <p>
+    {/* <p>
       <b>成就感Max<br />
         冒险挑战<br />
         独创性</b><br />
-    </p>
+    </p> */}
 
     <h1 id="在玖久的经历">
       在玖久的经历
@@ -97,12 +97,12 @@ export const yinYuHua = (
 
 export const wangBangWei = (
   <div>
-    <p>
+    {/* <p>
       <b>美学狂热者<br />
         破音能手<br />
         非典型商科学子<br />
       </b>
-    </p>
+    </p> */}
 
     <h1 id="个人成长历程">个人成长历程</h1>
     <p>
@@ -141,13 +141,13 @@ export const wangBangWei = (
 
 export const panYiBin = (
   <div>
-    <p>
+    {/* <p>
       <b>学术小混混<br />
         中度中二病患者<br />
         思维海军陆战队<br />
         格言：Onde a terra acaba e o mar começa 陆止于此，海始于斯<br />
       </b>
-    </p>
+    </p> */}
 
 
     <h1 id="个人成长历程">
@@ -513,7 +513,7 @@ export const openThoughtPro = (
   </div>
 );
 const panelStyle = {
-  backgroundColor: 'whitesmoke',
+  backgroundColor: 'white',
   border: 'none',
 }
 export const join = (
