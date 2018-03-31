@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'dva';
 import { Icon } from 'antd';
 import { Link } from 'dva/router';
 import style from './business.less';
@@ -6,7 +7,10 @@ import Carousel from '../carousel/carousel';
 import Button from '../button/button';
 import companies from './companies';
 
-export default () => {
+import { insight_1 as insight1, insight_2 as insight2 } from '../../assets/article';
+import { xuezack } from '../../assets/author';
+
+export default connect()((props) => {
   return (
     <div className="card-wrap">
       <div className={style['content-wrap']}>
@@ -26,30 +30,50 @@ export default () => {
                 arrows
               >
                 <div className={style['insight']}>
-                  <Link to="/enterprise?index=1">
+                  <a
+                    onClick={() => {
+                      props.dispatch({
+                        type: 'article/setContentWithAuthor',
+                        payload: {
+                          content: insight1,
+                          author: xuezack,
+                        },
+                      });
+                    }}
+                  >
                     <h1>
-                      玖久洞察<vr />我们对于
-                    </h1>
-                    <h1>
-                      商业的理解
+                      玖久洞察<vr />思考洞察
                     </h1>
                     <h2>
-                      玖久对商业的理解 01
+                      未来已来
                     </h2>
-                  </Link>
+                    {/* <h2>
+                      玖久对商业的理解 01
+                    </h2> */}
+                  </a>
                 </div>
                 <div className={style['insight']}>
-                  <Link to="/enterprise?index=1">
+                  <a
+                    onClick={() => {
+                      props.dispatch({
+                        type: 'article/setContentWithAuthor',
+                        payload: {
+                          content: insight2,
+                          author: xuezack,
+                        },
+                      });
+                    }}
+                  >
                     <h1>
-                      玖久洞察|我们对于
-                    </h1>
-                    <h1>
-                      商业的理解
+                      玖久洞察<vr />思考洞察
                     </h1>
                     <h2>
-                      玖久对商业的理解 01
+                    近来, 为什么深度思考越发重要?
                     </h2>
-                  </Link >
+                    {/* <h2>
+                      玖久对商业的理解 01
+                    </h2> */}
+                  </a>
                 </div>
               </Carousel>
             </div>
@@ -111,5 +135,5 @@ export default () => {
       </div>
     </div>
   );
-};
+});
 

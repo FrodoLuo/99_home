@@ -36,6 +36,7 @@ class IndexPage extends React.Component {
     return (
       <Layout style={{ display: 'flex' }}>
         <Header fixed />
+        <Article />
         <Layout.Content className={style['main-container']}>
           <Cover opacity={this.state.opacity} />
           <div style={{ opacity: this.state.opacity }} className={style['gradient']} />

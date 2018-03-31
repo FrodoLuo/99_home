@@ -2,7 +2,7 @@
   background-color: whitesmoke;
   padding: 0 100px;
   padding-bottom: 0;
-  z-index: 10000;
+  z-index: 1000;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -34,6 +34,7 @@
   h1{
     font-weight: bold;
     font-size: 2.5rem;
+    margin-bottom: 4rem;
   }
   h1:before{
     display: block;
@@ -41,34 +42,35 @@
     background-color: lightgray;
     height: 1px;
     width: 100%;
+    font-size: 1.5rem;
     margin-bottom: 3rem;
   }
   h1:first-child:before{
     display: none;
   }
   h2{
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     margin-bottom: 0.2rem;
     font-weight: bold;
   }
   h3{
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-  h4{
     font-size: 1.3rem;
     font-weight: bold;
   }
-  h5{
+  h4{
     font-size: 1.2rem;
     font-weight: bold;
   }
-  p{
+  h5{
     font-size: 1.1rem;
+    font-weight: bold;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 2em;
     margin-bottom: 2rem;
   }
   br{
-    margin-top: 1rem;
     content: ' ';
     display: block;
   }
@@ -89,7 +91,7 @@
   position: absolute;
   top: 15%;
   right: 30%;
-  z-index: 10000;
+  z-index: 1000;
 }
 .button{
   width: 56px;
@@ -109,8 +111,8 @@
 }
 
 .article-wrap{
-  position: absolute;
-  z-index: 10000;
+  position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
@@ -138,7 +140,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 999;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;

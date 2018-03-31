@@ -19,7 +19,7 @@ function Value(props) {
     >
       <SimpleTab
         style={{
-          height: '40%',
+          height: '30rem',
           width: '50%',
           left: 0,
           right: 0,

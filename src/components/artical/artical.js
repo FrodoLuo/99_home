@@ -18,6 +18,9 @@ class Article extends React.Component {
     });
     if (this.state.visible) {
       window.document.getElementById('article').scrollTo(0, 0);
+      window.document.body.style.overflow = 'auto';
+    } else {
+      window.document.body.style.overflow = 'hidden';
     }
   }
   renderNav = () => {

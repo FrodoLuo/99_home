@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'dva';
 
 import { insight_1 as insight1, insight_2 as insight2 } from '../../assets/article';
+import { xuezack } from '../../assets/author';
 
 import commonStyle from './common-style.less';
 import bg from '../../assets/image/enterprise/e_04.jpg';
@@ -21,6 +22,9 @@ function ThinkDepth(props) {
         <div className={style['left-wrap']}>
           <div className={style['content']}>
             <h1>商业评价</h1>
+            <div style={{ width: '100%', textAlign: 'center', fontSize: '1.5rem' }}>
+              文章修改中
+            </div>
           </div>
         </div>
         <div className={style['right-wrap']}>
@@ -31,8 +35,8 @@ function ThinkDepth(props) {
               <a
                 onClick={() => {
                   props.dispatch({
-                    type: 'article/setContent',
-                    payload: insight1,
+                    type: 'article/setContentWithAuthor',
+                    payload: { content: insight1, author: xuezack },
                   });
                 }}
               >
@@ -45,8 +49,8 @@ function ThinkDepth(props) {
               <a
                 onClick={() => {
                   props.dispatch({
-                    type: 'article/setContent',
-                    payload: insight2,
+                    type: 'article/setContentWithAuthor',
+                    payload: { content: insight2, author: xuezack },
                   });
                 }}
               >

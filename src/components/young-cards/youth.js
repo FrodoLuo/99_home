@@ -41,7 +41,7 @@ export default function (props) {
           <div className={style['intro']}>
             <h1>企业成员</h1>
             <p>
-              作为企业的一员，跳脱出学生视角，从商业实战的角度，与内部成员一起相互配合，参与到企业从0到1的各业务线搭建过程
+              作为企业的一员，跳脱出学生视角，从商业实战的角度，与内部成员一起相互配合，参与到企业从0到1的各业务线搭建过程。
             </p>
           </div>
           <Button onClick={props.jump} small style={buttonStyle} text="了解更多" />
