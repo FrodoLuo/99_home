@@ -19,7 +19,7 @@ function Value(props) {
     >
       <SimpleTab
         style={{
-          height: '30rem',
+          height: '27rem',
           width: '50%',
           left: 0,
           right: 0,
@@ -67,7 +67,7 @@ function Value(props) {
             content: (
               <div className={style['content-wrap']}>
                 <p>
-                  致力于为企业创造价值，为青年赋能。
+                  致力于连接商业力量, 为企业创造价值, 为新青年赋能。
                 </p>
                 <p>
                   在理解和逐步融入企业、商业人和新青年的基础上，玖久通过将多方需求进行连接和匹配，最大限度的调动各方优势，创造新价值。
@@ -100,10 +100,7 @@ function Value(props) {
             content: (
               <div className={style['content-wrap']}>
                 <p>
-                  致力于引领工业革命和信息革命后的另一次革命: 智慧革命.
-                  基于对人类资源和当前社会与商业形态的重新思考.
-                  玖久致力于以全新的方式构建商业组织: 建立全新
-                  的智慧平台型组织, 高效使用所有可以集中起来的智慧资源
+                  关注事物本质、认可多元价值
                 </p>
                 <Button
                   colorful

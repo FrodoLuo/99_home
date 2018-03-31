@@ -5,6 +5,12 @@ export default class SimpleCarousel extends React.Component {
   state = {
     currentIndex: 0,
   }
+  componentDidMount() {
+    this.interval = setInterval(this.next, 5000);
+  }
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
   next = () => {
     let index = this.state.currentIndex;
     index = index < this.props.children.length - 1 ? index + 1 : 0;
@@ -20,9 +26,11 @@ export default class SimpleCarousel extends React.Component {
     });
   }
   to = (index) => {
+    clearInterval(this.interval);
     this.setState({
       currentIndex: index,
     });
+    this.interval = setInterval(this.next, 5000);
   }
   childRender = (child, index) => {
     return (

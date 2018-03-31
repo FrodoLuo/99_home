@@ -16,7 +16,7 @@ export default function () {
     >
       <SimpleTab
         style={{
-          height: '45%',
+          height: '27rem',
           width: '65%',
           left: 0,
           right: 0,

@@ -23,6 +23,9 @@ class Article extends React.Component {
       window.document.body.style.overflow = 'hidden';
     }
   }
+  componentWillUnmount() {
+    window.document.body.style.overflow = 'auto';
+  }
   renderNav = () => {
     if (!this.state.content) {
       return '';
