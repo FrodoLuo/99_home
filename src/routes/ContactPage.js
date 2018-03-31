@@ -66,8 +66,8 @@ export default class extends React.Component {
           <div className={style['map-wrap']} id="map-wrap">
             <Map
               amapkey={'b377916e7d977df6e8d7169223d2bba7'}
-              zoom={this.state.detail ? 20 : 15}
-              center={this.state.detail ? { longitude: 116.456529, latitude: 39.983311 } : { longitude: 116.457429, latitude: 39.983311 }}
+              zoom={this.state.detail ? 17 : 20}
+              center={this.state.detail ? { longitude: 116.455, latitude: 39.983311 } : { longitude: 116.457429, latitude: 39.983311 }}
             >
               <Marker
                 position={{ longitude: 116.457429, latitude: 39.983311 }}
@@ -89,12 +89,12 @@ export default class extends React.Component {
               <p>
                 电子邮箱: Marketing@jiujiudacheng.com
             </p>
-              <p>
+              {/* <p>
                 咨询热线: 400-851-9337
             </p>
               <p>
                 传真: 86-10-56018799
-            </p>
+            </p> */}
             </div>
             <div className={style['buttons-wrap']}>
               <a href="https://jinshuju.net/f/XF0Poy" target="_blank" rel="noopener noreferrer">

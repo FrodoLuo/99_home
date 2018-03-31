@@ -7,7 +7,7 @@ import style from './thinking-value.less';
 import bg from '../../assets/image/youth/y_06.jpg';
 import Button from '../button/button';
 
-import posterBg from '../../assets/image/poster.png';
+import posterBg from '../../assets/image/poster_left.jpg';
 import posterBgRight from '../../assets/image/poster_right.jpg';
 
 function tv(props) {
@@ -38,7 +38,7 @@ function tv(props) {
               </p>
             </div>
             <div className={style['poster-title-wrap']}>
-              <h1>“开放思维”平台课</h1>
+              <h1 style={{ color: 'white' }}>“开放思维”平台课</h1>
             </div>
             <div className={style['button']}>
               <Button

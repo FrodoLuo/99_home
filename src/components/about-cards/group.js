@@ -35,7 +35,7 @@ export default function () {
               <div className={style['content-wrap']}>
                 <div className={style['content-single']}>
                   <div className={style['circle']}>
-                    <span className={style['num']}>1</span><span className={style['count']}>人</span>
+                    <span className={style['num']}>6</span><span className={style['count']}>人</span>
                   </div>
                   <div className={style['occupation']}>
                     玖久顾问

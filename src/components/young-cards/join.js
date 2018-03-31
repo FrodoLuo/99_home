@@ -65,6 +65,7 @@ function Join(props) {
             <p dangerouslySetInnerHTML={{ __html: item.intro }} />
             <Button
               onClick={() => {
+                window.location.hash = item.title;
                 props.dispatch({
                   type: 'article/setContent',
                   payload: join,

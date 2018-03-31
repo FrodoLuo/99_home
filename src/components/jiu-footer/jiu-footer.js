@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'dva/router';
 import style from './jiu-footer.less';
-import logo from '../../assets/image/logo.png';
+import logo from '../../assets/image/99 CONSULTING.png';
 import publicQR from '../../assets/image/QRCode/public.bmp';
 import questionaireQR from '../../assets/image/QRCode/questionaire.png';
 import baidu from '../../assets/image/logo/baidu.png';

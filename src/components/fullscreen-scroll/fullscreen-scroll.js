@@ -2,6 +2,7 @@ import React from 'react';
 import { Icon, Tooltip } from 'antd';
 import style from './fullscreen-scroll.less';
 import QR from '../../assets/image/QRCode/public.bmp';
+import handshake from '../../assets/svg/handshake.svg';
 
 class FullScreenScroll extends React.Component {
   state = {
@@ -202,13 +203,13 @@ class FullScreenScroll extends React.Component {
           {this.props.enterprise ? (
             <Tooltip title="预约服务" text>
               <a href="https://jinshuju.net/f/XF0Poy" target="_blank" rel="noopener noreferrer" className={style['button']}>
-                <Icon type="edit" />
+                <img style={{ height: 32 }} src={handshake} alt="" />
               </a>
             </Tooltip>
           ) : null}
           <Tooltip title="关注玖久" text>
             <div className={style['button']} onClick={this.toggleQR}>
-              <Icon type="scan" />
+              <Icon type="wechat" />
             </div>
           </Tooltip>
         </div>

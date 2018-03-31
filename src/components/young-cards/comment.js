@@ -8,13 +8,14 @@ import hhk from '../../assets/image/youth/hhk.jpg';
 import ly from '../../assets/image/youth/ly.jpg';
 import zbe from '../../assets/image/youth/zbe.jpg';
 import { commentHHK, commentLY, commentZBE } from '../../assets/article';
+import { huanghuikai, luoyang, zhaobill } from '../../assets/author';
 // import avatar from '../../assets/image/avatar.png';
 
 function Comment(props) {
-  const showArticle = (article) => {
+  const showArticle = (article, author) => {
     props.dispatch({
-      type: 'article/setContent',
-      payload: article,
+      type: 'article/setContentWithAuthor',
+      payload: { content: article, author },
     });
   };
   return (
@@ -24,7 +25,7 @@ function Comment(props) {
     >
       <div className={style['content-wrap']}>
         <Carousel arrows>
-          <div className={style['single-wrap']} onClick={() => { showArticle(commentHHK); }}>
+          <div className={style['single-wrap']} onClick={() => { showArticle(commentHHK, huanghuikai); }}>
             <div className={style['avatar-wrap']}>
               <img role="presentation" src={hhk} />
             </div>
@@ -45,7 +46,7 @@ function Comment(props) {
             </p>
             </div>
           </div>
-          <div className={style['single-wrap']} onClick={() => { showArticle(commentLY); }}>
+          <div className={style['single-wrap']} onClick={() => { showArticle(commentLY, luoyang); }}>
             <div className={style['avatar-wrap']}>
               <img role="presentation" src={ly} />
             </div>
@@ -66,7 +67,7 @@ function Comment(props) {
             </p>
             </div>
           </div>
-          <div className={style['single-wrap']} onClick={() => { showArticle(commentZBE); }}>
+          <div className={style['single-wrap']} onClick={() => { showArticle(commentZBE, zhaobill); }}>
             <div className={style['avatar-wrap']}>
               <img role="presentation" src={zbe} />
             </div>

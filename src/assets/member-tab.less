@@ -1,0 +1,19 @@
+.tab-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  .tab{
+    font-size: 1.1rem;
+    padding: 0.5em 1em;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all ease 0.7s;
+    height: fit-content;
+    white-space: nowrap;
+    margin: 0.5rem 1rem 0 0;
+  }
+  .tab-active{
+    .tab;
+    background-color: #1e7ddb;
+    color: white;
+  }
+}

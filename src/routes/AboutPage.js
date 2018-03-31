@@ -20,7 +20,7 @@ export default function () {
         <Brief title="基本介绍" />
         <Value title="价值观" />
         <Group title="团队构成" />
-        <Article title="文章精选" />
+        {/* <Article title="文章精选" /> */}
         <div data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />
         </div>

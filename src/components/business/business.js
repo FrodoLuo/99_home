@@ -1,5 +1,6 @@
 import React from 'react';
 import { Icon } from 'antd';
+import { Link } from 'dva/router';
 import style from './business.less';
 import Carousel from '../carousel/carousel';
 import Button from '../button/button';
@@ -25,7 +26,7 @@ export default () => {
                 arrows
               >
                 <div className={style['insight']}>
-                  <a href="/enterprise?index=2">
+                  <Link to="/enterprise?index=1">
                     <h1>
                       玖久洞察<vr />我们对于
                     </h1>
@@ -35,10 +36,10 @@ export default () => {
                     <h2>
                       玖久对商业的理解 01
                     </h2>
-                  </a>
+                  </Link>
                 </div>
                 <div className={style['insight']}>
-                  <a>
+                  <Link to="/enterprise?index=1">
                     <h1>
                       玖久洞察|我们对于
                     </h1>
@@ -48,7 +49,7 @@ export default () => {
                     <h2>
                       玖久对商业的理解 01
                     </h2>
-                  </a>
+                  </Link >
                 </div>
               </Carousel>
             </div>
@@ -58,7 +59,7 @@ export default () => {
               <Carousel
                 arrows
               >
-                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
                   <a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
@@ -67,7 +68,7 @@ export default () => {
                     <img src={companies.baidu} role="presentation" />
                   </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
                   <a href="http://www.xiaojukeji.com/index/index" target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
@@ -76,7 +77,7 @@ export default () => {
                     <img src={companies.didi} role="presentation" />
                   </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
                   <a href="http://www.163.com/" target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
@@ -85,7 +86,7 @@ export default () => {
                     <img src={companies.netease} role="presentation" />
                   </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
                   <a href="http://www.nielsen.com/cn/zh.html" target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
@@ -94,7 +95,7 @@ export default () => {
                     <img src={companies.nielsen} role="presentation" />
                   </a>
                 </div>
-                <div className={style['company']} style={{ backgroundColor: '#485ee2' }}>
+                <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
                   <a href="https://www.58.com" target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>

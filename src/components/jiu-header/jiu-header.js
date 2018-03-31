@@ -3,6 +3,7 @@ import { Icon } from 'antd';
 import { Link } from 'dva/router';
 import style from './jiu-header.less';
 import logo from '../../assets/image/logo.png';
+import home from '../../assets/image/home.png';
 
 export default (props) => {
   return (
@@ -19,7 +20,7 @@ export default (props) => {
         <span>
           <Link to="/">
             <img className={style['logo']} src={logo} role="presentation" />
-            <Icon className={style['home']} type="home" />
+            <img className={style['logo-home']} src={home} role="presentation" />
           </Link>
         </span>
       </div>

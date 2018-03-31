@@ -8,7 +8,7 @@
   flex-direction: column;
 }
 .footer-info-wrap{
-  background-color: #2e2e2e;
+  background-color: #1f1f1f;
   padding: 6rem 9rem;
   color: white;
   display: flex;
@@ -32,7 +32,7 @@
   flex-direction: column;
   font-size: 1.3rem;
   line-height: 2em;
-  color: #a4a4a4;
+  color: #888888;
   margin-bottom: 1.4rem;
 }
 .logo-and-intro{
@@ -47,7 +47,7 @@
 }
 .logo-and-intro p {
   font-size: 1.3rem;
-  color: #a4a4a4;
+  color: #888888;
   line-height: 2em;
   font-weight: 300;
   text-align: justify;
@@ -66,12 +66,21 @@
 .footer-nav{
   height: 100%;
   display: flex;
-}
-.footer-nav > a{
-  color: white;
-  padding: 0 2.2rem;
-  font-size: 1.4rem;
-  line-height: 5.2rem;
+  a{
+    transition: all ease 0.5s;
+    color: white;
+    padding: 0 2.2rem;
+    font-size: 1.4rem;
+    line-height: 5.2rem;
+  }
+  &:hover{
+    a{
+      opacity: 0.6;
+      &:hover{
+        opacity: 1;
+      }
+    }
+  }
 }
 
 .footer-copyright {
@@ -98,13 +107,15 @@
 }
 .co-title{
   font-size: 1.4rem;
-  color: #a4a4a4;
+  color: #888888;
 }
 .logo-container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 1rem;
+  filter: brightness(0.65);
 }
 .logo-container > div{
   height: 4rem;
@@ -125,7 +136,7 @@
 .qr-wrap span{
   font-size: 1.6rem;
   padding-top: 1rem;
-  color: #a4a4a4;
+  color: #888888;
 }
 .qr{
   display: flex;

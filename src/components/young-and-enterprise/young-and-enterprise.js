@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './young-and-enterprise.less';
-import youngBg from '../../assets/image/500553231.png';
+import youngBg from '../../assets/image/youthlinkbg.jpg';
 import enterpriseBg from '../../assets/image/500592072.jpg';
 import Button from '../button/button';
 

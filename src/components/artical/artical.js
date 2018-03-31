@@ -7,13 +7,18 @@ class Article extends React.Component {
   state = {
     content: '',
     visible: false,
+    rendered: false,
   };
   componentWillReceiveProps(nextProps) {
     this.setState({
       content: nextProps.content,
       visible: nextProps.visible,
       author: nextProps.author || null,
+      rendered: true,
     });
+    if (this.state.visible) {
+      window.document.getElementById('article').scrollTo(0, 0);
+    }
   }
   renderNav = () => {
     if (!this.state.content) {
@@ -35,10 +40,13 @@ class Article extends React.Component {
   }
 
   render() {
+    if (this.state.rendered) {
+      window.document.getElementById('header').style.padding = this.state.visible ? '2.5rem 10rem' : '4.5rem 10rem';
+    }
     return (
       <div className={this.state.visible ? style['article-wrap-open'] : style['article-wrap-close']}>
         <div className={this.state.visible ? style['artical-content-wrap'] : style['artical-content-wrap-hidden']}>
-          <div className={this.state.visible ? style['artical-content'] : style['artical-content-hidden']}>
+          <div id="article" className={this.state.visible ? style['artical-content'] : style['artical-content-hidden']}>
             {this.state.content}
           </div>
         </div>
