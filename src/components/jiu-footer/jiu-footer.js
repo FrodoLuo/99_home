@@ -49,7 +49,7 @@ export default function (props) {
                 <img src={questionaireQR} className={style['qr-img-q']} role="presentation" />
               </div>
               <span>
-                扫码填写问卷
+                扫码预约服务
               </span>
             </div>
             <div className={style['qr']}>
