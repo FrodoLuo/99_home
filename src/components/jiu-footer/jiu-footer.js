@@ -31,12 +31,16 @@ export default function () {
             <span className={style['co-title']}>玖久大成合作伙伴(部分)</span>
             <div className={style['logo-container']}>
               {/* <div style={{ width: '100%', position: 'relative' }}><img style={{ position: 'absolute', left: 0 }} src={tencent} alt="" /></div> */}
-              <div><img src={tencent} alt="" /></div>
-              <div><img src={baidu} alt="" /></div>
-              <div><img src={didi} alt="" /></div>
-              <div><img src={netease} alt="" /></div>
-              <div><img src={wuba} alt="" /></div>
-              {/* <div><img src={nielsen} alt="" /></div> */}
+              <div>
+                <div style={{ height: '1.75rem' }}><img src={tencent} alt="" /></div>
+                <div><img src={wuba} alt="" /></div>
+                <div><img src={netease} alt="" /></div>
+              </div>
+              <div>
+                <div><img src={baidu} alt="" /></div>
+                <div><img src={didi} alt="" /></div>
+                <div><img src={nielsen} alt="" /></div>
+              </div>
             </div>
           </div>
         </div>
