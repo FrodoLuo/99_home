@@ -83,3 +83,21 @@
     line-height: 1.8em;
   }
 }
+.arrow{
+  position: relative;
+  animation: arrowScale infinite 1s;
+  &:hover{
+    animation: arrowScale infinite 5s;
+  }
+}
+.arrow-left{
+  .arrow;
+}
+.arrow-right{
+  .arrow;
+}
+@keyframes arrowScale{
+  0% { transform: scale(1); text-shadow: 0 0 5px rgba(0,0,0,0.3); }
+  50% { transform: scale(1.2); text-shadow: 0 0 45px rgba(0,0,0,0.7); }
+  100% { transform: scale(1); text-shadow: 0 0 5px rgba(0,0,0,0.3); }
+}

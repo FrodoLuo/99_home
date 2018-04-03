@@ -19,9 +19,9 @@ export default function Young() {
       <FullScreenScroll>
         <Youth title="玖久青年" jumpTrigger={{ from: 0, to: 5 }} />
         <Create title="青年创造" />
-        <ThinkingValue title="思维价值" />
         <Story title="青年故事" />
         <Comment title="企业评价" />
+        <ThinkingValue title="思维价值" />
         <Join title="加入我们" />
         <div data-ignore style={{ height: '100%', width: '100%', display: 'flex', alignItems: 'flex-end' }}>
           <Footer />

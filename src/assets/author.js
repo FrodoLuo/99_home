@@ -20,7 +20,7 @@ class author {
 }
 export const zhaobill = new author('赵比尔', '玖久创始团队成员', '京东集团管培生。曾在华夏幸福战略发展中心、链家研究院、正心谷创新资本实习。');
 
-export const luoyang = new author('罗杨', '玖久创始团队成员', '就职于网易游戏影业部门，宝洁BRM Summer intern offer，曾在RB、ATK、联合利华、Uber、网易等实习。');
+export const luoyang = new author('罗杨', '玖久创始团队成员', '就职于网易游戏，宝洁BRM Summer intern offer，曾在RB、ATK、联合利华、Uber、网易等实习。');
 
 export const panyibin = new author('潘毅斌', '管理团队，思维培训部Member', '参与百度品牌营销、IBM战略转型研究、中铁TOD模式设计、HBR中国战略推广等项目；慎思行内容运营专员，欧睿国际研究员；FMA金融管理师；台湾大学大陆同学会副会长，南开大学两岸交流协会会长，厦门市政府专家库顾问。');
 

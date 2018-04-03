@@ -99,9 +99,20 @@ function Value(props) {
             title: '价值观',
             content: (
               <div className={style['content-wrap']}>
-                <p>
-                  关注事物本质、认可多元价值
+                <div
+                  style={{
+                    height: '100%',
+                    color: 'white',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontSize: '1.4rem',
+                  }}
+                >
+                  <p>
+                    关注事物本质、认可多元价值
                 </p>
+                </div>
                 <Button
                   colorful
                   onClick={() => {

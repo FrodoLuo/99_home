@@ -84,7 +84,16 @@ export default connect()((props) => {
                 arrows
               >
                 <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
-                  <a href="https://www.baidu.com/" target="_blank" rel="noopener noreferrer">
+                  <a target="_blank" rel="noopener noreferrer">
+                    <div className={style['brand']}>
+                      <h2>玖久合作伙伴</h2>
+                      <h3>腾讯</h3>
+                    </div>
+                    <img style={{ width: '12rem', height: 'auto' }} src={companies.tencent} role="presentation" />
+                  </a>
+                </div>
+                <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
+                  <a target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
                       <h3>百度</h3>
@@ -93,7 +102,7 @@ export default connect()((props) => {
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
-                  <a href="http://www.xiaojukeji.com/index/index" target="_blank" rel="noopener noreferrer">
+                  <a target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
                       <h3>滴滴</h3>
@@ -102,7 +111,7 @@ export default connect()((props) => {
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
-                  <a href="http://www.163.com/" target="_blank" rel="noopener noreferrer">
+                  <a target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
                       <h3>网易</h3>
@@ -111,7 +120,7 @@ export default connect()((props) => {
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
-                  <a href="http://www.nielsen.com/cn/zh.html" target="_blank" rel="noopener noreferrer">
+                  <a target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
                       <h3>尼尔森</h3>
@@ -120,7 +129,7 @@ export default connect()((props) => {
                   </a>
                 </div>
                 <div className={style['company']} style={{ backgroundColor: '#0092df' }}>
-                  <a href="https://www.58.com" target="_blank" rel="noopener noreferrer">
+                  <a target="_blank" rel="noopener noreferrer">
                     <div className={style['brand']}>
                       <h2>玖久合作伙伴</h2>
                       <h3>58同城</h3>

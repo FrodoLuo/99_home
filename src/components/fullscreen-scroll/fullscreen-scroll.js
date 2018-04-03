@@ -162,7 +162,7 @@ class FullScreenScroll extends React.Component {
         >
           <img src={QR} className={style['QR-code']} alt="" />
           <p>
-            扫描二维码关注玖久大成微信公众号<br /> 及时获取最新咨询
+            扫描二维码关注官方微信公众号“玖久家” <br /> 及时获取最新资讯
           </p>
           <span>
             <Icon type="close" />

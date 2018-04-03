@@ -9,6 +9,7 @@ import didi from '../../assets/image/logo/didi.png';
 import netease from '../../assets/image/logo/netease.png';
 import nielsen from '../../assets/image/logo/nielsen.png';
 import wuba from '../../assets/image/logo/58.png';
+import tencent from '../../assets/image/logo/tencent.png';
 
 export default function () {
   return (
@@ -27,13 +28,15 @@ export default function () {
           </div>
           <span className={style['seperator']} />
           <div className={style['co-wrap']}>
-            <span className={style['co-title']}>玖久大成合作伙伴:</span>
+            <span className={style['co-title']}>玖久大成合作伙伴(部分)</span>
             <div className={style['logo-container']}>
+              {/* <div style={{ width: '100%', position: 'relative' }}><img style={{ position: 'absolute', left: 0 }} src={tencent} alt="" /></div> */}
+              <div><img src={tencent} alt="" /></div>
               <div><img src={baidu} alt="" /></div>
               <div><img src={didi} alt="" /></div>
               <div><img src={netease} alt="" /></div>
               <div><img src={wuba} alt="" /></div>
-              <div><img src={nielsen} alt="" /></div>
+              {/* <div><img src={nielsen} alt="" /></div> */}
             </div>
           </div>
         </div>

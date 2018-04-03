@@ -4,4 +4,5 @@ export default {
   netease: require('../../assets/image/logo/netease.png'),
   nielsen: require('../../assets/image/logo/nielsen.png'),
   wuba: require('../../assets/image/logo/58.png'),
+  tencent: require('../../assets/image/logo/tencent.png'),
 };

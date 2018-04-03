@@ -25,7 +25,13 @@ export default (props) => {
         </div>
         <div className={style['cover-arrow']}>
           {/* <span className={style['arrow-title']}>向下滑动</span> */}
-          <div className={style['arrows-wrap']} style={{ opacity: 1 - (props.opacity * 1.5) }}>
+          <div
+            className={style['arrows-wrap']}
+            style={{ opacity: 1 - (props.opacity * 1.5) }}
+            onClick={() => {
+              window.scrollTo({ behavior: 'smooth', top: window.document.body.clientHeight * 1.3 });
+            }}
+          >
             <span className={style['arrow']}>
               <img src={arrow} role="presentation" />
             </span>

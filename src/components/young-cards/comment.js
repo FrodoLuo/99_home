@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
+import { Icon } from 'antd';
 import commonStyle from './common-style.less';
 import style from './comment.less';
 import Carousel from '../carousel/carousel';
@@ -24,7 +25,18 @@ function Comment(props) {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <div className={style['content-wrap']}>
-        <Carousel arrows>
+        <Carousel
+          arrows
+          prevArrow={
+            <div className={style['arrow-left']}>
+              <Icon type="left" />
+            </div>
+          } nextArrow={
+            <div className={style['arrow-left']}>
+              <Icon type="right" />
+            </div>
+          }
+        >
           <div className={style['single-wrap']} onClick={() => { showArticle(commentHHK, huanghuikai); }}>
             <div className={style['avatar-wrap']}>
               <img role="presentation" src={hhk} />
@@ -56,7 +68,7 @@ function Comment(props) {
             </div>
             <div className={style['intro']}>
               <p>
-                就职于网易游戏影业部门，宝洁BRM Summer intern offer，曾在RB、ATK、联合利华、Uber、网易等实习
+                就职于网易游戏，宝洁BRM Summer intern offer，曾在RB、ATK、联合利华、Uber、网易等实习
             </p>
             </div>
             <div className={style['comment']}>
