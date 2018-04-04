@@ -29,7 +29,7 @@ export default (props) => {
             className={style['arrows-wrap']}
             style={{ opacity: 1 - (props.opacity * 1.5) }}
             onClick={() => {
-              window.scrollTo({ behavior: 'smooth', top: window.document.body.clientHeight * 1.3 });
+              window.scrollTo(0, window.document.body.clientHeight * 1.3);
             }}
           >
             <span className={style['arrow']}>

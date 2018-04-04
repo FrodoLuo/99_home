@@ -500,12 +500,12 @@ export const openThoughtBase = (
       我们为你搜集优质商业信息渠道，根据商业现象热度筛选你需要了解和学习的最新商业信息，提出与当下商业社会息息相关的问题。同时，为你寻找商业问题所涉及行业或职位的资深公司人，通过让他们绘制思路和阐述思考过程的方式，为你揭秘商业决策幕后的真实思考过程。并且，我们从众多优秀解决方案中提炼其中的思维模型，让你浸润在“好答案”的同时，把相应的思维模型内化为自身的思维体系。<br />
     </p>
     <p>
-      开放思维课程目前正在内测阶段，现在只需要扫描二维码，就可以提前参与到课程内测中！名额不多，体验从速！
+      开放思维课程目前正在内测阶段，现在只需要扫描二维码，就可以提前参与到课程内测中！<br />名额不多，体验从速！
     </p>
     <span style={{display: 'inline-block', width: '100%', textAlign: 'center'}}>
     <img style={{height: '10rem', width: 'auto', margin: '1rem'}} alt="" src={courseQR}/>
     </span>
-    <p>*扫码添加玖久小助手微信, 并说明关键词"思维课"</p>
+    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码添加玖久小助手微信, 并说明关键词"思维课"</p>
   </div>
 );
 
@@ -520,12 +520,12 @@ export const openThoughtPro = (
       “思考效率”由分析问题的速度和传达信息的效率所决定。我们为你营造时间压力环境，训练你在限时条件下的思考速度。同时，为你提供讲述分析思路和解决方案的方法和机会，通过资深公司人对你所传递信息的反馈，让你在不断修正阐述方式的过程中提升你传达信息的效率。<br />
     </p>
     <p>
-      开放思维课程目前正在内测阶段，现在只需要扫描二维码，就可以提前参与到课程内测中！名额不多，体验从速！
+      开放思维课程目前正在内测阶段，现在只需要扫描二维码，就可以提前参与到课程内测中！<br />名额不多，体验从速！
     </p>
     <span style={{display: 'inline-block', width: '100%', textAlign: 'center'}}>
     <img style={{height: '10rem', width: 'auto', margin: '1rem'}} alt="" src={courseQR}/>
     </span>
-    <p>*扫码添加玖久小助手微信, 并说明关键词"思维课"</p>
+    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码添加玖久小助手微信, 并说明关键词"思维课"</p>
   </div>
 );
 const panelStyle = {
@@ -534,7 +534,7 @@ const panelStyle = {
 }
 export const join = (
   <div>
-    <h1 id="青年顾问">青年顾问</h1>
+    <h1 style={{ paddingTop: '3rem', position: 'relative', top: '-3rem', marginBottom: '1rem'}} id="青年顾问">青年顾问</h1>
     <h2>介绍</h2>
     <p>
       青年顾问之所以设立，是因为玖久发现并认可了青年学子所能带来的商业价值。他们在工作之余仍渴望投入剩余精力到具有商业价值的项目中，也认为自己的影响力可以不止于公司内部，作为沉潜于某行业最具专业性的人才之一，愿意通过开放式的、不限于公司业务的平台上与机会中，继续提升和创造更大的成就。
