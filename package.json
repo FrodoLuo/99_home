@@ -4,7 +4,8 @@
     "start": "roadhog server",
     "build": "gulp fontmin && roadhog build && gulp upload",
     "lint": "eslint --ext .js src test",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "deploy": "git pull && npm run build && cp favicon.ico dist/"
   },
   "engines": {
     "install-node": "6.11.1"
