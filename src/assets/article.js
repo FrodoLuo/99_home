@@ -505,7 +505,7 @@ export const openThoughtBase = (
     <span style={{display: 'inline-block', width: '100%', textAlign: 'center'}}>
     <img style={{height: '10rem', width: 'auto', margin: '1rem'}} alt="" src={courseQR}/>
     </span>
-    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码添加玖久小助手微信, 并说明关键词"思维课"</p>
+    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码关注玖玖官方公众号, 输入关键词"开放思维课"参与课程内测</p>
   </div>
 );
 
@@ -525,7 +525,7 @@ export const openThoughtPro = (
     <span style={{display: 'inline-block', width: '100%', textAlign: 'center'}}>
     <img style={{height: '10rem', width: 'auto', margin: '1rem'}} alt="" src={courseQR}/>
     </span>
-    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码添加玖久小助手微信, 并说明关键词"思维课"</p>
+    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码关注玖玖官方公众号, 输入关键词"开放思维课"参与课程内测</p>
   </div>
 );
 const panelStyle = {
