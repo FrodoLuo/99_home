@@ -326,16 +326,16 @@ export const e2 = (
     <h2>操作方法 </h2>
     <p>
       <b>步骤一：设置项目流程，深化访谈效果</b> <br />
-      <t />1.	设计观察维度-通过前期的客户反馈／桌面研究／线下pilot调查，设计出标准化的观察维度。<br />
-      <t />2.	通过小规模试访与观察（pilot），增加访谈提纲的问题设计，追加访谈深度。 对照pilot访谈效果，优化访谈提纲<br />
-      <t />3. 访谈执行，获取量化的用户访谈结果<br />
+      <t />1.&nbsp;设计观察维度-通过前期的客户反馈／桌面研究／线下pilot调查，设计出标准化的观察维度。<br />
+      <t />2.&nbsp;通过小规模试访与观察（pilot），增加访谈提纲的问题设计，追加访谈深度。 对照pilot访谈效果，优化访谈提纲<br />
+      <t />3.&nbsp;访谈执行，获取量化的用户访谈结果<br />
 
       <b>步骤二：安排实地观察，记录观察所得。</b><br />
-      <t />1.	根据标准化设计的观察维度，安排研究人员观察（辅助多媒体记录）了解受访者在具体的现实场景中所发生的行为<br />
+      <t />1.&nbsp;根据标准化设计的观察维度，安排研究人员观察（辅助多媒体记录）了解受访者在具体的现实场景中所发生的行为<br />
 
       <b>步骤三：通过有效整理，梳理访谈所得</b> <br />
-      <t />1. 针对访谈过程中获取的用户回答，进行有效整理<br />
-      <t />2. 在场景化观察中/后，研究人员采用访谈及时了解他们基于此行为背后的想法与态度 <br />
+      <t />1.&nbsp;针对访谈过程中获取的用户回答，进行有效整理<br />
+      <t />2.&nbsp;在场景化观察中/后，研究人员采用访谈及时了解他们基于此行为背后的想法与态度 <br />
     </p>
     <h2>调研工具</h2>
     <p>
@@ -349,16 +349,16 @@ export const e2 = (
       <b>适用的商业场景：</b><br />
       企业在产品运营中后期发现自身产品、品牌、营销等方面的问题，需要更加细致地挖掘用户行为信息及了解其态度，以调整其运营策略等。<br />
       <b>方案操作流程：</b><br />
-      <t />1. <b>客户需求沟通: </b>确定需要调研的产品使用场景，包括调研地点、人群配额等<br />
-      <t />2. <b>标准化的观察维度设计：</b>设计该场景下调研员需观察的维度，并设计提纲<br />
+      <t />1.&nbsp;<b>客户需求沟通: </b>确定需要调研的产品使用场景，包括调研地点、人群配额等<br />
+      <t />2.&nbsp;<b>标准化的观察维度设计：</b>设计该场景下调研员需观察的维度，并设计提纲<br />
       <t /><t />如：汽车企业需要通过搜集用户的驾驶习惯、品牌偏好、行驶里程数据等等 来搜集分析用户的行为数据信息<br />
-      <t />3. <b>小规模试访完善（pilot）：</b>通过前期的桌面研究/线下pilot调查，获得初步反馈，在与客户沟通后，进一步完善观察设计维度<br />
-      <t />4. <b>大批人员招募： </b>从上海玖久pool里的成员招募，如人员不足则进行扩散招募；同HR Team合作<br />
-      <t />5. <b>调研员培训</b><br />
-      <t />6. <b>观察记录（多媒体辅助记录）：</b>根据标准化设计的观察维度，安排研究人员观察（辅助多媒体记录）了解受访者在具体的现实场景中所发生的行为。<br />
-      <t />7. <b>深入访谈：</b>在场景化观察中／后，研究人员采用深入访谈及时了解他们基于此行为背后的想法与态度。<br />
-      <t />8. <b>决策建议：</b>根据获得的信息提出提升用户活跃度的建议<br />
-      <t />9. <b>总结汇报</b><br />
+      <t />3.&nbsp;<b>小规模试访完善(Pilot):</b> 通过前期的桌面研究/线下pilot调查，获得初步反馈，在与客户沟通后，进一步完善观察设计维度<br />
+      <t />4.&nbsp;<b>大批人员招募： </b>从上海玖久pool里的成员招募，如人员不足则进行扩散招募；同HR Team合作<br />
+      <t />5.&nbsp;<b>调研员培训</b><br />
+      <t />6.&nbsp;<b>观察记录（多媒体辅助记录）：</b>根据标准化设计的观察维度，安排研究人员观察（辅助多媒体记录）了解受访者在具体的现实场景中所发生的行为。<br />
+      <t />7.&nbsp;<b>深入访谈：</b>在场景化观察中／后，研究人员采用深入访谈及时了解他们基于此行为背后的想法与态度。<br />
+      <t />8.&nbsp;<b>决策建议：</b>根据获得的信息提出提升用户活跃度的建议<br />
+      <t />9.&nbsp;<b>总结汇报</b><br />
       {/* <b>方案报价</b><br />
       <t />1. 研究大纲设计：3000元/份（包括桌面研究大纲以及访谈大纲、相应pilot的费用支出）<br />
       <t />2. 桌面研究+CA：1000元/样本（样本为某一特定的文化商业现象中的主体，e.g 直播领域中的某个直播平台）<br />
@@ -505,7 +505,7 @@ export const openThoughtBase = (
     <span style={{display: 'inline-block', width: '100%', textAlign: 'center'}}>
     <img style={{height: '10rem', width: 'auto', margin: '1rem'}} alt="" src={courseQR}/>
     </span>
-    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码关注玖玖官方公众号, 输入关键词"开放思维课"参与课程内测</p>
+    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码关注玖久官方公众号, 输入关键词"开放思维课"参与课程内测</p>
   </div>
 );
 
@@ -525,7 +525,7 @@ export const openThoughtPro = (
     <span style={{display: 'inline-block', width: '100%', textAlign: 'center'}}>
     <img style={{height: '10rem', width: 'auto', margin: '1rem'}} alt="" src={courseQR}/>
     </span>
-    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码关注玖玖官方公众号, 输入关键词"开放思维课"参与课程内测</p>
+    <p style={{textAlign: 'center', fontWeight: 'bold'}}>*扫码关注玖久官方公众号, 输入关键词"开放思维课"参与课程内测</p>
   </div>
 );
 const panelStyle = {
@@ -563,6 +563,7 @@ export const join = (
     <p>
       如对以上信息有任何疑问，请发送邮件至<b> HR@jiujiudacheng.com</b> 联系我们。
   </p>
+
     <Collapse bordered={false}>
       <Panel style={panelStyle} header={<h2>青年顾问优秀案例——玖久式斜杠青年</h2>}>
         <p>
@@ -588,10 +589,14 @@ export const join = (
         </p>
       </Panel>
     </Collapse>
-
+    <span style={{ display: 'inline-block', width: '100%', textAlign: 'center' }}>
+            <img style={{ height: '10rem', width: 'auto', margin: '1rem' }} alt="" src={courseQR} />
+          </span>
+          <p style={{ textAlign: 'center', fontWeight: 'bold' }}>现在就扫码关注玖久官方公众号“玖久家”，还可获得更多实践机会</p>
 
     <h1 id="企业成员">企业成员</h1>
     <MemberTab />
+
     <Collapse bordered={false}>
       <Panel style={panelStyle} header={<h2>企业成员优秀案例——我在商业探索中收获成长</h2>} >
         <p>
@@ -614,7 +619,10 @@ export const join = (
       </Panel>
     </Collapse>
 
-
+    <span style={{ display: 'inline-block', width: '100%', textAlign: 'center' }}>
+            <img style={{ height: '10rem', width: 'auto', margin: '1rem' }} alt="" src={courseQR} />
+          </span>
+          <p style={{ textAlign: 'center', fontWeight: 'bold' }}>现在就扫码关注玖久官方公众号“玖久家”，还可获得更多实践机会</p>
     <h1 id="咨询PTA">咨询PTA </h1>
     <h2>部门/岗位方向</h2>
     <p>
@@ -681,7 +689,10 @@ export const join = (
   </p>
       </Panel>
     </Collapse>
-
+    <span style={{ display: 'inline-block', width: '100%', textAlign: 'center' }}>
+            <img style={{ height: '10rem', width: 'auto', margin: '1rem' }} alt="" src={courseQR} />
+          </span>
+          <p style={{ textAlign: 'center', fontWeight: 'bold' }}>现在就扫码关注玖久官方公众号“玖久家”，还可获得更多实践机会</p>
 
     <h1 id="思维训练者">思维训练者</h1>
     <h2>介绍</h2>
@@ -716,6 +727,10 @@ export const join = (
     <p>
       请在玖久家公众号（ID：Jiujiuplus）进行留言。
   </p>
+  <span style={{ display: 'inline-block', width: '100%', textAlign: 'center' }}>
+            <img style={{ height: '10rem', width: 'auto', margin: '1rem' }} alt="" src={courseQR} />
+          </span>
+          <p style={{ textAlign: 'center', fontWeight: 'bold' }}>现在就扫码关注玖久官方公众号“玖久家”，还可获得更多实践机会</p>
   </div>
 );
 
