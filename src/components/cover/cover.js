@@ -11,7 +11,9 @@ export default (props) => {
     >
       <div className={style['cover-background']}>
         {/* <img src={coverBackground} role="presentation" /> */}
-        <video src={coverVideo} loop autoPlay muted />
+        <video loop autoPlay muted >
+          <source src={coverVideo} />
+        </video>
       </div>
       <div className={style['cover-content']}>
         <div className={style['cover-content-title']} style={{ opacity: 1 - props.opacity }}>

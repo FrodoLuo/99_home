@@ -22,7 +22,7 @@ function ThinkDepth(props) {
         <div className={style['left-wrap']}>
           <div className={style['content']}>
             <h1>商业评价</h1>
-            <div style={{ width: '100%', textAlign: 'center', fontSize: '1.5rem' }}>
+            <div style={{ visibility: 'hidden', width: '100%', textAlign: 'center', fontSize: '1.5rem' }}>
               文章修改中
             </div>
           </div>
