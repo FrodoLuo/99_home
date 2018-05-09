@@ -22,7 +22,13 @@ export default class NewYounger extends React.Component {
     const contents = [
       (<div className={style['content-wrap']} key={1}>
         <h1>服务于企业</h1>
-        <p>重新定义市场洞察模式<br />提供源源不断的<br />高效决策与创新能量</p>
+        {/* To be replaced after audition */}
+        <p>
+          {/* 重新定义市场洞察模式<br /> */}
+          重新定义市场模式<br />
+          提供源源不断的<br />
+          高效决策与创新能量
+          </p>
         <Button onClick={() => { window.location.href = '/enterprise'; }} text="了解更多" color="white" />
       </div>
       ),

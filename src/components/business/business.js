@@ -16,7 +16,9 @@ export default connect()((props) => {
           <div className={style['business']}>
             <h1>
               时代呼唤<br />
-              市场洞察新模式
+              {/* To be replaced after audit */}
+              {/* 市场洞察新模式 */}
+              市场新模式
             </h1>
             <Button onClick={() => { window.location.href = '/enterprise'; }} text="玖久业务" />
           </div>
