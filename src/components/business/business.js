@@ -17,8 +17,8 @@ export default connect()((props) => {
             <h1>
               时代呼唤<br />
               {/* To be replaced after audit */}
-              {/* 市场洞察新模式 */}
-              市场新模式
+              市场洞察新模式
+              {/* 市场新模式 */}
             </h1>
             <Button onClick={() => { window.location.href = '/enterprise'; }} text="玖久业务" />
           </div>
