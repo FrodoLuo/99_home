@@ -89,9 +89,9 @@ export default class extends React.Component {
               <p>
                 电子邮箱: Marketing@jiujiudacheng.com
             </p>
-              <p>
+              {/* <p>
                 联系电话: 18612318121
-            </p>
+            </p> */}
               {/* <p>
                 咨询热线: 400-851-9337
             </p>
