@@ -63,7 +63,7 @@ var qiniuOptions = {
     except: /\.(html)$/ //上传时不上传文件的正则匹配
   },
   remote: {
-    url: 'http://p4wvbw0in.bkt.clouddn.com',//七牛空间域名
+    url: 'http://static.99universe.com',//七牛空间域名
     prefix: {
       default: '99-web/',//七牛空间默认前缀，如果下面三个相同可省略
       remove: '99-web/',//七牛空间删除前缀
