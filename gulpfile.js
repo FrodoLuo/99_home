@@ -84,7 +84,7 @@ gulp.task('upload', function (cb) {
 })
 
 function replaceAssets(){
-  let base='http://p4wvbw0in.bkt.clouddn.com/99-web/dist'
+  let base='http://static.99universe.com/99-web/dist'
   //e.exports=n.p+"static/driven.be588a44.svg"
   // let reg=/(\/static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)|n\.p\+"static\/.+\.(jpg|png|gif|svg|mp4|ttf|eot|woff)")/g
   let regJs=/n\.p\+"static\/.+?\.(jpg|png|gif|svg|mp4|ttf|eot|woff)"/g
