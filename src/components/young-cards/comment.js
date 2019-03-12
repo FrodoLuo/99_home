@@ -79,7 +79,7 @@ function Comment(props) {
             </p>
             </div>
           </div>
-          <div className={style['single-wrap']} onClick={() => { showArticle(commentZBE, zhaobill); }}>
+          {/* <div className={style['single-wrap']} onClick={() => { showArticle(commentZBE, zhaobill); }}>
             <div className={style['avatar-wrap']}>
               <img role="presentation" src={zbe} />
             </div>
@@ -102,7 +102,7 @@ function Comment(props) {
                 我希望，你也来尝试；我想，你会有意想不到的收获。
             </p>
             </div>
-          </div>
+          </div> */}
         </Carousel>
       </div>
     </ div>
