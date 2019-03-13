@@ -37,7 +37,7 @@ function Create(props) {
             onClick={() => {
               props.dispatch({
                 type: 'article/setContentWithAuthor',
-                payload: { content: inside, author: zhaobill },
+                payload: { content: inside },
               });
             }} text="了解更多"
           />
