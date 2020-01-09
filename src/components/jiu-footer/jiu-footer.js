@@ -80,7 +80,7 @@ export default function () {
         </div>
         <div className={style['footer-copyright']}>
           <span>
-            <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备17030875号-1</a>&nbsp;Copyright ©2017 玖久
+            <a href="http://www.beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">京ICP备17030875号-1</a>&nbsp;Copyright ©2017 玖久
           </span>
         </div>
       </div>
